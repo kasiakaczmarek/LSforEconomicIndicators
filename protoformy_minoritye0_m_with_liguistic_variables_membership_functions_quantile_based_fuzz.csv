@@ -1,0 +1,91 @@
+,protoform,DoT,DoS,group
+0,"Among all records, most are e0_low",0.645371759,0.501165501,e0_m
+1,"Among all records, most are gini_low",0.471639472,0.533799534,e0_m
+2,"Among all records, most are year_low",0.777000777,0.515151515,e0_m
+3,"Among all records, most are year_low and e0_low",1,0.515151515,e0_m
+4,"Among all records, most are gini_low and e0_low",1,0.533799534,e0_m
+5,"Among all records, most are e0_medium",0,0.997668998,e0_m
+6,"Among all records, most are gini_medium",0,0.995337995,e0_m
+7,"Among all records, most are year_medium",0,0.972027972,e0_m
+8,"Among all records, most are year_medium and e0_medium",0,0.972027972,e0_m
+9,"Among all records, most are gini_medium and e0_medium",0,0.995337995,e0_m
+10,"Among all records, most are e0_high",0.599355941,0.501165501,e0_m
+11,"Among all records, most are gini_high",0.652316433,0.501165501,e0_m
+12,"Among all records, most are year_high",0.625874145,0.538461538,e0_m
+13,"Among all records, most are year_high and e0_high",1,0.538461538,e0_m
+14,"Among all records, most are gini_high and e0_high",1,0.501165501,e0_m
+15,"Among all gini_low records, most are e0_low",0.967368597,0.242424242,e0_m
+16,"Among all gini_low records, most are e0_medium",0,0.533799534,e0_m
+17,"Among all gini_low records, most are e0_high",0.443920198,0.293706294,e0_m
+18,"Among all gini_low records, most are year_low",0.544435932,0.300699301,e0_m
+19,"Among all gini_low records, most are year_medium",0,0.517482517,e0_m
+20,"Among all gini_low records, most are year_high",0.737885494,0.258741259,e0_m
+21,"Among all gini_medium records, most are e0_low",0.777834373,0.496503497,e0_m
+22,"Among all gini_medium records, most are e0_medium",0,0.993006993,e0_m
+23,"Among all gini_medium records, most are e0_high",0.381321826,0.501165501,e0_m
+24,"Among all gini_medium records, most are year_low",0.790406656,0.51048951,e0_m
+25,"Among all gini_medium records, most are year_medium",0,0.96969697,e0_m
+26,"Among all gini_medium records, most are year_high",0.51446571,0.538461538,e0_m
+27,"Among all gini_high records, most are e0_low",0,0.286713287,e0_m
+28,"Among all gini_high records, most are e0_medium",0,0.498834499,e0_m
+29,"Among all gini_high records, most are e0_high",0.910625116,0.216783217,e0_m
+30,"Among all gini_high records, most are year_low",0.913824824,0.247086247,e0_m
+31,"Among all gini_high records, most are year_medium",0,0.477855478,e0_m
+32,"Among all gini_high records, most are year_high",0.537650305,0.282051282,e0_m
+33,"Among all e0_low records, most are gini_low",0.823799362,0.242424242,e0_m
+34,"Among all e0_low records, most are gini_medium",0,0.496503497,e0_m
+35,"Among all e0_low records, most are gini_high",0,0.286713287,e0_m
+36,"Among all e0_low records, most are year_low",0.312326386,0.242424242,e0_m
+37,"Among all e0_low records, most are year_medium",0,0.496503497,e0_m
+38,"Among all e0_low records, most are year_high",0.896395603,0.286713287,e0_m
+39,"Among all e0_medium records, most are gini_low",0.274781231,0.533799534,e0_m
+40,"Among all e0_medium records, most are gini_medium",0,0.993006993,e0_m
+41,"Among all e0_medium records, most are gini_high",0.796301554,0.498834499,e0_m
+42,"Among all e0_medium records, most are year_low",0.559694907,0.533799534,e0_m
+43,"Among all e0_medium records, most are year_medium",0,0.993006993,e0_m
+44,"Among all e0_medium records, most are year_high",0.718663465,0.498834499,e0_m
+45,"Among all e0_high records, most are gini_low",0.305759003,0.293706294,e0_m
+46,"Among all e0_high records, most are gini_medium",0,0.501165501,e0_m
+47,"Among all e0_high records, most are gini_high",0.954912249,0.216783217,e0_m
+48,"Among all e0_high records, most are year_low",1,0.293706294,e0_m
+49,"Among all e0_high records, most are year_medium",0,0.501165501,e0_m
+50,"Among all e0_high records, most are year_high",0,0.216783217,e0_m
+51,"Among all year_low records, most are gini_low",0.197857948,0.300699301,e0_m
+52,"Among all year_low records, most are gini_medium",0,0.51048951,e0_m
+53,"Among all year_low records, most are gini_high",0.799041714,0.247086247,e0_m
+54,"Among all year_low records, most are e0_low",0.145198435,0.326340326,e0_m
+55,"Among all year_low records, most are e0_medium",0,0.512820513,e0_m
+56,"Among all year_low records, most are e0_high",1,0.191142191,e0_m
+57,"Among all year_medium records, most are gini_low",0.366158353,0.517482517,e0_m
+58,"Among all year_medium records, most are gini_medium",0,0.96969697,e0_m
+59,"Among all year_medium records, most are gini_high",0.53644891,0.477855478,e0_m
+60,"Among all year_medium records, most are e0_low",0.656350456,0.473193473,e0_m
+61,"Among all year_medium records, most are e0_medium",0,0.96969697,e0_m
+62,"Among all year_medium records, most are e0_high",0.439046814,0.501165501,e0_m
+63,"Among all year_high records, most are gini_low",0.592869003,0.258741259,e0_m
+64,"Among all year_high records, most are gini_medium",0,0.538461538,e0_m
+65,"Among all year_high records, most are gini_high",0.565337355,0.282051282,e0_m
+66,"Among all year_high records, most are e0_low",0.913078826,0.195804196,e0_m
+67,"Among all year_high records, most are e0_medium",0,0.538461538,e0_m
+68,"Among all year_high records, most are e0_high",0,0.342657343,e0_m
+69,,0,0,e0_m
+70,,0,0,e0_m
+71,,0,0,e0_m
+72,,0,0,e0_m
+73,,0,0,e0_m
+74,,0,0,e0_m
+75,,0,0,e0_m
+76,,0,0,e0_m
+77,,0,0,e0_m
+78,,0,0,e0_m
+79,,0,0,e0_m
+80,,0,0,e0_m
+81,,0,0,e0_m
+82,,0,0,e0_m
+83,,0,0,e0_m
+84,,0,0,e0_m
+85,,0,0,e0_m
+86,,0,0,e0_m
+87,,0,0,e0_m
+88,,0,0,e0_m
+89,,0,0,e0_m
