@@ -63,11 +63,11 @@ def regula(data, var_name, value, na_omit=False, expert = False):
                 high = fuzz.trapmf(reg.universe, [65, 79, 85, 85])
         else:
             low = fuzz.trapmf(reg.universe, [min_for_universe, min_for_universe, first_quartile, median_quartile])
-            medium = fuzz.trapmf(reg.universe, [min_for_universe, first_quartile, third_quartile, max_for_universe])
+            medium = fuzz.trimf(reg.universe, [first_quartile, median_quartile, third_quartile])
             high = fuzz.trapmf(reg.universe, [median_quartile, third_quartile, max_for_universe, max_for_universe])
     else:
         low = fuzz.trapmf(reg.universe, [min_for_universe, min_for_universe, first_quartile, median_quartile])
-        medium = fuzz.trapmf(reg.universe, [min_for_universe, first_quartile, third_quartile, max_for_universe])
+        medium = fuzz.trimf(reg.universe, [first_quartile, median_quartile, third_quartile])
         high = fuzz.trapmf(reg.universe, [median_quartile, third_quartile, max_for_universe, max_for_universe])
         
     
@@ -169,24 +169,24 @@ def all_protoform(d, Q = "wiekszosc", desc = 'most'):
         protoform[k] =  "Among all records, "+ desc + " are " + zz[i]
         k += 1
         DoT[k] = Degree_of_truth(d = d, Q = Q, P = zz[i], P2 = qq[i])
-        DoS[k] = Degree_of_support(d = d, Q = Q, P = zz[i])
-        protoform[k] =  "Among all records, "+ desc + " are " + + zz[i] + " and " + qq[i]
+        DoS[k] = Degree_of_support(d = d, Q = Q, P = zz[i], P2 = qq[i])
+        protoform[k] =  "Among all records, "+ desc + " are " + zz[i] + " and " + qq[i]
         k += 1
         DoT[k] = Degree_of_truth(d = d, Q = Q, P = pp[i], P2 = qq[i])
         DoS[k] = Degree_of_support(d = d, Q = Q, P = pp[i], P2 = qq[i])
-        protoform[k] =  "Among all records, "+ desc + " are " + + pp[i] + " and " + qq[i]
+        protoform[k] =  "Among all records, "+ desc + " are " + pp[i] + " and " + qq[i]
         k += 1
 
     for i in range(len(pp)):
         for j in range(len(qq)):
             DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = qq[j], R = pp[i])
             DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = qq[j], R = pp[i])
-            protoform[k] = "Among all "+ pp[i] + " records, "+ desc +" are " + qq[j]
+            protoform[k] = "Among all "+ pp[i] + " records, " + desc + " are " + qq[j]
             k += 1
         for j in range(3):
             DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = zz[j], R = pp[i])
             DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = zz[j], R = pp[i])
-            protoform[k] = "Among all "+ pp[i] + " records, "+ desc +" are " + zz[j]
+            protoform[k] = "Among all "+ pp[i] + " records, " + desc + " are " + zz[j]
             k += 1
 
     for i in range(len(pp)):
@@ -194,16 +194,16 @@ def all_protoform(d, Q = "wiekszosc", desc = 'most'):
         for j in range(3):
             DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = pp[j], R = qq[i])
             DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = pp[j], R = qq[i])
-            protoform[k] = "Among all "+ qq[i] + " records, "+ desc +" are " + pp[j]
+            protoform[k] = "Among all " + qq[i] + " records, " + desc + " are " + pp[j]
             k += 1
         for j in range(3):
             DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = zz[j], R = qq[i])
-            DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = pp[j], R = qq[i])
-            protoform[k] = "Among all "+ qq[i] + " records, " + desc + " are " + zz[j]
+            DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = zz[j], R = qq[i])
+            protoform[k] = "Among all " + qq[i] + " records, " + desc + " are " + zz[j]
             k += 1
-            
+
     for i in range(len(pp)):
-    
+ 
         for j in range(3):
             DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = pp[j], R = zz[i])
             DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = pp[j], R = zz[i])
@@ -212,9 +212,9 @@ def all_protoform(d, Q = "wiekszosc", desc = 'most'):
         for j in range(3):
             DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = qq[j], R = zz[i])
             DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = qq[j], R = zz[i])
-            protoform[k] = "Among all "+ zz[i] + " records, "+ desc +" are " + qq[j]
+            protoform[k] = "Among all "+ zz[i] + " records, " + desc + " are " + qq[j]
             k += 1
-    
+
     dd = {"protoform": protoform,
             "DoT": DoT,
             'DoS': DoS}
@@ -233,7 +233,7 @@ relative_LS = True #if relative LS is True, patient_no must be provided
 #dictionary with expert opinion about
 
 files=[ 'e0_f', 'e0_m']
-expert = True
+expert = False
 for file in files:
 
     data = pd.read_csv(TempDataDir+r'/dane_gini_'+ str(file) + '.csv', sep=';')
@@ -266,14 +266,16 @@ for file in files:
         data3 = pd.concat([data3, stopnie(data4, name, expert=expert)], axis=1)
         dane3_full = pd.concat([data3, data], axis=1)
 
-    dane3_full.to_csv("data_"+file+"_with_liguistic_variables_membership_functions_expert_based_fuzz.csv")
+    dane3_full.to_csv("data_"+file+"_with_liguistic_variables_membership_functions_quantil_based_fuzz2.csv")
 
-    df = pd.read_csv("data_"+file+"_with_liguistic_variables_membership_functions_expert_based_fuzz.csv")
-    df_protoform = all_protoform(df, Q = 'wiekszosc')
+    df = pd.read_csv("data_" + file + "_with_liguistic_variables_membership_functions_quantil_based_fuzz2.csv")
+
+    df_protoform = all_protoform(df, Q = 'wiekszosc', desc = 'most')
     df_protoform['group']=file
     # 40 najbardzien prawdziwych podsumowan lingwistycznych 
     #df_protoform.sort('DoT', ascending = False).head(n = 40)
-    df_protoform.to_csv("protoformy_"+file+"_with_liguistic_variables_membership_functions_expert_based_fuzz.csv")
+    df_protoform.to_csv("protoformy_"+file+"_with_liguistic_variables_membership_functions_quantil__based_fuzz2.csv")
+    
     df_protoform_m = all_protoform(df, Q = 'mniejszosc', desc = 'minority')
     df_protoform_m['group']=file
-    df_protoform_m.to_csv("protoformy_minority"+file+"_with_liguistic_variables_membership_functions_expert_based_fuzz.csv")
+    df_protoform_m.to_csv("protoformy_minority" + file + "_with_liguistic_variables_membership_functions_quantil_based_fuzz2.csv")
