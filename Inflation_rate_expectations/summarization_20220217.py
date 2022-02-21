@@ -20,7 +20,8 @@ import warnings
 #from openpyxl.workbook import Workbook
 
 #function definition
-def regula(data, var_name, value, central=0, spread=0, plot=False, na_omit=False, expert = False,mina=0,maxa=0):
+def regula(data, var_name, value, central=0, spread=0, plot=False, na_omit=False, 
+           expert = False,mina=0,maxa=0,use_central_and_spread=False):
     d = deepcopy(data)
     
     if na_omit:
@@ -42,14 +43,14 @@ def regula(data, var_name, value, central=0, spread=0, plot=False, na_omit=False
     
     reg = ctrl.Consequent(universe, reg_name)
 
-    if var_name in ['trans','ABG','infexp']:
+    if use_central_and_spread:
+        first_quartile = np.max([central-(spread),min_for_universe])
+        median_quartile = central
+        third_quartile = np.min([central+(spread),max_for_universe])
+    else:        
         first_quartile = np.percentile(d, 25)
         median_quartile = np.percentile(d, 50)
         third_quartile = np.percentile(d, 75)
-    else:
-        first_quartile = np.max([central-(2*spread),min_for_universe])
-        median_quartile = central
-        third_quartile = np.min([central+(2*spread),max_for_universe])
         
    #quartiles based fuzzification
     low = fuzz.trapmf(reg.universe, [min_for_universe, min_for_universe, first_quartile, median_quartile])
@@ -88,7 +89,7 @@ def stopnie(data, var_name, plot=False, na_omit=True, expert=False, printout=Fal
 
     return result
 
-def evolving_linguistic_terms(data, var_name, suffix,central_name, spread_name, plot=False, na_omit=True):
+def evolving_linguistic_terms(data, var_name, suffix,central_name, spread_name, plot=False, na_omit=True, printout=False):
     column = data[var_name]
     column_central = data[central_name]
     column_spread = data[spread_name]
@@ -100,12 +101,15 @@ def evolving_linguistic_terms(data, var_name, suffix,central_name, spread_name, 
     #for i in range(100):
         result.loc[i,] = regula(data, var_name, column[i], column_central[i], column_spread[i], 
                   plot, na_omit, expert,mina=np.min(data[var_name + suffix]),
-                  maxa=np.max(data[var_name + suffix]))
+                  maxa=np.max(data[var_name + suffix]), use_central_and_spread=True)
+        if printout==True:
+            print(str(result.loc[i,]))
+            print(str(column[i]))
     return result
 
 def kwantyfikator(x):
     czesc = np.arange(0, 1.01, 0.001)
-    wiekszosc = fuzz.trapmf(czesc, [0.5, 0.7, 1, 1])
+    wiekszosc = fuzz.trapmf(czesc, [0.3, 0.7, 1, 1])
     mniejszosc = fuzz.trapmf(czesc, [0, 0, 0.3, 0.50])
     prawie_wszystkie = fuzz.trapmf(czesc, [0.8, 0.9, 1, 1])
     czesc_wiekszosc = fuzz.interp_membership(czesc, wiekszosc, x)
@@ -125,11 +129,15 @@ def Degree_of_truth(d, Q = "wiekszosc", P = "", P2 = ""):
         p = np.mean(np.fmin(d[P], d[P2]))
     return kwantyfikator(p)[Q]
     
-def Degree_of_truth_ext(d, Q = "wiekszosc", P = "", R = "", R2 = ""):    
+def Degree_of_truth_ext(d, Q = "wiekszosc", P = "", R = "", P2 = ""):    
     """
     Stopień prawdy dla zlozonych podsumowan lingwistycznych
     """   
-    if R2 == "":
+    #d=data3
+    #P="infexp_low"
+    #R="trans_low"
+    #P2="ABG_low"
+    if P2 == "":
         p = np.fmin(d[P], d[R])
         ###########tutaj zmieniamy t-norme!!!!#######
         #p = np.fmax(0,(d[P]+d[R]-1))
@@ -137,11 +145,12 @@ def Degree_of_truth_ext(d, Q = "wiekszosc", P = "", R = "", R2 = ""):
         t = np.sum(p)/np.sum(r)
         return kwantyfikator(t)[Q]
     else:
-        r1 = np.fmin(d[R2], d[R])
-        p = np.fmin(r1, d[P])
+        p1 = np.fmin(d[P2], d[R])
+        p = np.fmin(p1, d[P])
+        r = d[R]
         ###########tutaj zmieniamy t-norme!!!!#######
         #p = np.fmax(0,(d[P]+d[R]-1))
-        t = np.sum(p)/np.sum(r1)
+        t = np.sum(p)/np.sum(r)
         return kwantyfikator(t)[Q]
             
 
@@ -165,7 +174,7 @@ def Degree_of_support(d, Q = "wiekszosc", P = "", P2 = ""):
     DoS = sum(d[P]>0)/ len(d)
     return DoS
 
-def Degree_of_support_ext(d, Q = "wiekszosc", P = "", R = "", R2=""): 
+def Degree_of_support_ext(d, Q = "wiekszosc", P = "", R = "", P2=""): 
     p = np.fmin(d[P], d[R])
     ###########tutaj zmieniamy t-norme!!!!#######
     #p = np.fmax(0,(d[P]+d[R]-1))
@@ -248,13 +257,14 @@ def all_protoform(d, var_names, Q = "wiekszosc", desc = 'most'):
     for i in range(len(pp)):
         for j in range(3):
             for l in range(3):
-                DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = pp[j], R = qq[i], R2 = zz[i])
-                DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = pp[j], R = qq[i], R2 = zz[i])
-                protoform[k] = "Among all "+ pp[i] + " records, " + desc + " are " + qq[j] + " and " + zz[l]
-                print(protoform[k])
-                print("DoT "+ str(DoT[k]) + " DoS " + str(DoS[k]))
-                print(" ")
-                k += 1
+                DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = pp[j], R = qq[i], P2 = zz[l])
+                DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = pp[j], R = qq[i], P2 = zz[l])
+                protoform[k] = "Among all "+ pp[j] + " records, " + desc + " are " + qq[i] + " and " + zz[l]
+                if pp[j]=='trans_high':
+                    print(protoform[k])
+                    print("DoT "+ str(DoT[k]) + " DoS " + str(DoS[k]))
+                    print(" ")
+                k += 1    
         #p q z
         #trans infexp abg
         #Among all trans_low records, most are infexp_low AND ABG_low"
@@ -263,7 +273,7 @@ def all_protoform(d, var_names, Q = "wiekszosc", desc = 'most'):
             "DoT": DoT,
             'DoS': DoS}
     dd = pd.DataFrame(dd)   
-    return dd[['protoform', "DoT",'DoS']]
+    return dd[['protoform', "DoT"]]
 
 
 ######################################################################
@@ -275,19 +285,32 @@ ResultsDir = r'C:/Users/Kasia/Documents/GitHub/LSforEconomicIndicators/Inflation
 relative_LS = True #if relative LS is True, patient_no must be provided
 #relative_LS = False #if relative LS is True, patient_no must be provided
 
+
+
 #dictionary with expert opinion about
 
 expert = False
 
 data = pd.read_csv(TempDataDir, sep=';')#[0:100]
+
+countries=['czechia','hungary','poland','uk','sweden','romania']
+
+country=True
+#country=False
+country_id=2
+if country:    
+    data_country = data[data['country']==countries[country_id]]
+    data = data_country.copy()
+
 fcsts=['infexp0','infexp1','infexp2',
        'infexp0spread','infexp1spread','infexp2spread']
 
 data=data[['country', 'date', 'trans', 'ABG','infexp','infrate',
                'infexp0','infexp1','infexp2',
-       'infexp0spread','infexp1spread','infexp2spread']].dropna().reset_index()
+       'infexp0spread','infexp1spread','infexp2spread','BN']].dropna().reset_index()
 
 data['ABG']=1000*data['ABG']
+#data['ABG']=1000*data['BN']
 data.columns
 d_stat = data[['country', 'date', 'trans', 'ABG','infexp','infrate']].groupby('country')
     
@@ -300,10 +323,10 @@ data2.columns = var
     
 data2.agg(lambda x: np.mean(x.isna())).reset_index().rename(columns={'index': 'column', 0: 'NA_percentage'})
 
-#for zmienna in var:
-#        fig=plt.figure(figsize=(15,8))
-#        sns.boxplot(x="country", y=zmienna, data = data.loc[:,["country",zmienna]])
-#        fig.savefig("Stats_"+str(zmienna)+".png")
+for zmienna in var:
+        fig=plt.figure(figsize=(15,8))
+        sns.boxplot(x="country", y=zmienna, data = data.loc[:,["country",zmienna]])
+        fig.savefig("Stats_"+str(zmienna)+".png")
 
 #fig=plt.figure(figsize=(15,8))
 #sns.pairplot(x="country", y=zmienna, data = data.loc[:,["country",zmienna]])
@@ -311,43 +334,52 @@ data2.agg(lambda x: np.mean(x.isna())).reset_index().rename(columns={'index': 'c
 #sns.pairplot(df, hue='species', size=2.5)
 #sns_plot.savefig("output.png")
       
-plot=True
+#
 plot=False
  
 data3 = data2.copy()
 data4 = data2.copy()
 data5 = data2.copy()
-    
+
+printout=False
+dane3_full = data3.copy()
 for name in var[0:3]:
-        data3 = pd.concat([data3, stopnie(data4, name, plot,expert=expert, printout=True)], axis=1)
-        dane3_full = pd.concat([data3, data], axis=1)
+        temp = stopnie(data4, name, plot,expert=expert, printout=printout)
+        dane3_full = pd.concat([dane3_full, temp], axis=1)
+
+plot=False
 
 for fcst_no in range(3):
         #fcst_no=0 #0,1,2
         central_name=fcsts[fcst_no]
         spread_name=fcsts[fcst_no+3]
-        data3 = pd.concat([data3, evolving_linguistic_terms(data4, 'infexp',str(fcst_no),central_name,spread_name, plot)], axis=1)
-        dane3_full = pd.concat([data3, data], axis=1)
+        temp = evolving_linguistic_terms(data4, 'infexp',str(fcst_no),central_name,spread_name, plot, printout=printout)
+        dane3_full = pd.concat([dane3_full, temp], axis=1)
     
 dane3_full.head
 
-dane3_full.to_csv("data_with_liguistic_variables_membership_functions_evolving_inf_exp.csv")
+dane3_full.to_csv("data_with_liguistic_variables_membership_functions_evolving_inf_exp"+str(country)+countries[country_id]+".csv")
 
 var_names=['trans','infexp','ABG']
 df_protoform = all_protoform(dane3_full, var_names, Q = 'wiekszosc', desc = 'most')
-df_protoform.head    
-
+#df_protoform.head    
 df_protoform_all = df_protoform.copy()
-
+df_protoform = all_protoform(dane3_full, var_names, Q = 'mniejszosc', desc = 'minority')
+df_protoform_all = df_protoform_all.append(df_protoform)
+        
 #df_protoform.to_csv("Protoforms_20220221.csv")
 
 for fcst_no in range(3):
         var_names=['trans','infexp'+str(fcst_no),'ABG']
         df_protoform = all_protoform(dane3_full, var_names, Q = 'wiekszosc', desc = 'most')
         df_protoform_all = df_protoform_all.append(df_protoform)
+        df_protoform = all_protoform(dane3_full, var_names, Q = 'mniejszosc', desc = 'minority')
+        df_protoform_all = df_protoform_all.append(df_protoform)
         
-df_protoform_all.to_csv("Protoforms_20220221.csv")
+df_protoform_all.to_csv("Protoforms_20220221"+str(country)+countries[country_id]+"BN.csv")
 
+#df_protoform_m = all_protoform(df, Q = 'mniejszosc', desc = 'minority')
+   
 #dane3_full['trans_low']
     
 # 40 najbardzien prawdziwych podsumowan lingwistycznych 

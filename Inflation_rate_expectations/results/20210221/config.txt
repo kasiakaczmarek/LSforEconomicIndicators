@@ -1,0 +1,19 @@
+Definitions for quantifiers:
+
+    wiekszosc = fuzz.trapmf(czesc, [0.3, 0.7, 1, 1])
+    mniejszosc = fuzz.trapmf(czesc, [0, 0, 0.3, 0.50])
+    prawie_wszystkie = fuzz.trapmf(czesc, [0.8, 0.9, 1, 1])
+    czesc_wiekszosc = fuzz.interp_membership(czesc, wiekszosc, x)
+    czesc_mniejszosc = fuzz.interp_membership(czesc, mniejszosc, x)
+    czesc_prawie_wszystkie =  fuzz.interp_membership(czesc, prawie_wszystkie, x)
+
+Defintions for economic vars:
+
+    if use_central_and_spread:
+        first_quartile = np.max([central-(spread),min_for_universe])
+        median_quartile = central
+        third_quartile = np.min([central+(spread),max_for_universe])
+    else:        
+        first_quartile = np.percentile(d, 25)
+        median_quartile = np.percentile(d, 50)
+        third_quartile = np.percentile(d, 75)
