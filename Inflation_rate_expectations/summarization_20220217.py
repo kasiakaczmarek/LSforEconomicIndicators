@@ -20,7 +20,7 @@ import warnings
 #from openpyxl.workbook import Workbook
 
 #function definition
-def regula(data, var_name, value, central=0, spread=0, plot=False, na_omit=False, expert = False):
+def regula(data, var_name, value, central=0, spread=0, plot=False, na_omit=False, expert = False,mina=0,maxa=0):
     d = deepcopy(data)
     
     if na_omit:
@@ -31,27 +31,27 @@ def regula(data, var_name, value, central=0, spread=0, plot=False, na_omit=False
     d = d[var_name]
     
     max_for_universe = np.max(d)
+    max_for_universe = np.max([max_for_universe,maxa])
+      
     min_for_universe = np.min(d)
+    min_for_universe = np.min([min_for_universe,mina])
     
-    universe = np.arange(min_for_universe, max_for_universe + 0.1, 0.001)
+    universe = np.arange(min_for_universe, max_for_universe, 0.001)
     
     reg_name = var_name 
     
     reg = ctrl.Consequent(universe, reg_name)
 
-    if central+spread==0:
+    if var_name in ['trans','ABG','infexp']:
         first_quartile = np.percentile(d, 25)
         median_quartile = np.percentile(d, 50)
         third_quartile = np.percentile(d, 75)
     else:
-        first_quartile = central-spread
+        first_quartile = np.max([central-(2*spread),min_for_universe])
         median_quartile = central
-        third_quartile = central+spread
-        max_for_universe = np.max([max_for_universe,third_quartile])
-        min_for_universe = np.min([min_for_universe,first_quartile])
-
-
-    #quartiles based fuzzification
+        third_quartile = np.min([central+(2*spread),max_for_universe])
+        
+   #quartiles based fuzzification
     low = fuzz.trapmf(reg.universe, [min_for_universe, min_for_universe, first_quartile, median_quartile])
     medium = fuzz.trimf(reg.universe, [first_quartile, median_quartile, third_quartile])
     high = fuzz.trapmf(reg.universe, [median_quartile, third_quartile, max_for_universe, max_for_universe])
@@ -61,11 +61,11 @@ def regula(data, var_name, value, central=0, spread=0, plot=False, na_omit=False
         ax0.plot(universe, low, 'b', linewidth=2, label='low')
         ax0.plot(universe, medium, 'r', linewidth=2, label='medium')
         ax0.plot(universe, high, 'g', linewidth=2, label='high')
-        ax0.set_title(str(var_name)+str(central)+ str(file))
+        ax0.set_title(str(var_name))
         ax0.legend()
         plt.tight_layout()
         plt.close()
-        fig.savefig(str(file) + "_LinguisticVariable_"+str(var_name)+str(central)+".png")
+        fig.savefig("LinguisticVariable_"+str(var_name)+"_"+str(central)+".png")
         #quit()
 
     return (fuzz.interp_membership(universe, low, value),
@@ -74,13 +74,18 @@ def regula(data, var_name, value, central=0, spread=0, plot=False, na_omit=False
             )
 
 #Test stopnie    
-def stopnie(data, var_name, plot=False, na_omit=True, expert=False):
+def stopnie(data, var_name, plot=False, na_omit=True, expert=False, printout=False):
     column = data[var_name]
     result = pd.DataFrame(np.zeros(len(column)*3).reshape(-1,3))
     result.columns = [var_name + "_low", var_name + "_medium", var_name + "_high"]
     
+    #for i in range(100):
     for i in range(len(column)):
-        result.loc[i,] = regula(data, var_name, column[i], plot, na_omit, expert)
+        result.loc[i,] = regula(data, var_name, column[i], 0, 0, plot, na_omit, expert)
+        if printout==True:
+            print(str(result.loc[i,]))
+            print(str(column[i]))
+
     return result
 
 def evolving_linguistic_terms(data, var_name, suffix,central_name, spread_name, plot=False, na_omit=True):
@@ -92,11 +97,14 @@ def evolving_linguistic_terms(data, var_name, suffix,central_name, spread_name, 
     result.columns = [var_name + suffix+"_low", var_name + suffix+"_medium", var_name +suffix+ "_high"]
     
     for i in range(len(column)):
-        result.loc[i,] = regula(data, var_name, column[i], column_central[i], column_spread[i], plot, na_omit, expert)
+    #for i in range(100):
+        result.loc[i,] = regula(data, var_name, column[i], column_central[i], column_spread[i], 
+                  plot, na_omit, expert,mina=np.min(data[var_name + suffix]),
+                  maxa=np.max(data[var_name + suffix]))
     return result
 
 def kwantyfikator(x):
-    czesc = np.arange(0, 1.01, 0.01)
+    czesc = np.arange(0, 1.01, 0.001)
     wiekszosc = fuzz.trapmf(czesc, [0.5, 0.7, 1, 1])
     mniejszosc = fuzz.trapmf(czesc, [0, 0, 0.3, 0.50])
     prawie_wszystkie = fuzz.trapmf(czesc, [0.8, 0.9, 1, 1])
@@ -107,7 +115,7 @@ def kwantyfikator(x):
                 mniejszosc = czesc_mniejszosc, 
                 prawie_wszystkie = czesc_prawie_wszystkie)
 
-def Degree_of_truth(d, Q = "wiekszosc", P = "duration_long", P2 = ""):
+def Degree_of_truth(d, Q = "wiekszosc", P = "", P2 = ""):
     """
     Stopień prawdy dla prostych podsumowan lingwistycznych
     """    
@@ -117,22 +125,47 @@ def Degree_of_truth(d, Q = "wiekszosc", P = "duration_long", P2 = ""):
         p = np.mean(np.fmin(d[P], d[P2]))
     return kwantyfikator(p)[Q]
     
-def Degree_of_truth_ext(d, Q = "wiekszosc", P = "duration_long", R = "dynamics_decreasing"):    
+def Degree_of_truth_ext(d, Q = "wiekszosc", P = "", R = "", R2 = ""):    
     """
     Stopień prawdy dla zlozonych podsumowan lingwistycznych
-    """    
-    p = np.fmin(d[P], d[R])
-    ###########tutaj zmieniamy t-norme!!!!#######
-    #p = np.fmax(0,(d[P]+d[R]-1))
-    r = d[R]
-    t = np.sum(p)/np.sum(r)
-    return kwantyfikator(t)[Q]
+    """   
+    if R2 == "":
+        p = np.fmin(d[P], d[R])
+        ###########tutaj zmieniamy t-norme!!!!#######
+        #p = np.fmax(0,(d[P]+d[R]-1))
+        r = d[R]
+        t = np.sum(p)/np.sum(r)
+        return kwantyfikator(t)[Q]
+    else:
+        r1 = np.fmin(d[R2], d[R])
+        p = np.fmin(r1, d[P])
+        ###########tutaj zmieniamy t-norme!!!!#######
+        #p = np.fmax(0,(d[P]+d[R]-1))
+        t = np.sum(p)/np.sum(r1)
+        return kwantyfikator(t)[Q]
+            
 
-def Degree_of_support(d, Q = "wiekszosc", P = "duration_long", P2 = ""):
+def t_norm(a, b, ntype):
+    """
+    calculates t-norm for param a and b
+    :param ntype:
+        1 - minimum
+        2 - product
+        3 - Lukasiewicz t-norm
+    """
+    if ntype == 1:
+        return np.minimum(a, b)
+    elif ntype == 2:
+        return a * b
+    elif ntype == 3:
+        return np.maximum(0, a + b - 1)
+
+def Degree_of_support(d, Q = "wiekszosc", P = "", P2 = ""):
+    #DoS = = np.mean(d[P][d[P] > 0])
     DoS = sum(d[P]>0)/ len(d)
     return DoS
 
-def Degree_of_support_ext(d, Q = "wiekszosc", P = "duration_long", R = "dynamics_decreasing"): 
+def Degree_of_support_ext(d, Q = "wiekszosc", P = "", R = "", R2=""): 
     p = np.fmin(d[P], d[R])
     ###########tutaj zmieniamy t-norme!!!!#######
     #p = np.fmax(0,(d[P]+d[R]-1))
@@ -145,12 +178,13 @@ def all_protoform(d, var_names, Q = "wiekszosc", desc = 'most'):
     podumowań lingwistycznych (prostych i zlozonych)    
     """
     
-    pp = [var_names[0]+"_low", var_names[0]+"_medium", var_names[0]+"_high"]
-    qq = [var_names[1]+"_low",var_names[1]+"_medium",var_names[1]+"_high"]
-    zz = [var_names[2]+"_low", var_names[2]+"_medium", var_names[2]+"_high"]
-    protoform = np.empty(90, dtype = "object")
-    DoT = np.zeros(90)
-    DoS = np.zeros(90)
+    pp = [var_names[0] + "_low", var_names[0] + "_medium", var_names[0] + "_high"]
+    qq = [var_names[1] + "_low", var_names[1] + "_medium", var_names[1] + "_high"]
+    zz = [var_names[2] + "_low", var_names[2] + "_medium", var_names[2] + "_high"]
+    
+    protoform = np.empty(120, dtype = "object")
+    DoT = np.zeros(120)
+    DoS = np.zeros(120)
     k = 0
     for i in range(len(pp)):
         print(i)
@@ -188,7 +222,6 @@ def all_protoform(d, var_names, Q = "wiekszosc", desc = 'most'):
             k += 1
 
     for i in range(len(pp)):
-
         for j in range(3):
             DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = pp[j], R = qq[i])
             DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = pp[j], R = qq[i])
@@ -201,7 +234,6 @@ def all_protoform(d, var_names, Q = "wiekszosc", desc = 'most'):
             k += 1
 
     for i in range(len(pp)):
- 
         for j in range(3):
             DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = pp[j], R = zz[i])
             DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = pp[j], R = zz[i])
@@ -213,6 +245,20 @@ def all_protoform(d, var_names, Q = "wiekszosc", desc = 'most'):
             protoform[k] = "Among all "+ zz[i] + " records, " + desc + " are " + qq[j]
             k += 1
 
+    for i in range(len(pp)):
+        for j in range(3):
+            for l in range(3):
+                DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = pp[j], R = qq[i], R2 = zz[i])
+                DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = pp[j], R = qq[i], R2 = zz[i])
+                protoform[k] = "Among all "+ pp[i] + " records, " + desc + " are " + qq[j] + " and " + zz[l]
+                print(protoform[k])
+                print("DoT "+ str(DoT[k]) + " DoS " + str(DoS[k]))
+                print(" ")
+                k += 1
+        #p q z
+        #trans infexp abg
+        #Among all trans_low records, most are infexp_low AND ABG_low"
+            
     dd = {"protoform": protoform,
             "DoT": DoT,
             'DoS': DoS}
@@ -233,38 +279,47 @@ relative_LS = True #if relative LS is True, patient_no must be provided
 
 expert = False
 
-data = pd.read_csv(TempDataDir, sep=';')
-fcsts=['infforecastMA','infforecast12','infforecast2',
-                          'infforecastMAspread','infforecast1spread','infforecast2spread']
+data = pd.read_csv(TempDataDir, sep=';')#[0:100]
+fcsts=['infexp0','infexp1','infexp2',
+       'infexp0spread','infexp1spread','infexp2spread']
 
 data=data[['country', 'date', 'trans', 'ABG','infexp','infrate',
-               'infforecastMA','infforecast2','infforecast12','infforecastMAspread','infforecast2spread','infforecast1spread']].dropna().reset_index()
+               'infexp0','infexp1','infexp2',
+       'infexp0spread','infexp1spread','infexp2spread']].dropna().reset_index()
+
+data['ABG']=1000*data['ABG']
 data.columns
 d_stat = data[['country', 'date', 'trans', 'ABG','infexp','infrate']].groupby('country')
     
 #select data to summarization
 var = ['trans', 'ABG', 'infexp',
-                          'infforecastMA','infforecast12','infforecast2',
-                          'infforecastMAspread','infforecast1spread','infforecast2spread']
+                          'infexp0','infexp1','infexp2',
+       'infexp0spread','infexp1spread','infexp2spread']
 data2 = data[var]
 data2.columns = var
     
 data2.agg(lambda x: np.mean(x.isna())).reset_index().rename(columns={'index': 'column', 0: 'NA_percentage'})
 
-for zmienna in var:
-        plt.figure(figsize=(15,8))
-        sns.boxplot(x="country", y=zmienna, data = data.loc[:,["country",zmienna]])
-        plt.pause(0.05)
-plt.show()
-        
+#for zmienna in var:
+#        fig=plt.figure(figsize=(15,8))
+#        sns.boxplot(x="country", y=zmienna, data = data.loc[:,["country",zmienna]])
+#        fig.savefig("Stats_"+str(zmienna)+".png")
+
+#fig=plt.figure(figsize=(15,8))
+#sns.pairplot(x="country", y=zmienna, data = data.loc[:,["country",zmienna]])
+#fig.savefig("Pairplot_"+str(zmienna)+".png")       
+#sns.pairplot(df, hue='species', size=2.5)
+#sns_plot.savefig("output.png")
+      
 plot=True
-    
+plot=False
+ 
 data3 = data2.copy()
 data4 = data2.copy()
 data5 = data2.copy()
     
 for name in var[0:3]:
-        data3 = pd.concat([data3, stopnie(data4, name, plot,expert=expert)], axis=1)
+        data3 = pd.concat([data3, stopnie(data4, name, plot,expert=expert, printout=True)], axis=1)
         dane3_full = pd.concat([data3, data], axis=1)
 
 for fcst_no in range(3):
@@ -275,22 +330,25 @@ for fcst_no in range(3):
         dane3_full = pd.concat([data3, data], axis=1)
     
 dane3_full.head
-    
-dane3_full.to_csv("data_"+file+"_with_liguistic_variables_membership_functions_evolving_inf_exp.csv")
+
+dane3_full.to_csv("data_with_liguistic_variables_membership_functions_evolving_inf_exp.csv")
 
 var_names=['trans','infexp','ABG']
 df_protoform = all_protoform(dane3_full, var_names, Q = 'wiekszosc', desc = 'most')
 df_protoform.head    
-all_df_protoform=df_protoform.copy()
-df_protoform.to_csv("Protoforms_20220219.csv")
+
+df_protoform_all = df_protoform.copy()
+
+#df_protoform.to_csv("Protoforms_20220221.csv")
 
 for fcst_no in range(3):
         var_names=['trans','infexp'+str(fcst_no),'ABG']
         df_protoform = all_protoform(dane3_full, var_names, Q = 'wiekszosc', desc = 'most')
-        all_df_protoform = pd.concat([all_df_protoform, df_protoform], axis=0)
-        df_protoform.to_csv("Protoforms_20220219"+str(fcst_no)+".csv")
+        df_protoform_all = df_protoform_all.append(df_protoform)
+        
+df_protoform_all.to_csv("Protoforms_20220221.csv")
 
-
+#dane3_full['trans_low']
     
 # 40 najbardzien prawdziwych podsumowan lingwistycznych 
 #df_protoform.sort('DoT', ascending = False).head(n = 40)
