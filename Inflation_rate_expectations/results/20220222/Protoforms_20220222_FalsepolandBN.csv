@@ -1,0 +1,961 @@
+,protoform,DoT
+0,"Among all records, most are infexp_low",0.1773691246619877
+1,"Among all records, most are trans_low",0.24187631027253675
+2,"Among all records, most are BN_low",0.2074731026379294
+3,"Among all records, most are BN_low and infexp_low",0.0
+4,"Among all records, most are trans_low and infexp_low",0.0
+5,"Among all records, most are infexp_medium",0.0
+6,"Among all records, most are trans_medium",0.0
+7,"Among all records, most are BN_medium",0.0
+8,"Among all records, most are BN_medium and infexp_medium",0.0
+9,"Among all records, most are trans_medium and infexp_medium",0.0
+10,"Among all records, most are infexp_high",0.14062598599103915
+11,"Among all records, most are trans_high",0.15670859538784068
+12,"Among all records, most are BN_high",0.16875757433655647
+13,"Among all records, most are BN_high and infexp_high",0.0
+14,"Among all records, most are trans_high and infexp_high",0.0
+15,"Among all trans_low records, most are infexp_low",0.0
+16,"Among all trans_low records, most are infexp_medium",0.0
+17,"Among all trans_low records, most are infexp_high",0.38361137742276097
+18,"Among all trans_low records, most are BN_low",0.2358610846704479
+19,"Among all trans_low records, most are BN_medium",0.0
+20,"Among all trans_low records, most are BN_high",0.1859993972336663
+21,"Among all trans_medium records, most are infexp_low",0.0
+22,"Among all trans_medium records, most are infexp_medium",0.3934678825983174
+23,"Among all trans_medium records, most are infexp_high",0.07120582120582128
+24,"Among all trans_medium records, most are BN_low",0.2853114577033668
+25,"Among all trans_medium records, most are BN_medium",0.0
+26,"Among all trans_medium records, most are BN_high",0.10459256352791298
+27,"Among all trans_high records, most are infexp_low",0.3103585490491749
+28,"Among all trans_high records, most are infexp_medium",0.0
+29,"Among all trans_high records, most are infexp_high",0.0789674638003364
+30,"Among all trans_high records, most are BN_low",0.17499347255146544
+31,"Among all trans_high records, most are BN_medium",0.0
+32,"Among all trans_high records, most are BN_high",0.17407589998675535
+33,"Among all infexp_low records, most are trans_low",0.04034933245966099
+34,"Among all infexp_low records, most are trans_medium",0.0
+35,"Among all infexp_low records, most are trans_high",0.2867351953476945
+36,"Among all infexp_low records, most are BN_low",0.3105908479167806
+37,"Among all infexp_low records, most are BN_medium",0.0
+38,"Among all infexp_low records, most are BN_high",0.18771769509025166
+39,"Among all infexp_medium records, most are trans_low",0.17610499324420592
+40,"Among all infexp_medium records, most are trans_medium",0.0
+41,"Among all infexp_medium records, most are trans_high",0.06816337366664801
+42,"Among all infexp_medium records, most are BN_low",0.19149807798357985
+43,"Among all infexp_medium records, most are BN_medium",0.0925879526890236
+44,"Among all infexp_medium records, most are BN_high",0.32711254209341706
+45,"Among all infexp_high records, most are trans_low",0.5124853619893918
+46,"Among all infexp_high records, most are trans_medium",0.0
+47,"Among all infexp_high records, most are trans_high",0.09393666538737842
+48,"Among all infexp_high records, most are BN_low",0.2159178524619142
+49,"Among all infexp_high records, most are BN_medium",0.0
+50,"Among all infexp_high records, most are BN_high",0.19800169039624174
+51,"Among all BN_low records, most are trans_low",0.27128430805014664
+52,"Among all BN_low records, most are trans_medium",0.0
+53,"Among all BN_low records, most are trans_high",0.12595101097812936
+54,"Among all BN_low records, most are infexp_low",0.27724473778668157
+55,"Among all BN_low records, most are infexp_medium",0.0
+56,"Among all BN_low records, most are infexp_high",0.1484811556221366
+57,"Among all BN_medium records, most are trans_low",0.18178583156297004
+58,"Among all BN_medium records, most are trans_medium",0.0
+59,"Among all BN_medium records, most are trans_high",0.20018201092922797
+60,"Among all BN_medium records, most are infexp_low",0.1866549474392611
+61,"Among all BN_medium records, most are infexp_medium",0.16802969636704151
+62,"Among all BN_medium records, most are infexp_high",0.28958110406963866
+63,"Among all BN_high records, most are trans_low",0.2604903126549467
+64,"Among all BN_high records, most are trans_medium",0.0
+65,"Among all BN_high records, most are trans_high",0.16195717424564132
+66,"Among all BN_high records, most are infexp_low",0.19650695936178522
+67,"Among all BN_high records, most are infexp_medium",0.0434092697736209
+68,"Among all BN_high records, most are infexp_high",0.1689746716809518
+69,"Among all trans_low records, most are infexp_low and BN_low",0.0
+70,"Among all trans_low records, most are infexp_low and BN_medium",0.0
+71,"Among all trans_low records, most are infexp_low and BN_high",0.0
+72,"Among all trans_medium records, most are infexp_low and BN_low",0.0
+73,"Among all trans_medium records, most are infexp_low and BN_medium",0.0
+74,"Among all trans_medium records, most are infexp_low and BN_high",0.0
+75,"Among all trans_high records, most are infexp_low and BN_low",0.0
+76,"Among all trans_high records, most are infexp_low and BN_medium",0.0
+77,"Among all trans_high records, most are infexp_low and BN_high",0.0
+78,"Among all trans_low records, most are infexp_medium and BN_low",0.0
+79,"Among all trans_low records, most are infexp_medium and BN_medium",0.0
+80,"Among all trans_low records, most are infexp_medium and BN_high",0.0
+81,"Among all trans_medium records, most are infexp_medium and BN_low",0.0
+82,"Among all trans_medium records, most are infexp_medium and BN_medium",0.0
+83,"Among all trans_medium records, most are infexp_medium and BN_high",0.0
+84,"Among all trans_high records, most are infexp_medium and BN_low",0.0
+85,"Among all trans_high records, most are infexp_medium and BN_medium",0.0
+86,"Among all trans_high records, most are infexp_medium and BN_high",0.0
+87,"Among all trans_low records, most are infexp_high and BN_low",0.0
+88,"Among all trans_low records, most are infexp_high and BN_medium",0.0
+89,"Among all trans_low records, most are infexp_high and BN_high",0.0
+90,"Among all trans_medium records, most are infexp_high and BN_low",0.0
+91,"Among all trans_medium records, most are infexp_high and BN_medium",0.0
+92,"Among all trans_medium records, most are infexp_high and BN_high",0.0
+93,"Among all trans_high records, most are infexp_high and BN_low",0.0
+94,"Among all trans_high records, most are infexp_high and BN_medium",0.0
+95,"Among all trans_high records, most are infexp_high and BN_high",0.0
+96,,0.0
+97,,0.0
+98,,0.0
+99,,0.0
+100,,0.0
+101,,0.0
+102,,0.0
+103,,0.0
+104,,0.0
+105,,0.0
+106,,0.0
+107,,0.0
+108,,0.0
+109,,0.0
+110,,0.0
+111,,0.0
+112,,0.0
+113,,0.0
+114,,0.0
+115,,0.0
+116,,0.0
+117,,0.0
+118,,0.0
+119,,0.0
+0,"Among all records, minority are infexp_low",0.6452617506760248
+1,"Among all records, minority are trans_low",0.5162473794549266
+2,"Among all records, minority are BN_low",0.5850537947241413
+3,"Among all records, minority are BN_low and infexp_low",1.0
+4,"Among all records, minority are trans_low and infexp_low",1.0
+5,"Among all records, minority are infexp_medium",1.0
+6,"Among all records, minority are trans_medium",1.0
+7,"Among all records, minority are BN_medium",1.0
+8,"Among all records, minority are BN_medium and infexp_medium",1.0
+9,"Among all records, minority are trans_medium and infexp_medium",1.0
+10,"Among all records, minority are infexp_high",0.7187480280179217
+11,"Among all records, minority are trans_high",0.6865828092243187
+12,"Among all records, minority are BN_high",0.6624848513268872
+13,"Among all records, minority are BN_high and infexp_high",1.0
+14,"Among all records, minority are trans_high and infexp_high",1.0
+15,"Among all trans_low records, minority are infexp_low",1.0
+16,"Among all trans_low records, minority are infexp_medium",1.0
+17,"Among all trans_low records, minority are infexp_high",0.23277724515447823
+18,"Among all trans_low records, minority are BN_low",0.5282778306591043
+19,"Among all trans_low records, minority are BN_medium",1.0
+20,"Among all trans_low records, minority are BN_high",0.6280012055326676
+21,"Among all trans_medium records, minority are infexp_low",1.0
+22,"Among all trans_medium records, minority are infexp_medium",0.2130642348033654
+23,"Among all trans_medium records, minority are infexp_high",0.8575883575883574
+24,"Among all trans_medium records, minority are BN_low",0.4293770845932665
+25,"Among all trans_medium records, minority are BN_medium",1.0
+26,"Among all trans_medium records, minority are BN_high",0.7908148729441741
+27,"Among all trans_high records, minority are infexp_low",0.37928290190165026
+28,"Among all trans_high records, minority are infexp_medium",1.0
+29,"Among all trans_high records, minority are infexp_high",0.8420650723993273
+30,"Among all trans_high records, minority are BN_low",0.6500130548970693
+31,"Among all trans_high records, minority are BN_medium",1.0
+32,"Among all trans_high records, minority are BN_high",0.6518482000264894
+33,"Among all infexp_low records, minority are trans_low",0.919301335080678
+34,"Among all infexp_low records, minority are trans_medium",1.0
+35,"Among all infexp_low records, minority are trans_high",0.42652960930461115
+36,"Among all infexp_low records, minority are BN_low",0.3788183041664389
+37,"Among all infexp_low records, minority are BN_medium",1.0
+38,"Among all infexp_low records, minority are BN_high",0.6245646098194968
+39,"Among all infexp_medium records, minority are trans_low",0.6477900135115883
+40,"Among all infexp_medium records, minority are trans_medium",1.0
+41,"Among all infexp_medium records, minority are trans_high",0.8636732526667039
+42,"Among all infexp_medium records, minority are BN_low",0.6170038440328405
+43,"Among all infexp_medium records, minority are BN_medium",0.8148240946219528
+44,"Among all infexp_medium records, minority are BN_high",0.34577491581316594
+45,"Among all infexp_high records, minority are trans_low",0.0
+46,"Among all infexp_high records, minority are trans_medium",1.0
+47,"Among all infexp_high records, minority are trans_high",0.8121266692252431
+48,"Among all infexp_high records, minority are BN_low",0.5681642950761717
+49,"Among all infexp_high records, minority are BN_medium",1.0
+50,"Among all infexp_high records, minority are BN_high",0.6039966192075166
+51,"Among all BN_low records, minority are trans_low",0.45743138389970683
+52,"Among all BN_low records, minority are trans_medium",1.0
+53,"Among all BN_low records, minority are trans_high",0.7480979780437413
+54,"Among all BN_low records, minority are infexp_low",0.4455105244266369
+55,"Among all BN_low records, minority are infexp_medium",1.0
+56,"Among all BN_low records, minority are infexp_high",0.7030376887557268
+57,"Among all BN_medium records, minority are trans_low",0.63642833687406
+58,"Among all BN_medium records, minority are trans_medium",1.0
+59,"Among all BN_medium records, minority are trans_high",0.5996359781415441
+60,"Among all BN_medium records, minority are infexp_low",0.6266901051214779
+61,"Among all BN_medium records, minority are infexp_medium",0.6639406072659171
+62,"Among all BN_medium records, minority are infexp_high",0.42083779186072284
+63,"Among all BN_high records, minority are trans_low",0.4790193746901067
+64,"Among all BN_high records, minority are trans_medium",1.0
+65,"Among all BN_high records, minority are trans_high",0.6760856515087175
+66,"Among all BN_high records, minority are infexp_low",0.6069860812764296
+67,"Among all BN_high records, minority are infexp_medium",0.9131814604527582
+68,"Among all BN_high records, minority are infexp_high",0.6620506566380966
+69,"Among all trans_low records, minority are infexp_low and BN_low",1.0
+70,"Among all trans_low records, minority are infexp_low and BN_medium",1.0
+71,"Among all trans_low records, minority are infexp_low and BN_high",1.0
+72,"Among all trans_medium records, minority are infexp_low and BN_low",1.0
+73,"Among all trans_medium records, minority are infexp_low and BN_medium",1.0
+74,"Among all trans_medium records, minority are infexp_low and BN_high",1.0
+75,"Among all trans_high records, minority are infexp_low and BN_low",1.0
+76,"Among all trans_high records, minority are infexp_low and BN_medium",1.0
+77,"Among all trans_high records, minority are infexp_low and BN_high",1.0
+78,"Among all trans_low records, minority are infexp_medium and BN_low",1.0
+79,"Among all trans_low records, minority are infexp_medium and BN_medium",1.0
+80,"Among all trans_low records, minority are infexp_medium and BN_high",1.0
+81,"Among all trans_medium records, minority are infexp_medium and BN_low",1.0
+82,"Among all trans_medium records, minority are infexp_medium and BN_medium",1.0
+83,"Among all trans_medium records, minority are infexp_medium and BN_high",1.0
+84,"Among all trans_high records, minority are infexp_medium and BN_low",1.0
+85,"Among all trans_high records, minority are infexp_medium and BN_medium",1.0
+86,"Among all trans_high records, minority are infexp_medium and BN_high",1.0
+87,"Among all trans_low records, minority are infexp_high and BN_low",1.0
+88,"Among all trans_low records, minority are infexp_high and BN_medium",1.0
+89,"Among all trans_low records, minority are infexp_high and BN_high",1.0
+90,"Among all trans_medium records, minority are infexp_high and BN_low",1.0
+91,"Among all trans_medium records, minority are infexp_high and BN_medium",1.0
+92,"Among all trans_medium records, minority are infexp_high and BN_high",1.0
+93,"Among all trans_high records, minority are infexp_high and BN_low",1.0
+94,"Among all trans_high records, minority are infexp_high and BN_medium",1.0
+95,"Among all trans_high records, minority are infexp_high and BN_high",1.0
+96,,0.0
+97,,0.0
+98,,0.0
+99,,0.0
+100,,0.0
+101,,0.0
+102,,0.0
+103,,0.0
+104,,0.0
+105,,0.0
+106,,0.0
+107,,0.0
+108,,0.0
+109,,0.0
+110,,0.0
+111,,0.0
+112,,0.0
+113,,0.0
+114,,0.0
+115,,0.0
+116,,0.0
+117,,0.0
+118,,0.0
+119,,0.0
+0,"Among all records, most are infexp0_low",0.07793932645447615
+1,"Among all records, most are trans_low",0.24187631027253675
+2,"Among all records, most are BN_low",0.2074731026379294
+3,"Among all records, most are BN_low and infexp0_low",0.0
+4,"Among all records, most are trans_low and infexp0_low",0.0
+5,"Among all records, most are infexp0_medium",0.0
+6,"Among all records, most are trans_medium",0.0
+7,"Among all records, most are BN_medium",0.0
+8,"Among all records, most are BN_medium and infexp0_medium",0.0
+9,"Among all records, most are trans_medium and infexp0_medium",0.0
+10,"Among all records, most are infexp0_high",0.5709233755334938
+11,"Among all records, most are trans_high",0.15670859538784068
+12,"Among all records, most are BN_high",0.16875757433655647
+13,"Among all records, most are BN_high and infexp0_high",0.0
+14,"Among all records, most are trans_high and infexp0_high",0.0
+15,"Among all trans_low records, most are infexp0_low",0.21159253769843112
+16,"Among all trans_low records, most are infexp0_medium",0.0
+17,"Among all trans_low records, most are infexp0_high",0.3841618184953174
+18,"Among all trans_low records, most are BN_low",0.2358610846704479
+19,"Among all trans_low records, most are BN_medium",0.0
+20,"Among all trans_low records, most are BN_high",0.1859993972336663
+21,"Among all trans_medium records, most are infexp0_low",0.14248404937376113
+22,"Among all trans_medium records, most are infexp0_medium",0.0
+23,"Among all trans_medium records, most are infexp0_high",0.7088395048323364
+24,"Among all trans_medium records, most are BN_low",0.2853114577033668
+25,"Among all trans_medium records, most are BN_medium",0.0
+26,"Among all trans_medium records, most are BN_high",0.10459256352791298
+27,"Among all trans_high records, most are infexp0_low",0.0
+28,"Among all trans_high records, most are infexp0_medium",0.0
+29,"Among all trans_high records, most are infexp0_high",0.6812789463628537
+30,"Among all trans_high records, most are BN_low",0.17499347255146544
+31,"Among all trans_high records, most are BN_medium",0.0
+32,"Among all trans_high records, most are BN_high",0.17407589998675535
+33,"Among all infexp0_low records, most are trans_low",0.40199366403133185
+34,"Among all infexp0_low records, most are trans_medium",0.0
+35,"Among all infexp0_low records, most are trans_high",0.005571058382496941
+36,"Among all infexp0_low records, most are BN_low",0.3990726642010849
+37,"Among all infexp0_low records, most are BN_medium",0.0
+38,"Among all infexp0_low records, most are BN_high",0.08368394138750304
+39,"Among all infexp0_medium records, most are trans_low",0.42151353705928785
+40,"Among all infexp0_medium records, most are trans_medium",0.0
+41,"Among all infexp0_medium records, most are trans_high",0.22811190717564644
+42,"Among all infexp0_medium records, most are BN_low",0.05649933596744192
+43,"Among all infexp0_medium records, most are BN_medium",0.032466435496886076
+44,"Among all infexp0_medium records, most are BN_high",0.5262806367806765
+45,"Among all infexp0_high records, most are trans_low",0.10163777143907567
+46,"Among all infexp0_high records, most are trans_medium",0.0
+47,"Among all infexp0_high records, most are trans_high",0.2324588973911647
+48,"Among all infexp0_high records, most are BN_low",0.17013575455352734
+49,"Among all infexp0_high records, most are BN_medium",0.0
+50,"Among all infexp0_high records, most are BN_high",0.18418334514147694
+51,"Among all BN_low records, most are trans_low",0.27128430805014664
+52,"Among all BN_low records, most are trans_medium",0.0
+53,"Among all BN_low records, most are trans_high",0.12595101097812936
+54,"Among all BN_low records, most are infexp0_low",0.24361793561072656
+55,"Among all BN_low records, most are infexp0_medium",0.0
+56,"Among all BN_low records, most are infexp0_high",0.5194130242460928
+57,"Among all BN_medium records, most are trans_low",0.18178583156297004
+58,"Among all BN_medium records, most are trans_medium",0.0
+59,"Among all BN_medium records, most are trans_high",0.20018201092922797
+60,"Among all BN_medium records, most are infexp0_low",0.049048440223936625
+61,"Among all BN_medium records, most are infexp0_medium",0.0
+62,"Among all BN_medium records, most are infexp0_high",0.7207772401401401
+63,"Among all BN_high records, most are trans_low",0.2604903126549467
+64,"Among all BN_high records, most are trans_medium",0.0
+65,"Among all BN_high records, most are trans_high",0.16195717424564132
+66,"Among all BN_high records, most are infexp0_low",0.001275135235441066
+67,"Among all BN_high records, most are infexp0_medium",0.0
+68,"Among all BN_high records, most are infexp0_high",0.5931014362221967
+69,"Among all trans_low records, most are infexp0_low and BN_low",0.0
+70,"Among all trans_low records, most are infexp0_low and BN_medium",0.0
+71,"Among all trans_low records, most are infexp0_low and BN_high",0.0
+72,"Among all trans_medium records, most are infexp0_low and BN_low",0.0
+73,"Among all trans_medium records, most are infexp0_low and BN_medium",0.0
+74,"Among all trans_medium records, most are infexp0_low and BN_high",0.0
+75,"Among all trans_high records, most are infexp0_low and BN_low",0.0
+76,"Among all trans_high records, most are infexp0_low and BN_medium",0.0
+77,"Among all trans_high records, most are infexp0_low and BN_high",0.0
+78,"Among all trans_low records, most are infexp0_medium and BN_low",0.0
+79,"Among all trans_low records, most are infexp0_medium and BN_medium",0.0
+80,"Among all trans_low records, most are infexp0_medium and BN_high",0.0
+81,"Among all trans_medium records, most are infexp0_medium and BN_low",0.0
+82,"Among all trans_medium records, most are infexp0_medium and BN_medium",0.0
+83,"Among all trans_medium records, most are infexp0_medium and BN_high",0.0
+84,"Among all trans_high records, most are infexp0_medium and BN_low",0.0
+85,"Among all trans_high records, most are infexp0_medium and BN_medium",0.0
+86,"Among all trans_high records, most are infexp0_medium and BN_high",0.0
+87,"Among all trans_low records, most are infexp0_high and BN_low",0.0
+88,"Among all trans_low records, most are infexp0_high and BN_medium",0.0
+89,"Among all trans_low records, most are infexp0_high and BN_high",0.0
+90,"Among all trans_medium records, most are infexp0_high and BN_low",0.0
+91,"Among all trans_medium records, most are infexp0_high and BN_medium",0.0
+92,"Among all trans_medium records, most are infexp0_high and BN_high",0.0
+93,"Among all trans_high records, most are infexp0_high and BN_low",0.0
+94,"Among all trans_high records, most are infexp0_high and BN_medium",0.0
+95,"Among all trans_high records, most are infexp0_high and BN_high",0.0
+96,,0.0
+97,,0.0
+98,,0.0
+99,,0.0
+100,,0.0
+101,,0.0
+102,,0.0
+103,,0.0
+104,,0.0
+105,,0.0
+106,,0.0
+107,,0.0
+108,,0.0
+109,,0.0
+110,,0.0
+111,,0.0
+112,,0.0
+113,,0.0
+114,,0.0
+115,,0.0
+116,,0.0
+117,,0.0
+118,,0.0
+119,,0.0
+0,"Among all records, minority are infexp0_low",0.8441213470910477
+1,"Among all records, minority are trans_low",0.5162473794549266
+2,"Among all records, minority are BN_low",0.5850537947241413
+3,"Among all records, minority are BN_low and infexp0_low",1.0
+4,"Among all records, minority are trans_low and infexp0_low",1.0
+5,"Among all records, minority are infexp0_medium",1.0
+6,"Among all records, minority are trans_medium",1.0
+7,"Among all records, minority are BN_medium",1.0
+8,"Among all records, minority are BN_medium and infexp0_medium",1.0
+9,"Among all records, minority are trans_medium and infexp0_medium",1.0
+10,"Among all records, minority are infexp0_high",0.0
+11,"Among all records, minority are trans_high",0.6865828092243187
+12,"Among all records, minority are BN_high",0.6624848513268872
+13,"Among all records, minority are BN_high and infexp0_high",1.0
+14,"Among all records, minority are trans_high and infexp0_high",1.0
+15,"Among all trans_low records, minority are infexp0_low",0.5768149246031379
+16,"Among all trans_low records, minority are infexp0_medium",1.0
+17,"Among all trans_low records, minority are infexp0_high",0.23167636300936545
+18,"Among all trans_low records, minority are BN_low",0.5282778306591043
+19,"Among all trans_low records, minority are BN_medium",1.0
+20,"Among all trans_low records, minority are BN_high",0.6280012055326676
+21,"Among all trans_medium records, minority are infexp0_low",0.7150319012524777
+22,"Among all trans_medium records, minority are infexp0_medium",1.0
+23,"Among all trans_medium records, minority are infexp0_high",0.0
+24,"Among all trans_medium records, minority are BN_low",0.4293770845932665
+25,"Among all trans_medium records, minority are BN_medium",1.0
+26,"Among all trans_medium records, minority are BN_high",0.7908148729441741
+27,"Among all trans_high records, minority are infexp0_low",1.0
+28,"Among all trans_high records, minority are infexp0_medium",1.0
+29,"Among all trans_high records, minority are infexp0_high",0.0
+30,"Among all trans_high records, minority are BN_low",0.6500130548970693
+31,"Among all trans_high records, minority are BN_medium",1.0
+32,"Among all trans_high records, minority are BN_high",0.6518482000264894
+33,"Among all infexp0_low records, minority are trans_low",0.19601267193733646
+34,"Among all infexp0_low records, minority are trans_medium",1.0
+35,"Among all infexp0_low records, minority are trans_high",0.9888578832350061
+36,"Among all infexp0_low records, minority are BN_low",0.20185467159783033
+37,"Among all infexp0_low records, minority are BN_medium",1.0
+38,"Among all infexp0_low records, minority are BN_high",0.832632117224994
+39,"Among all infexp0_medium records, minority are trans_low",0.15697292588142453
+40,"Among all infexp0_medium records, minority are trans_medium",1.0
+41,"Among all infexp0_medium records, minority are trans_high",0.5437761856487072
+42,"Among all infexp0_medium records, minority are BN_low",0.8870013280651161
+43,"Among all infexp0_medium records, minority are BN_medium",0.9350671290062278
+44,"Among all infexp0_medium records, minority are BN_high",0.0
+45,"Among all infexp0_high records, minority are trans_low",0.7967244571218487
+46,"Among all infexp0_high records, minority are trans_medium",1.0
+47,"Among all infexp0_high records, minority are trans_high",0.5350822052176707
+48,"Among all infexp0_high records, minority are BN_low",0.6597284908929455
+49,"Among all infexp0_high records, minority are BN_medium",1.0
+50,"Among all infexp0_high records, minority are BN_high",0.6316333097170462
+51,"Among all BN_low records, minority are trans_low",0.45743138389970683
+52,"Among all BN_low records, minority are trans_medium",1.0
+53,"Among all BN_low records, minority are trans_high",0.7480979780437413
+54,"Among all BN_low records, minority are infexp0_low",0.5127641287785469
+55,"Among all BN_low records, minority are infexp0_medium",1.0
+56,"Among all BN_low records, minority are infexp0_high",0.0
+57,"Among all BN_medium records, minority are trans_low",0.63642833687406
+58,"Among all BN_medium records, minority are trans_medium",1.0
+59,"Among all BN_medium records, minority are trans_high",0.5996359781415441
+60,"Among all BN_medium records, minority are infexp0_low",0.9019031195521268
+61,"Among all BN_medium records, minority are infexp0_medium",1.0
+62,"Among all BN_medium records, minority are infexp0_high",0.0
+63,"Among all BN_high records, minority are trans_low",0.4790193746901067
+64,"Among all BN_high records, minority are trans_medium",1.0
+65,"Among all BN_high records, minority are trans_high",0.6760856515087175
+66,"Among all BN_high records, minority are infexp0_low",0.9974497295291178
+67,"Among all BN_high records, minority are infexp0_medium",1.0
+68,"Among all BN_high records, minority are infexp0_high",0.0
+69,"Among all trans_low records, minority are infexp0_low and BN_low",1.0
+70,"Among all trans_low records, minority are infexp0_low and BN_medium",1.0
+71,"Among all trans_low records, minority are infexp0_low and BN_high",1.0
+72,"Among all trans_medium records, minority are infexp0_low and BN_low",1.0
+73,"Among all trans_medium records, minority are infexp0_low and BN_medium",1.0
+74,"Among all trans_medium records, minority are infexp0_low and BN_high",1.0
+75,"Among all trans_high records, minority are infexp0_low and BN_low",1.0
+76,"Among all trans_high records, minority are infexp0_low and BN_medium",1.0
+77,"Among all trans_high records, minority are infexp0_low and BN_high",1.0
+78,"Among all trans_low records, minority are infexp0_medium and BN_low",1.0
+79,"Among all trans_low records, minority are infexp0_medium and BN_medium",1.0
+80,"Among all trans_low records, minority are infexp0_medium and BN_high",1.0
+81,"Among all trans_medium records, minority are infexp0_medium and BN_low",1.0
+82,"Among all trans_medium records, minority are infexp0_medium and BN_medium",1.0
+83,"Among all trans_medium records, minority are infexp0_medium and BN_high",1.0
+84,"Among all trans_high records, minority are infexp0_medium and BN_low",1.0
+85,"Among all trans_high records, minority are infexp0_medium and BN_medium",1.0
+86,"Among all trans_high records, minority are infexp0_medium and BN_high",1.0
+87,"Among all trans_low records, minority are infexp0_high and BN_low",1.0
+88,"Among all trans_low records, minority are infexp0_high and BN_medium",1.0
+89,"Among all trans_low records, minority are infexp0_high and BN_high",1.0
+90,"Among all trans_medium records, minority are infexp0_high and BN_low",1.0
+91,"Among all trans_medium records, minority are infexp0_high and BN_medium",1.0
+92,"Among all trans_medium records, minority are infexp0_high and BN_high",1.0
+93,"Among all trans_high records, minority are infexp0_high and BN_low",1.0
+94,"Among all trans_high records, minority are infexp0_high and BN_medium",1.0
+95,"Among all trans_high records, minority are infexp0_high and BN_high",1.0
+96,,0.0
+97,,0.0
+98,,0.0
+99,,0.0
+100,,0.0
+101,,0.0
+102,,0.0
+103,,0.0
+104,,0.0
+105,,0.0
+106,,0.0
+107,,0.0
+108,,0.0
+109,,0.0
+110,,0.0
+111,,0.0
+112,,0.0
+113,,0.0
+114,,0.0
+115,,0.0
+116,,0.0
+117,,0.0
+118,,0.0
+119,,0.0
+0,"Among all records, most are infexp1_low",0.1330052258328225
+1,"Among all records, most are trans_low",0.24187631027253675
+2,"Among all records, most are BN_low",0.2074731026379294
+3,"Among all records, most are BN_low and infexp1_low",0.0
+4,"Among all records, most are trans_low and infexp1_low",0.0
+5,"Among all records, most are infexp1_medium",0.0
+6,"Among all records, most are trans_medium",0.0
+7,"Among all records, most are BN_medium",0.0
+8,"Among all records, most are BN_medium and infexp1_medium",0.0
+9,"Among all records, most are trans_medium and infexp1_medium",0.0
+10,"Among all records, most are infexp1_high",0.5925414835088221
+11,"Among all records, most are trans_high",0.15670859538784068
+12,"Among all records, most are BN_high",0.16875757433655647
+13,"Among all records, most are BN_high and infexp1_high",0.0
+14,"Among all records, most are trans_high and infexp1_high",0.0
+15,"Among all trans_low records, most are infexp1_low",0.27259799408637875
+16,"Among all trans_low records, most are infexp1_medium",0.0
+17,"Among all trans_low records, most are infexp1_high",0.3970076370660194
+18,"Among all trans_low records, most are BN_low",0.2358610846704479
+19,"Among all trans_low records, most are BN_medium",0.0
+20,"Among all trans_low records, most are BN_high",0.1859993972336663
+21,"Among all trans_medium records, most are infexp1_low",0.11696059450999192
+22,"Among all trans_medium records, most are infexp1_medium",0.0
+23,"Among all trans_medium records, most are infexp1_high",0.7462497074773032
+24,"Among all trans_medium records, most are BN_low",0.2853114577033668
+25,"Among all trans_medium records, most are BN_medium",0.0
+26,"Among all trans_medium records, most are BN_high",0.10459256352791298
+27,"Among all trans_high records, most are infexp1_low",0.05578386425380375
+28,"Among all trans_high records, most are infexp1_medium",0.0
+29,"Among all trans_high records, most are infexp1_high",0.7001279570302068
+30,"Among all trans_high records, most are BN_low",0.17499347255146544
+31,"Among all trans_high records, most are BN_medium",0.0
+32,"Among all trans_high records, most are BN_high",0.17407589998675535
+33,"Among all infexp1_low records, most are trans_low",0.39868031988128705
+34,"Among all infexp1_low records, most are trans_medium",0.0
+35,"Among all infexp1_low records, most are trans_high",0.07741430556615747
+36,"Among all infexp1_low records, most are BN_low",0.31541669894964997
+37,"Among all infexp1_low records, most are BN_medium",0.0
+38,"Among all infexp1_low records, most are BN_high",0.16588548288989827
+39,"Among all infexp1_medium records, most are trans_low",0.4565325806559495
+40,"Among all infexp1_medium records, most are trans_medium",0.0
+41,"Among all infexp1_medium records, most are trans_high",0.05639167831968315
+42,"Among all infexp1_medium records, most are BN_low",0.11547407387608637
+43,"Among all infexp1_medium records, most are BN_medium",0.18296518931602893
+44,"Among all infexp1_medium records, most are BN_high",0.39050423447497584
+45,"Among all infexp1_high records, most are trans_low",0.09741493419930373
+46,"Among all infexp1_high records, most are trans_medium",0.0
+47,"Among all infexp1_high records, most are trans_high",0.22936897980617046
+48,"Among all infexp1_high records, most are BN_low",0.20466073256084727
+49,"Among all infexp1_high records, most are BN_medium",0.0
+50,"Among all infexp1_high records, most are BN_high",0.16883580432855125
+51,"Among all BN_low records, most are trans_low",0.27128430805014664
+52,"Among all BN_low records, most are trans_medium",0.0
+53,"Among all BN_low records, most are trans_high",0.12595101097812936
+54,"Among all BN_low records, most are infexp1_low",0.23255346314187772
+55,"Among all BN_low records, most are infexp1_medium",0.0
+56,"Among all BN_low records, most are infexp1_high",0.5885980583775479
+57,"Among all BN_medium records, most are trans_low",0.18178583156297004
+58,"Among all BN_medium records, most are trans_medium",0.0
+59,"Among all BN_medium records, most are trans_high",0.20018201092922797
+60,"Among all BN_medium records, most are infexp1_low",0.08598451878035916
+61,"Among all BN_medium records, most are infexp1_medium",0.0
+62,"Among all BN_medium records, most are infexp1_high",0.7025722406355697
+63,"Among all BN_high records, most are trans_low",0.2604903126549467
+64,"Among all BN_high records, most are trans_medium",0.0
+65,"Among all BN_high records, most are trans_high",0.16195717424564132
+66,"Among all BN_high records, most are infexp1_low",0.13024489837832484
+67,"Among all BN_high records, most are infexp1_medium",0.0
+68,"Among all BN_high records, most are infexp1_high",0.5926557976787854
+69,"Among all trans_low records, most are infexp1_low and BN_low",0.0
+70,"Among all trans_low records, most are infexp1_low and BN_medium",0.0
+71,"Among all trans_low records, most are infexp1_low and BN_high",0.0
+72,"Among all trans_medium records, most are infexp1_low and BN_low",0.0
+73,"Among all trans_medium records, most are infexp1_low and BN_medium",0.0
+74,"Among all trans_medium records, most are infexp1_low and BN_high",0.0
+75,"Among all trans_high records, most are infexp1_low and BN_low",0.0
+76,"Among all trans_high records, most are infexp1_low and BN_medium",0.0
+77,"Among all trans_high records, most are infexp1_low and BN_high",0.0
+78,"Among all trans_low records, most are infexp1_medium and BN_low",0.0
+79,"Among all trans_low records, most are infexp1_medium and BN_medium",0.0
+80,"Among all trans_low records, most are infexp1_medium and BN_high",0.0
+81,"Among all trans_medium records, most are infexp1_medium and BN_low",0.0
+82,"Among all trans_medium records, most are infexp1_medium and BN_medium",0.0
+83,"Among all trans_medium records, most are infexp1_medium and BN_high",0.0
+84,"Among all trans_high records, most are infexp1_medium and BN_low",0.0
+85,"Among all trans_high records, most are infexp1_medium and BN_medium",0.0
+86,"Among all trans_high records, most are infexp1_medium and BN_high",0.0
+87,"Among all trans_low records, most are infexp1_high and BN_low",0.0
+88,"Among all trans_low records, most are infexp1_high and BN_medium",0.0
+89,"Among all trans_low records, most are infexp1_high and BN_high",0.0
+90,"Among all trans_medium records, most are infexp1_high and BN_low",0.0
+91,"Among all trans_medium records, most are infexp1_high and BN_medium",0.0
+92,"Among all trans_medium records, most are infexp1_high and BN_high",0.0
+93,"Among all trans_high records, most are infexp1_high and BN_low",0.0
+94,"Among all trans_high records, most are infexp1_high and BN_medium",0.0
+95,"Among all trans_high records, most are infexp1_high and BN_high",0.0
+96,,0.0
+97,,0.0
+98,,0.0
+99,,0.0
+100,,0.0
+101,,0.0
+102,,0.0
+103,,0.0
+104,,0.0
+105,,0.0
+106,,0.0
+107,,0.0
+108,,0.0
+109,,0.0
+110,,0.0
+111,,0.0
+112,,0.0
+113,,0.0
+114,,0.0
+115,,0.0
+116,,0.0
+117,,0.0
+118,,0.0
+119,,0.0
+0,"Among all records, minority are infexp1_low",0.733989548334355
+1,"Among all records, minority are trans_low",0.5162473794549266
+2,"Among all records, minority are BN_low",0.5850537947241413
+3,"Among all records, minority are BN_low and infexp1_low",1.0
+4,"Among all records, minority are trans_low and infexp1_low",1.0
+5,"Among all records, minority are infexp1_medium",1.0
+6,"Among all records, minority are trans_medium",1.0
+7,"Among all records, minority are BN_medium",1.0
+8,"Among all records, minority are BN_medium and infexp1_medium",1.0
+9,"Among all records, minority are trans_medium and infexp1_medium",1.0
+10,"Among all records, minority are infexp1_high",0.0
+11,"Among all records, minority are trans_high",0.6865828092243187
+12,"Among all records, minority are BN_high",0.6624848513268872
+13,"Among all records, minority are BN_high and infexp1_high",1.0
+14,"Among all records, minority are trans_high and infexp1_high",1.0
+15,"Among all trans_low records, minority are infexp1_low",0.45480401182724256
+16,"Among all trans_low records, minority are infexp1_medium",1.0
+17,"Among all trans_low records, minority are infexp1_high",0.20598472586796146
+18,"Among all trans_low records, minority are BN_low",0.5282778306591043
+19,"Among all trans_low records, minority are BN_medium",1.0
+20,"Among all trans_low records, minority are BN_high",0.6280012055326676
+21,"Among all trans_medium records, minority are infexp1_low",0.7660788109800162
+22,"Among all trans_medium records, minority are infexp1_medium",1.0
+23,"Among all trans_medium records, minority are infexp1_high",0.0
+24,"Among all trans_medium records, minority are BN_low",0.4293770845932665
+25,"Among all trans_medium records, minority are BN_medium",1.0
+26,"Among all trans_medium records, minority are BN_high",0.7908148729441741
+27,"Among all trans_high records, minority are infexp1_low",0.8884322714923925
+28,"Among all trans_high records, minority are infexp1_medium",1.0
+29,"Among all trans_high records, minority are infexp1_high",0.0
+30,"Among all trans_high records, minority are BN_low",0.6500130548970693
+31,"Among all trans_high records, minority are BN_medium",1.0
+32,"Among all trans_high records, minority are BN_high",0.6518482000264894
+33,"Among all infexp1_low records, minority are trans_low",0.20263936023742601
+34,"Among all infexp1_low records, minority are trans_medium",1.0
+35,"Among all infexp1_low records, minority are trans_high",0.8451713888676851
+36,"Among all infexp1_low records, minority are BN_low",0.36916660210070007
+37,"Among all infexp1_low records, minority are BN_medium",1.0
+38,"Among all infexp1_low records, minority are BN_high",0.6682290342202035
+39,"Among all infexp1_medium records, minority are trans_low",0.08693483868810109
+40,"Among all infexp1_medium records, minority are trans_medium",1.0
+41,"Among all infexp1_medium records, minority are trans_high",0.8872166433606337
+42,"Among all infexp1_medium records, minority are BN_low",0.7690518522478273
+43,"Among all infexp1_medium records, minority are BN_medium",0.6340696213679422
+44,"Among all infexp1_medium records, minority are BN_high",0.21899153105004843
+45,"Among all infexp1_high records, minority are trans_low",0.8051701316013926
+46,"Among all infexp1_high records, minority are trans_medium",1.0
+47,"Among all infexp1_high records, minority are trans_high",0.5412620403876591
+48,"Among all infexp1_high records, minority are BN_low",0.5906785348783056
+49,"Among all infexp1_high records, minority are BN_medium",1.0
+50,"Among all infexp1_high records, minority are BN_high",0.6623283913428977
+51,"Among all BN_low records, minority are trans_low",0.45743138389970683
+52,"Among all BN_low records, minority are trans_medium",1.0
+53,"Among all BN_low records, minority are trans_high",0.7480979780437413
+54,"Among all BN_low records, minority are infexp1_low",0.5348930737162447
+55,"Among all BN_low records, minority are infexp1_medium",1.0
+56,"Among all BN_low records, minority are infexp1_high",0.0
+57,"Among all BN_medium records, minority are trans_low",0.63642833687406
+58,"Among all BN_medium records, minority are trans_medium",1.0
+59,"Among all BN_medium records, minority are trans_high",0.5996359781415441
+60,"Among all BN_medium records, minority are infexp1_low",0.8280309624392816
+61,"Among all BN_medium records, minority are infexp1_medium",1.0
+62,"Among all BN_medium records, minority are infexp1_high",0.0
+63,"Among all BN_high records, minority are trans_low",0.4790193746901067
+64,"Among all BN_high records, minority are trans_medium",1.0
+65,"Among all BN_high records, minority are trans_high",0.6760856515087175
+66,"Among all BN_high records, minority are infexp1_low",0.7395102032433504
+67,"Among all BN_high records, minority are infexp1_medium",1.0
+68,"Among all BN_high records, minority are infexp1_high",0.0
+69,"Among all trans_low records, minority are infexp1_low and BN_low",1.0
+70,"Among all trans_low records, minority are infexp1_low and BN_medium",1.0
+71,"Among all trans_low records, minority are infexp1_low and BN_high",1.0
+72,"Among all trans_medium records, minority are infexp1_low and BN_low",1.0
+73,"Among all trans_medium records, minority are infexp1_low and BN_medium",1.0
+74,"Among all trans_medium records, minority are infexp1_low and BN_high",1.0
+75,"Among all trans_high records, minority are infexp1_low and BN_low",1.0
+76,"Among all trans_high records, minority are infexp1_low and BN_medium",1.0
+77,"Among all trans_high records, minority are infexp1_low and BN_high",1.0
+78,"Among all trans_low records, minority are infexp1_medium and BN_low",1.0
+79,"Among all trans_low records, minority are infexp1_medium and BN_medium",1.0
+80,"Among all trans_low records, minority are infexp1_medium and BN_high",1.0
+81,"Among all trans_medium records, minority are infexp1_medium and BN_low",1.0
+82,"Among all trans_medium records, minority are infexp1_medium and BN_medium",1.0
+83,"Among all trans_medium records, minority are infexp1_medium and BN_high",1.0
+84,"Among all trans_high records, minority are infexp1_medium and BN_low",1.0
+85,"Among all trans_high records, minority are infexp1_medium and BN_medium",1.0
+86,"Among all trans_high records, minority are infexp1_medium and BN_high",1.0
+87,"Among all trans_low records, minority are infexp1_high and BN_low",1.0
+88,"Among all trans_low records, minority are infexp1_high and BN_medium",1.0
+89,"Among all trans_low records, minority are infexp1_high and BN_high",1.0
+90,"Among all trans_medium records, minority are infexp1_high and BN_low",1.0
+91,"Among all trans_medium records, minority are infexp1_high and BN_medium",1.0
+92,"Among all trans_medium records, minority are infexp1_high and BN_high",1.0
+93,"Among all trans_high records, minority are infexp1_high and BN_low",1.0
+94,"Among all trans_high records, minority are infexp1_high and BN_medium",1.0
+95,"Among all trans_high records, minority are infexp1_high and BN_high",1.0
+96,,0.0
+97,,0.0
+98,,0.0
+99,,0.0
+100,,0.0
+101,,0.0
+102,,0.0
+103,,0.0
+104,,0.0
+105,,0.0
+106,,0.0
+107,,0.0
+108,,0.0
+109,,0.0
+110,,0.0
+111,,0.0
+112,,0.0
+113,,0.0
+114,,0.0
+115,,0.0
+116,,0.0
+117,,0.0
+118,,0.0
+119,,0.0
+0,"Among all records, most are infexp2_low",0.10934030078687014
+1,"Among all records, most are trans_low",0.24187631027253675
+2,"Among all records, most are BN_low",0.2074731026379294
+3,"Among all records, most are BN_low and infexp2_low",0.0
+4,"Among all records, most are trans_low and infexp2_low",0.0
+5,"Among all records, most are infexp2_medium",0.0
+6,"Among all records, most are trans_medium",0.0
+7,"Among all records, most are BN_medium",0.0
+8,"Among all records, most are BN_medium and infexp2_medium",0.0
+9,"Among all records, most are trans_medium and infexp2_medium",0.0
+10,"Among all records, most are infexp2_high",0.5303789989997014
+11,"Among all records, most are trans_high",0.15670859538784068
+12,"Among all records, most are BN_high",0.16875757433655647
+13,"Among all records, most are BN_high and infexp2_high",0.0
+14,"Among all records, most are trans_high and infexp2_high",0.0
+15,"Among all trans_low records, most are infexp2_low",0.2624221846453062
+16,"Among all trans_low records, most are infexp2_medium",0.0
+17,"Among all trans_low records, most are infexp2_high",0.3656742479287959
+18,"Among all trans_low records, most are BN_low",0.2358610846704479
+19,"Among all trans_low records, most are BN_medium",0.0
+20,"Among all trans_low records, most are BN_high",0.1859993972336663
+21,"Among all trans_medium records, most are infexp2_low",0.09878324527497749
+22,"Among all trans_medium records, most are infexp2_medium",0.0
+23,"Among all trans_medium records, most are infexp2_high",0.8196278478621091
+24,"Among all trans_medium records, most are BN_low",0.2853114577033668
+25,"Among all trans_medium records, most are BN_medium",0.0
+26,"Among all trans_medium records, most are BN_high",0.10459256352791298
+27,"Among all trans_high records, most are infexp2_low",0.013538856749074348
+28,"Among all trans_high records, most are infexp2_medium",0.0
+29,"Among all trans_high records, most are infexp2_high",0.5914668684051574
+30,"Among all trans_high records, most are BN_low",0.17499347255146544
+31,"Among all trans_high records, most are BN_medium",0.0
+32,"Among all trans_high records, most are BN_high",0.17407589998675535
+33,"Among all infexp2_low records, most are trans_low",0.41856800504356184
+34,"Among all infexp2_low records, most are trans_medium",0.0
+35,"Among all infexp2_low records, most are trans_high",0.05562641329990876
+36,"Among all infexp2_low records, most are BN_low",0.2831005356025539
+37,"Among all infexp2_low records, most are BN_medium",0.0
+38,"Among all infexp2_low records, most are BN_high",0.20227658925651998
+39,"Among all infexp2_medium records, most are trans_low",0.29582145803787596
+40,"Among all infexp2_medium records, most are trans_medium",0.0
+41,"Among all infexp2_medium records, most are trans_high",0.2440713002930273
+42,"Among all infexp2_medium records, most are BN_low",0.025960309286013897
+43,"Among all infexp2_medium records, most are BN_medium",0.06551678801376026
+44,"Among all infexp2_medium records, most are BN_high",0.5291882122437999
+45,"Among all infexp2_high records, most are trans_low",0.11428382327907856
+46,"Among all infexp2_high records, most are trans_medium",0.0
+47,"Among all infexp2_high records, most are trans_high",0.1999683616813597
+48,"Among all infexp2_high records, most are BN_low",0.259507189099774
+49,"Among all infexp2_high records, most are BN_medium",0.0
+50,"Among all infexp2_high records, most are BN_high",0.10183173471725608
+51,"Among all BN_low records, most are trans_low",0.27128430805014664
+52,"Among all BN_low records, most are trans_medium",0.0
+53,"Among all BN_low records, most are trans_high",0.12595101097812936
+54,"Among all BN_low records, most are infexp2_low",0.1772165688642777
+55,"Among all BN_low records, most are infexp2_medium",0.0
+56,"Among all BN_low records, most are infexp2_high",0.5999614774571398
+57,"Among all BN_medium records, most are trans_low",0.18178583156297004
+58,"Among all BN_medium records, most are trans_medium",0.0
+59,"Among all BN_medium records, most are trans_high",0.20018201092922797
+60,"Among all BN_medium records, most are infexp2_low",0.05817396008388238
+61,"Among all BN_medium records, most are infexp2_medium",0.0
+62,"Among all BN_medium records, most are infexp2_high",0.6928881602341251
+63,"Among all BN_high records, most are trans_low",0.2604903126549467
+64,"Among all BN_high records, most are trans_medium",0.0
+65,"Among all BN_high records, most are trans_high",0.16195717424564132
+66,"Among all BN_high records, most are infexp2_low",0.1406915964583108
+67,"Among all BN_high records, most are infexp2_medium",0.0
+68,"Among all BN_high records, most are infexp2_high",0.43711126229467107
+69,"Among all trans_low records, most are infexp2_low and BN_low",0.0
+70,"Among all trans_low records, most are infexp2_low and BN_medium",0.0
+71,"Among all trans_low records, most are infexp2_low and BN_high",0.0
+72,"Among all trans_medium records, most are infexp2_low and BN_low",0.0
+73,"Among all trans_medium records, most are infexp2_low and BN_medium",0.0
+74,"Among all trans_medium records, most are infexp2_low and BN_high",0.0
+75,"Among all trans_high records, most are infexp2_low and BN_low",0.0
+76,"Among all trans_high records, most are infexp2_low and BN_medium",0.0
+77,"Among all trans_high records, most are infexp2_low and BN_high",0.0
+78,"Among all trans_low records, most are infexp2_medium and BN_low",0.0
+79,"Among all trans_low records, most are infexp2_medium and BN_medium",0.0
+80,"Among all trans_low records, most are infexp2_medium and BN_high",0.0
+81,"Among all trans_medium records, most are infexp2_medium and BN_low",0.0
+82,"Among all trans_medium records, most are infexp2_medium and BN_medium",0.0
+83,"Among all trans_medium records, most are infexp2_medium and BN_high",0.0
+84,"Among all trans_high records, most are infexp2_medium and BN_low",0.0
+85,"Among all trans_high records, most are infexp2_medium and BN_medium",0.0
+86,"Among all trans_high records, most are infexp2_medium and BN_high",0.0
+87,"Among all trans_low records, most are infexp2_high and BN_low",0.0
+88,"Among all trans_low records, most are infexp2_high and BN_medium",0.0
+89,"Among all trans_low records, most are infexp2_high and BN_high",0.0
+90,"Among all trans_medium records, most are infexp2_high and BN_low",0.0
+91,"Among all trans_medium records, most are infexp2_high and BN_medium",0.0
+92,"Among all trans_medium records, most are infexp2_high and BN_high",0.0
+93,"Among all trans_high records, most are infexp2_high and BN_low",0.0
+94,"Among all trans_high records, most are infexp2_high and BN_medium",0.0
+95,"Among all trans_high records, most are infexp2_high and BN_high",0.0
+96,,0.0
+97,,0.0
+98,,0.0
+99,,0.0
+100,,0.0
+101,,0.0
+102,,0.0
+103,,0.0
+104,,0.0
+105,,0.0
+106,,0.0
+107,,0.0
+108,,0.0
+109,,0.0
+110,,0.0
+111,,0.0
+112,,0.0
+113,,0.0
+114,,0.0
+115,,0.0
+116,,0.0
+117,,0.0
+118,,0.0
+119,,0.0
+0,"Among all records, minority are infexp2_low",0.7813193984262597
+1,"Among all records, minority are trans_low",0.5162473794549266
+2,"Among all records, minority are BN_low",0.5850537947241413
+3,"Among all records, minority are BN_low and infexp2_low",1.0
+4,"Among all records, minority are trans_low and infexp2_low",1.0
+5,"Among all records, minority are infexp2_medium",1.0
+6,"Among all records, minority are trans_medium",1.0
+7,"Among all records, minority are BN_medium",1.0
+8,"Among all records, minority are BN_medium and infexp2_medium",1.0
+9,"Among all records, minority are trans_medium and infexp2_medium",1.0
+10,"Among all records, minority are infexp2_high",0.0
+11,"Among all records, minority are trans_high",0.6865828092243187
+12,"Among all records, minority are BN_high",0.6624848513268872
+13,"Among all records, minority are BN_high and infexp2_high",1.0
+14,"Among all records, minority are trans_high and infexp2_high",1.0
+15,"Among all trans_low records, minority are infexp2_low",0.47515563070938766
+16,"Among all trans_low records, minority are infexp2_medium",1.0
+17,"Among all trans_low records, minority are infexp2_high",0.2686515041424084
+18,"Among all trans_low records, minority are BN_low",0.5282778306591043
+19,"Among all trans_low records, minority are BN_medium",1.0
+20,"Among all trans_low records, minority are BN_high",0.6280012055326676
+21,"Among all trans_medium records, minority are infexp2_low",0.802433509450045
+22,"Among all trans_medium records, minority are infexp2_medium",1.0
+23,"Among all trans_medium records, minority are infexp2_high",0.0
+24,"Among all trans_medium records, minority are BN_low",0.4293770845932665
+25,"Among all trans_medium records, minority are BN_medium",1.0
+26,"Among all trans_medium records, minority are BN_high",0.7908148729441741
+27,"Among all trans_high records, minority are infexp2_low",0.9729222865018513
+28,"Among all trans_high records, minority are infexp2_medium",1.0
+29,"Among all trans_high records, minority are infexp2_high",0.0
+30,"Among all trans_high records, minority are BN_low",0.6500130548970693
+31,"Among all trans_high records, minority are BN_medium",1.0
+32,"Among all trans_high records, minority are BN_high",0.6518482000264894
+33,"Among all infexp2_low records, minority are trans_low",0.16286398991287643
+34,"Among all infexp2_low records, minority are trans_medium",1.0
+35,"Among all infexp2_low records, minority are trans_high",0.8887471734001825
+36,"Among all infexp2_low records, minority are BN_low",0.43379892879489235
+37,"Among all infexp2_low records, minority are BN_medium",1.0
+38,"Among all infexp2_low records, minority are BN_high",0.5954468214869602
+39,"Among all infexp2_medium records, minority are trans_low",0.40835708392424813
+40,"Among all infexp2_medium records, minority are trans_medium",1.0
+41,"Among all infexp2_medium records, minority are trans_high",0.5118573994139455
+42,"Among all infexp2_medium records, minority are BN_low",0.9480793814279722
+43,"Among all infexp2_medium records, minority are BN_medium",0.8689664239724795
+44,"Among all infexp2_medium records, minority are BN_high",0.0
+45,"Among all infexp2_high records, minority are trans_low",0.7714323534418429
+46,"Among all infexp2_high records, minority are trans_medium",1.0
+47,"Among all infexp2_high records, minority are trans_high",0.6000632766372807
+48,"Among all infexp2_high records, minority are BN_low",0.4809856218004521
+49,"Among all infexp2_high records, minority are BN_medium",1.0
+50,"Among all infexp2_high records, minority are BN_high",0.7963365305654879
+51,"Among all BN_low records, minority are trans_low",0.45743138389970683
+52,"Among all BN_low records, minority are trans_medium",1.0
+53,"Among all BN_low records, minority are trans_high",0.7480979780437413
+54,"Among all BN_low records, minority are infexp2_low",0.6455668622714448
+55,"Among all BN_low records, minority are infexp2_medium",1.0
+56,"Among all BN_low records, minority are infexp2_high",0.0
+57,"Among all BN_medium records, minority are trans_low",0.63642833687406
+58,"Among all BN_medium records, minority are trans_medium",1.0
+59,"Among all BN_medium records, minority are trans_high",0.5996359781415441
+60,"Among all BN_medium records, minority are infexp2_low",0.8836520798322353
+61,"Among all BN_medium records, minority are infexp2_medium",1.0
+62,"Among all BN_medium records, minority are infexp2_high",0.0
+63,"Among all BN_high records, minority are trans_low",0.4790193746901067
+64,"Among all BN_high records, minority are trans_medium",1.0
+65,"Among all BN_high records, minority are trans_high",0.6760856515087175
+66,"Among all BN_high records, minority are infexp2_low",0.7186168070833785
+67,"Among all BN_high records, minority are infexp2_medium",1.0
+68,"Among all BN_high records, minority are infexp2_high",0.12577747541065804
+69,"Among all trans_low records, minority are infexp2_low and BN_low",1.0
+70,"Among all trans_low records, minority are infexp2_low and BN_medium",1.0
+71,"Among all trans_low records, minority are infexp2_low and BN_high",1.0
+72,"Among all trans_medium records, minority are infexp2_low and BN_low",1.0
+73,"Among all trans_medium records, minority are infexp2_low and BN_medium",1.0
+74,"Among all trans_medium records, minority are infexp2_low and BN_high",1.0
+75,"Among all trans_high records, minority are infexp2_low and BN_low",1.0
+76,"Among all trans_high records, minority are infexp2_low and BN_medium",1.0
+77,"Among all trans_high records, minority are infexp2_low and BN_high",1.0
+78,"Among all trans_low records, minority are infexp2_medium and BN_low",1.0
+79,"Among all trans_low records, minority are infexp2_medium and BN_medium",1.0
+80,"Among all trans_low records, minority are infexp2_medium and BN_high",1.0
+81,"Among all trans_medium records, minority are infexp2_medium and BN_low",1.0
+82,"Among all trans_medium records, minority are infexp2_medium and BN_medium",1.0
+83,"Among all trans_medium records, minority are infexp2_medium and BN_high",1.0
+84,"Among all trans_high records, minority are infexp2_medium and BN_low",1.0
+85,"Among all trans_high records, minority are infexp2_medium and BN_medium",1.0
+86,"Among all trans_high records, minority are infexp2_medium and BN_high",1.0
+87,"Among all trans_low records, minority are infexp2_high and BN_low",1.0
+88,"Among all trans_low records, minority are infexp2_high and BN_medium",1.0
+89,"Among all trans_low records, minority are infexp2_high and BN_high",1.0
+90,"Among all trans_medium records, minority are infexp2_high and BN_low",1.0
+91,"Among all trans_medium records, minority are infexp2_high and BN_medium",1.0
+92,"Among all trans_medium records, minority are infexp2_high and BN_high",1.0
+93,"Among all trans_high records, minority are infexp2_high and BN_low",1.0
+94,"Among all trans_high records, minority are infexp2_high and BN_medium",1.0
+95,"Among all trans_high records, minority are infexp2_high and BN_high",1.0
+96,,0.0
+97,,0.0
+98,,0.0
+99,,0.0
+100,,0.0
+101,,0.0
+102,,0.0
+103,,0.0
+104,,0.0
+105,,0.0
+106,,0.0
+107,,0.0
+108,,0.0
+109,,0.0
+110,,0.0
+111,,0.0
+112,,0.0
+113,,0.0
+114,,0.0
+115,,0.0
+116,,0.0
+117,,0.0
+118,,0.0
+119,,0.0

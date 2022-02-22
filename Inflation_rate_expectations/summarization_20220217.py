@@ -80,7 +80,7 @@ def stopnie(data, var_name, plot=False, na_omit=True, expert=False, printout=Fal
     result = pd.DataFrame(np.zeros(len(column)*3).reshape(-1,3))
     result.columns = [var_name + "_low", var_name + "_medium", var_name + "_high"]
     
-    #for i in range(100):
+    #for i in range(1):
     for i in range(len(column)):
         result.loc[i,] = regula(data, var_name, column[i], 0, 0, plot, na_omit, expert)
         if printout==True:
@@ -295,7 +295,7 @@ data = pd.read_csv(TempDataDir, sep=';')#[0:100]
 
 countries=['czechia','hungary','poland','uk','sweden','romania']
 
-country=True
+country=False
 #country=False
 country_id=2
 if country:    
@@ -309,13 +309,13 @@ data=data[['country', 'date', 'trans', 'ABG','infexp','infrate',
                'infexp0','infexp1','infexp2',
        'infexp0spread','infexp1spread','infexp2spread','BN']].dropna().reset_index()
 
-data['ABG']=1000*data['ABG']
-#data['ABG']=1000*data['BN']
+#data['ABG']=1000*data['ABG']
+data['BN']=1000*data['BN']
 data.columns
 d_stat = data[['country', 'date', 'trans', 'ABG','infexp','infrate']].groupby('country')
     
 #select data to summarization
-var = ['trans', 'ABG', 'infexp',
+var = ['trans', 'BN', 'infexp',
                           'infexp0','infexp1','infexp2',
        'infexp0spread','infexp1spread','infexp2spread']
 data2 = data[var]
@@ -358,9 +358,9 @@ for fcst_no in range(3):
     
 dane3_full.head
 
-dane3_full.to_csv("data_with_liguistic_variables_membership_functions_evolving_inf_exp"+str(country)+countries[country_id]+".csv")
+dane3_full.to_csv("data_with_liguistic_variables_membership_functions_20220222_evolving_inf_exp"+str(country)+countries[country_id]+".csv")
 
-var_names=['trans','infexp','ABG']
+var_names=['trans','infexp','BN']
 df_protoform = all_protoform(dane3_full, var_names, Q = 'wiekszosc', desc = 'most')
 #df_protoform.head    
 df_protoform_all = df_protoform.copy()
@@ -370,13 +370,13 @@ df_protoform_all = df_protoform_all.append(df_protoform)
 #df_protoform.to_csv("Protoforms_20220221.csv")
 
 for fcst_no in range(3):
-        var_names=['trans','infexp'+str(fcst_no),'ABG']
+        var_names=['trans','infexp'+str(fcst_no),'BN']
         df_protoform = all_protoform(dane3_full, var_names, Q = 'wiekszosc', desc = 'most')
         df_protoform_all = df_protoform_all.append(df_protoform)
         df_protoform = all_protoform(dane3_full, var_names, Q = 'mniejszosc', desc = 'minority')
         df_protoform_all = df_protoform_all.append(df_protoform)
         
-df_protoform_all.to_csv("Protoforms_20220221"+str(country)+countries[country_id]+"BN.csv")
+df_protoform_all.to_csv("Protoforms_20220222_"+str(country)+countries[country_id]+"BN.csv")
 
 #df_protoform_m = all_protoform(df, Q = 'mniejszosc', desc = 'minority')
    
