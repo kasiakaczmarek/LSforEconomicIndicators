@@ -3,6 +3,7 @@
 Created on Mon Sep 30 14:15:29 2019
 
 @author: k
+@edit: ola (add reading memebership values from survey data)
 """
 
 import skfuzzy as fuzz
@@ -19,28 +20,33 @@ from copy import deepcopy
 import warnings
 #from openpyxl.workbook import Workbook
 
-#function definition
+
+
+survey_file = 'data/consumer_subsectors_nsa_q5_nace2 (1).xlsx'
+
 def regula(data, var_name, value, central=0, spread=0, plot=False, na_omit=False, 
            expert = False,mina=0,maxa=0,use_central_and_spread=False):
-    d = deepcopy(data)
     
+    
+    d = deepcopy(data)
+        
     if na_omit:
         d = d.loc[~d[var_name].isna()]
     else:
         d = d.fillna(0)
-        
+            
     d = d[var_name]
-    
+        
     max_for_universe = np.max(d)
     max_for_universe = np.max([max_for_universe,maxa])
-      
+        
     min_for_universe = np.min(d)
     min_for_universe = np.min([min_for_universe,mina])
-    
+        
     universe = np.arange(min_for_universe, max_for_universe, 0.001)
-    
+        
     reg_name = var_name 
-    
+        
     reg = ctrl.Consequent(universe, reg_name)
 
     if use_central_and_spread:
@@ -52,11 +58,11 @@ def regula(data, var_name, value, central=0, spread=0, plot=False, na_omit=False
         median_quartile = np.percentile(d, 50)
         third_quartile = np.percentile(d, 75)
         
-   #quartiles based fuzzification
+    #quartiles based fuzzification
     low = fuzz.trapmf(reg.universe, [min_for_universe, min_for_universe, first_quartile, median_quartile])
     medium = fuzz.trimf(reg.universe, [first_quartile, median_quartile, third_quartile])
     high = fuzz.trapmf(reg.universe, [median_quartile, third_quartile, max_for_universe, max_for_universe])
-     
+    
     if plot:     
         fig, (ax0) = plt.subplots(nrows=1, figsize=(5, 3))
         ax0.plot(universe, low, 'b', linewidth=2, label='low')
@@ -75,21 +81,21 @@ def regula(data, var_name, value, central=0, spread=0, plot=False, na_omit=False
             )
 
 #Test stopnie    
-def stopnie(data, var_name, plot=False, na_omit=True, expert=False, printout=False):
+def stopnie(data, var_name, plot=False, na_omit=True, expert=False, survey=False, printout=False):
     column = data[var_name]
     result = pd.DataFrame(np.zeros(len(column)*3).reshape(-1,3))
     result.columns = [var_name + "_low", var_name + "_medium", var_name + "_high"]
     
     #for i in range(1):
     for i in range(len(column)):
-        result.loc[i,] = regula(data, var_name, column[i], 0, 0, plot, na_omit, expert)
+        result.loc[i,] = regula(data, var_name, column[i], 0, 0, plot, na_omit, expert, survey)
         if printout==True:
             print(str(result.loc[i,]))
             print(str(column[i]))
 
     return result
 
-def evolving_linguistic_terms(data, var_name, suffix,central_name, spread_name, plot=False, na_omit=True, printout=False):
+def evolving_linguistic_terms(data, var_name, suffix,central_name, spread_name, plot=False, na_omit=True, printout=False, survey=False, survey_data=pd.DataFrame()):
     column = data[var_name]
     column_central = data[central_name]
     column_spread = data[spread_name]
@@ -99,12 +105,22 @@ def evolving_linguistic_terms(data, var_name, suffix,central_name, spread_name, 
     
     for i in range(len(column)):
     #for i in range(100):
-        result.loc[i,] = regula(data, var_name, column[i], column_central[i], column_spread[i], 
-                  plot, na_omit, expert,mina=np.min(data[var_name + suffix]),
-                  maxa=np.max(data[var_name + suffix]), use_central_and_spread=True)
-        if printout==True:
-            print(str(result.loc[i,]))
-            print(str(column[i]))
+        if(survey):
+            if i == 0:
+                result.iloc[i,] = survey_data.iloc['PP']
+            elif i == 1:
+                result.iloc[i,] = survey_data.iloc['PP']
+            elif i == 3:
+                result.iloc[i,] = survey_data.iloc['PP']
+                 
+        else:
+            result.loc[i,] = regula(data, var_name, column[i], column_central[i], column_spread[i], 
+                    plot, na_omit, expert,mina=np.min(data[var_name + suffix]),
+                    maxa=np.max(data[var_name + suffix]), use_central_and_spread=True)
+            if printout==True:
+                print(str(result.loc[i,]))
+                print(str(column[i]))
+        
     return result
 
 def kwantyfikator(x):
@@ -172,13 +188,27 @@ def t_norm(a, b, ntype):
 def Degree_of_support(d, Q = "wiekszosc", P = "", P2 = ""):
     #DoS = = np.mean(d[P][d[P] > 0])
     DoS = sum(d[P]>0)/ len(d)
+    
     return DoS
+
+def Degree_of_support2(d, Q = "wiekszosc", P = "", P2 = ""):
+    #DoS = = np.mean(d[P][d[P] > 0])
+    DoS2 = len(d[d[P]>0])/ len(d)
+    
+    return DoS2
 
 def Degree_of_support_ext(d, Q = "wiekszosc", P = "", R = "", P2=""): 
     p = np.fmin(d[P], d[R])
     ###########tutaj zmieniamy t-norme!!!!#######
     #p = np.fmax(0,(d[P]+d[R]-1))
     DoS = sum(p>0)/ len(d)
+    return DoS
+
+def Degree_of_support_ext2(d, Q = "wiekszosc", P = "", R = "", P2=""): 
+    p = np.fmin(d[P], d[R])
+    ###########tutaj zmieniamy t-norme!!!!#######
+    #p = np.fmax(0,(d[P]+d[R]-1))
+    DoS = len(p[p>0])/ len(d)
     return DoS
 
 def all_protoform(d, var_names, Q = "wiekszosc", desc = 'most'):
@@ -191,30 +221,40 @@ def all_protoform(d, var_names, Q = "wiekszosc", desc = 'most'):
     qq = [var_names[1] + "_low", var_names[1] + "_medium", var_names[1] + "_high"]
     zz = [var_names[2] + "_low", var_names[2] + "_medium", var_names[2] + "_high"]
     
-    protoform = np.empty(120, dtype = "object")
-    DoT = np.zeros(120)
-    DoS = np.zeros(120)
+    protoform = np.empty(300, dtype = "object")
+    DoT = np.zeros(300)
+    DoS = np.zeros(300)
+    DoS2 = np.zeros(300)
+
     k = 0
     for i in range(len(pp)):
         print(i)
         DoT[k] = Degree_of_truth(d = d, Q = Q, P = qq[i])
         DoS[k] = Degree_of_support(d = d, Q = Q, P = qq[i])
+        DoS2[k] = Degree_of_support2(d = d, Q = Q, P = qq[i])
+
         protoform[k] = "Among all records, "+ desc + " are " + qq[i]
         k += 1
         DoT[k] = Degree_of_truth(d = d, Q = Q, P = pp[i])
         DoS[k] = Degree_of_support(d = d, Q = Q, P = pp[i])
+        DoS2[k] = Degree_of_support2(d = d, Q = Q, P = pp[i])
+        
         protoform[k] = "Among all records, "+ desc + " are " + pp[i]
         k += 1
         DoT[k] = Degree_of_truth(d = d, Q = Q, P = zz[i])
         DoS[k] = Degree_of_support(d = d, Q = Q, P = zz[i])
+        DoS2[k] = Degree_of_support2(d = d, Q = Q, P = zz[i])
         protoform[k] =  "Among all records, "+ desc + " are " + zz[i]
         k += 1
+        
         DoT[k] = Degree_of_truth(d = d, Q = Q, P = zz[i], P2 = qq[i])
         DoS[k] = Degree_of_support(d = d, Q = Q, P = zz[i], P2 = qq[i])
+        DoS2[k] = Degree_of_support2(d = d, Q = Q, P = zz[i], P2 = qq[i])
         protoform[k] =  "Among all records, "+ desc + " are " + zz[i] + " and " + qq[i]
         k += 1
         DoT[k] = Degree_of_truth(d = d, Q = Q, P = pp[i], P2 = qq[i])
         DoS[k] = Degree_of_support(d = d, Q = Q, P = pp[i], P2 = qq[i])
+        DoS2[k] = Degree_of_support2(d = d, Q = Q, P = pp[i], P2 = qq[i])
         protoform[k] =  "Among all records, "+ desc + " are " + pp[i] + " and " + qq[i]
         k += 1
 
@@ -222,11 +262,13 @@ def all_protoform(d, var_names, Q = "wiekszosc", desc = 'most'):
         for j in range(len(qq)):
             DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = qq[j], R = pp[i])
             DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = qq[j], R = pp[i])
+            DoS2[k] = Degree_of_support_ext2(d = d, Q = Q, P = qq[j], R = pp[i])
             protoform[k] = "Among all "+ pp[i] + " records, " + desc + " are " + qq[j]
             k += 1
         for j in range(3):
             DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = zz[j], R = pp[i])
             DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = zz[j], R = pp[i])
+            DoS2[k] = Degree_of_support_ext2(d = d, Q = Q, P = zz[j], R = pp[i])
             protoform[k] = "Among all "+ pp[i] + " records, " + desc + " are " + zz[j]
             k += 1
 
@@ -234,11 +276,15 @@ def all_protoform(d, var_names, Q = "wiekszosc", desc = 'most'):
         for j in range(3):
             DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = pp[j], R = qq[i])
             DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = pp[j], R = qq[i])
+            DoS2[k] = Degree_of_support_ext2(d = d, Q = Q, P = pp[j], R = qq[i])
+
             protoform[k] = "Among all " + qq[i] + " records, " + desc + " are " + pp[j]
             k += 1
         for j in range(3):
             DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = zz[j], R = qq[i])
             DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = zz[j], R = qq[i])
+            DoS2[k] = Degree_of_support_ext2(d = d, Q = Q, P = zz[j], R = qq[i])
+
             protoform[k] = "Among all " + qq[i] + " records, " + desc + " are " + zz[j]
             k += 1
 
@@ -246,11 +292,15 @@ def all_protoform(d, var_names, Q = "wiekszosc", desc = 'most'):
         for j in range(3):
             DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = pp[j], R = zz[i])
             DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = pp[j], R = zz[i])
+            DoS2[k] = Degree_of_support_ext2(d = d, Q = Q, P = pp[j], R = zz[i])
+
             protoform[k] = "Among all "+ zz[i] + " records, " + desc + " are " + pp[j]
             k += 1
         for j in range(3):
             DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = qq[j], R = zz[i])
             DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = qq[j], R = zz[i])
+            DoS2[k] = Degree_of_support_ext2(d = d, Q = Q, P = qq[j], R = zz[i])
+
             protoform[k] = "Among all "+ zz[i] + " records, " + desc + " are " + qq[j]
             k += 1
 
@@ -259,10 +309,12 @@ def all_protoform(d, var_names, Q = "wiekszosc", desc = 'most'):
             for l in range(3):
                 DoT[k] = Degree_of_truth_ext(d = d, Q = Q, P = pp[j], R = qq[i], P2 = zz[l])
                 DoS[k] = Degree_of_support_ext(d = d, Q = Q, P = pp[j], R = qq[i], P2 = zz[l])
+                DoS2[k] = Degree_of_support_ext2(d = d, Q = Q, P = pp[j], R = qq[i], P2 = zz[l])
+
                 protoform[k] = "Among all "+ pp[j] + " records, " + desc + " are " + qq[i] + " and " + zz[l]
                 if pp[j]=='trans_high':
                     print(protoform[k])
-                    print("DoT "+ str(DoT[k]) + " DoS " + str(DoS[k]))
+                    print("DoT "+ str(DoT[k]) + " DoS " + str(DoS[k])+ " DoS2 " + str(DoS2[k]))
                     print(" ")
                 k += 1    
         #p q z
@@ -271,53 +323,47 @@ def all_protoform(d, var_names, Q = "wiekszosc", desc = 'most'):
             
     dd = {"protoform": protoform,
             "DoT": DoT,
-            'DoS': DoS}
+            'DoS': DoS,
+            'DoS2': DoS2}
     dd = pd.DataFrame(dd)   
-    return dd[['protoform', "DoT"]]
+    return dd[['protoform', "DoT","DoS","DoS2"]]
 
 
 ######################################################################
 #calculation flow
 ######################################################################
 
-TempDataDir = r'C:/Users/Kasia/Documents/GitHub/LSforEconomicIndicators/Inflation_rate_expectations/preprocessed_data/data_with_fcsts.csv'
-ResultsDir = r'C:/Users/Kasia/Documents/GitHub/LSforEconomicIndicators/Inflation_rate_expectations/'
+TempDataDir = r'preprocessed_data/data_with_fcsts-update2022.csv'
+ResultsDir = r'results/'
+
 relative_LS = True #if relative LS is True, patient_no must be provided
-#relative_LS = False #if relative LS is True, patient_no must be provided
-
-
 
 #dictionary with expert opinion about
 
 expert = False
+survey = False
 
-data = pd.read_csv(TempDataDir, sep=';')#[0:100]
+data = pd.read_csv(TempDataDir, sep=',')
 
-countries=['czechia','hungary','poland','uk','sweden','romania']
+countries=['czechia','hungary', 'iceland', 'norway', 'poland', 'sweden','uk','albania','georgia',
+           'romania','serbia','turkey','kazahstan','moldavia','russia']
+countries_code=['czechia','hungary', 'iceland', 'norway', 'poland', 'sweden','uk','albania','georgia',
+           'romania','serbia','turkey','kazahstan','moldavia','russia']
+fcsts=['inf0','inf1','inf2',
+       'inf_spread0','inf_spread1','inf_spread2']
 
-country=False
-#country=False
-country_id=2
-if country:    
-    data_country = data[data['country']==countries[country_id]]
-    data = data_country.copy()
-
-fcsts=['infexp0','infexp1','infexp2',
-       'infexp0spread','infexp1spread','infexp2spread']
-
-data=data[['country', 'date', 'trans', 'ABG','infexp','infrate',
-               'infexp0','infexp1','infexp2',
-       'infexp0spread','infexp1spread','infexp2spread','BN']].dropna().reset_index()
+data=data[['country', 'date_label', 'IT_years', 'BN','inf',
+               'inf0','inf1','inf2',
+       'inf_spread0','inf_spread1','inf_spread2']].dropna().reset_index()
 
 #data['ABG']=1000*data['ABG']
 data['BN']=1000*data['BN']
 data.columns
-d_stat = data[['country', 'date', 'trans', 'ABG','infexp','infrate']].groupby('country')
+d_stat = data[['country', 'date_label', 'IT_years', 'BN','inf']].groupby('country')
     
 #select data to summarization
-var = ['trans', 'BN', 'infexp',
-                          'infexp0','infexp1','infexp2',
-       'infexp0spread','infexp1spread','infexp2spread']
+var = ['IT_years', 'BN', 'inf','inf0','inf1','inf2',
+       'inf_spread0','inf_spread1','inf_spread2']
 data2 = data[var]
 data2.columns = var
     
@@ -328,13 +374,7 @@ for zmienna in var:
         sns.boxplot(x="country", y=zmienna, data = data.loc[:,["country",zmienna]])
         fig.savefig("Stats_"+str(zmienna)+".png")
 
-#fig=plt.figure(figsize=(15,8))
-#sns.pairplot(x="country", y=zmienna, data = data.loc[:,["country",zmienna]])
-#fig.savefig("Pairplot_"+str(zmienna)+".png")       
-#sns.pairplot(df, hue='species', size=2.5)
-#sns_plot.savefig("output.png")
-      
-#
+
 plot=False
  
 data3 = data2.copy()
@@ -344,44 +384,54 @@ data5 = data2.copy()
 printout=False
 dane3_full = data3.copy()
 for name in var[0:3]:
-        temp = stopnie(data4, name, plot,expert=expert, printout=printout)
+        temp = stopnie(data4, name, plot,expert=expert, survey=survey, printout=printout)
         dane3_full = pd.concat([dane3_full, temp], axis=1)
 
 plot=False
 
-for fcst_no in range(3):
+for fcst_no in range(4):
         #fcst_no=0 #0,1,2
+    if not(fcst_no==3):
         central_name=fcsts[fcst_no]
         spread_name=fcsts[fcst_no+3]
-        temp = evolving_linguistic_terms(data4, 'infexp',str(fcst_no),central_name,spread_name, plot, printout=printout)
+        temp = evolving_linguistic_terms(data4, 'inf',str(fcst_no),central_name,spread_name, plot, printout=printout)
         dane3_full = pd.concat([dane3_full, temp], axis=1)
-    
+    else:
+        central_name='survey'
+        spread_name='survey'
+        survey_data = pd.read_csv(survey_file, sep=',')
+        temp = evolving_linguistic_terms(data4, 'inf',str(fcst_no),central_name,spread_name, plot, printout=printout, survey = True)
+        dane3_full = pd.concat([dane3_full, temp], axis=1)
 dane3_full.head
 
-dane3_full.to_csv("data_with_liguistic_variables_membership_functions_20220222_evolving_inf_exp"+str(country)+countries[country_id]+".csv")
+dane3_full.to_csv("data_with_liguistic_variables_membership_functions_20230429_evolving_inf.csv")
 
-var_names=['trans','infexp','BN']
+var_names=['IT_years','inf','BN']
 df_protoform = all_protoform(dane3_full, var_names, Q = 'wiekszosc', desc = 'most')
 #df_protoform.head    
 df_protoform_all = df_protoform.copy()
 df_protoform = all_protoform(dane3_full, var_names, Q = 'mniejszosc', desc = 'minority')
 df_protoform_all = df_protoform_all.append(df_protoform)
         
-#df_protoform.to_csv("Protoforms_20220221.csv")
 
-for fcst_no in range(3):
-        var_names=['trans','infexp'+str(fcst_no),'BN']
+for fcst_no in range(4):
+    if fcst_no == 3:
+        print(fcst_no)
+        #get membership bazed on survey
+    else:
+        var_names=['IT_years','inf'+str(fcst_no),'BN']
         df_protoform = all_protoform(dane3_full, var_names, Q = 'wiekszosc', desc = 'most')
         df_protoform_all = df_protoform_all.append(df_protoform)
         df_protoform = all_protoform(dane3_full, var_names, Q = 'mniejszosc', desc = 'minority')
         df_protoform_all = df_protoform_all.append(df_protoform)
         
-df_protoform_all.to_csv("Protoforms_20220222_"+str(country)+countries[country_id]+"BN.csv")
+df_protoform_all.to_csv("Protoforms_20230429_BN_inf_it_years.csv")
 
 #df_protoform_m = all_protoform(df, Q = 'mniejszosc', desc = 'minority')
    
 #dane3_full['trans_low']
     
 # 40 najbardzien prawdziwych podsumowan lingwistycznych 
-#df_protoform.sort('DoT', ascending = False).head(n = 40)
-    
+print(df_protoform.sort_values(by='DoT', ascending=False).head(n = 40))
+print(df_protoform.sort_values(by='DoS', ascending=False).head(n = 40))
+
