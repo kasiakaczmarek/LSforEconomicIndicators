@@ -21,8 +21,47 @@ import warnings
 #from openpyxl.workbook import Workbook
 
 
+def prepare_survey_data(country, data):
+    """_summary_
 
-survey_file = 'data/consumer_subsectors_nsa_q5_nace2 (1).xlsx'
+    Args:
+        country (_type_): _description_
+        data (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
+    survey_file = 'preprocessed_data/consumer_subsectors_nsa_q5_nace2 (1).csv'
+    survey_data = pd.read_csv(survey_file, sep=',')
+    print(survey_data.head())
+    results = pd.DataFrame()
+    sd = pd.DataFrame()
+
+    for c in country.country_code:
+        d = data[data.country == country.loc[country.country_code==c].country.values[0]]
+        datetimeframe = pd.to_datetime(d['date_label'], format='%d/%m/%Y')
+        sd['date_label'] = pd.to_datetime(survey_data['date'], format='%d/%m/%Y')
+        sd['year'] = pd.DatetimeIndex(sd['date_label']).year
+        sd['month'] = pd.DatetimeIndex(sd['date_label']).month
+
+        sd['country'] = np.nan
+        
+        colname = "CONS."+c+".TOT.5.PP.M"
+        sd["high"]=survey_data[colname]
+        
+        colname = "CONS."+c+".TOT.5.P.M"
+        sd["medium"]=survey_data[colname]
+        
+        colname = "CONS."+c+".TOT.5.E.M"
+        sd["small"]=survey_data[colname]
+        sd = sd.loc[sd.date_label>=np.min(datetimeframe)]
+        sd = sd.loc[sd.date_label<=np.max(datetimeframe)]
+        sd['country'] = sd.country.fillna(country.loc[country.country_code==c].country.values[0])
+
+        results = pd.concat([results,sd],axis=0)
+
+
+    return results
 
 def regula(data, var_name, value, central=0, spread=0, plot=False, na_omit=False, 
            expert = False,mina=0,maxa=0,use_central_and_spread=False):
@@ -82,16 +121,23 @@ def regula(data, var_name, value, central=0, spread=0, plot=False, na_omit=False
 
 #Test stopnie    
 def stopnie(data, var_name, plot=False, na_omit=True, expert=False, survey=False, printout=False):
-    column = data[var_name]
-    result = pd.DataFrame(np.zeros(len(column)*3).reshape(-1,3))
-    result.columns = [var_name + "_low", var_name + "_medium", var_name + "_high"]
     
-    #for i in range(1):
-    for i in range(len(column)):
-        result.loc[i,] = regula(data, var_name, column[i], 0, 0, plot, na_omit, expert, survey)
-        if printout==True:
-            print(str(result.loc[i,]))
-            print(str(column[i]))
+    if not(survey):
+        column = data[var_name]
+        result = pd.DataFrame(np.zeros(len(column)*3).reshape(-1,3))
+        result.columns = [var_name + "_low", var_name + "_medium", var_name + "_high"]
+        
+        #for i in range(1):
+        for i in range(len(column)):
+            result.loc[i,] = regula(data, var_name, column.iloc[i], 0, 0, plot, na_omit, expert, survey)
+            if printout==True:
+                print(str(result.loc[i,]))
+                print(str(column[i]))
+    
+    else:
+        result= pd.DataFrame(data={'survey_high': survey_data['high'],
+                                   'survey_medium': survey_data['medium'],
+                                    'survey_low': survey_data['small']})
 
     return result
 
@@ -105,21 +151,12 @@ def evolving_linguistic_terms(data, var_name, suffix,central_name, spread_name, 
     
     for i in range(len(column)):
     #for i in range(100):
-        if(survey):
-            if i == 0:
-                result.iloc[i,] = survey_data.iloc['PP']
-            elif i == 1:
-                result.iloc[i,] = survey_data.iloc['PP']
-            elif i == 3:
-                result.iloc[i,] = survey_data.iloc['PP']
-                 
-        else:
-            result.loc[i,] = regula(data, var_name, column[i], column_central[i], column_spread[i], 
-                    plot, na_omit, expert,mina=np.min(data[var_name + suffix]),
-                    maxa=np.max(data[var_name + suffix]), use_central_and_spread=True)
-            if printout==True:
-                print(str(result.loc[i,]))
-                print(str(column[i]))
+        result.loc[i,] = regula(data, var_name, column[i], column_central[i], column_spread[i], 
+            plot, na_omit, expert,mina=np.min(data[var_name + suffix]),
+            maxa=np.max(data[var_name + suffix]), use_central_and_spread=True)
+        if printout==True:
+            print(str(result.loc[i,]))
+            print(str(column[i]))
         
     return result
 
@@ -344,23 +381,36 @@ expert = False
 survey = False
 
 data = pd.read_csv(TempDataDir, sep=',')
+data.dropna(axis = 0, how = 'all', inplace = True)
+data.dropna(axis = 1, how = 'all', inplace = True)
 
-countries=['czechia','hungary', 'iceland', 'norway', 'poland', 'sweden','uk','albania','georgia',
-           'romania','serbia','turkey','kazahstan','moldavia','russia']
-countries_code=['czechia','hungary', 'iceland', 'norway', 'poland', 'sweden','uk','albania','georgia',
-           'romania','serbia','turkey','kazahstan','moldavia','russia']
+countries=pd.DataFrame(data = {"country":['czechia', 'hungary', 'poland', 'sweden',	'uk', 'albania', 'romania', 'serbia', 'turkey'],
+                                "country_code": ['CZ', 'HU', 'PL', 'SE', 'UK', 'AL', 'RO', 'RS', 'TR']})    
+print(data.head())
+
+data = data.loc[data.country.isin(countries.country)]
+data.date_label = pd.to_datetime(data['date_label'], format='%d/%m/%Y') 
+data['year'] = pd.DatetimeIndex(data['date_label']).year
+data['month'] = pd.DatetimeIndex(data['date_label']).month
+#read survey data
+survey_data = prepare_survey_data(countries, data) 
+
+data = pd.merge(survey_data, data, on=["country", "year","month"], how = 'inner')
+data.head()
+data.shape
+
 fcsts=['inf0','inf1','inf2',
        'inf_spread0','inf_spread1','inf_spread2']
 
-data=data[['country', 'date_label', 'IT_years', 'BN','inf',
+data=data[['country', 'date_label_x', 'IT_years', 'BN','inf',
                'inf0','inf1','inf2',
        'inf_spread0','inf_spread1','inf_spread2']].dropna().reset_index()
 
 #data['ABG']=1000*data['ABG']
 data['BN']=1000*data['BN']
 data.columns
-d_stat = data[['country', 'date_label', 'IT_years', 'BN','inf']].groupby('country')
-    
+d_stat = data[['country', 'date_label_x', 'IT_years', 'BN','inf']].groupby('country')
+print(d_stat) 
 #select data to summarization
 var = ['IT_years', 'BN', 'inf','inf0','inf1','inf2',
        'inf_spread0','inf_spread1','inf_spread2']
@@ -372,6 +422,8 @@ data2.agg(lambda x: np.mean(x.isna())).reset_index().rename(columns={'index': 'c
 for zmienna in var:
         fig=plt.figure(figsize=(15,8))
         sns.boxplot(x="country", y=zmienna, data = data.loc[:,["country",zmienna]])
+        #fig.set_xlabel('country')
+        #fig.set_ylabel=str(zmienna)
         fig.savefig("Stats_"+str(zmienna)+".png")
 
 
@@ -380,13 +432,19 @@ plot=False
 data3 = data2.copy()
 data4 = data2.copy()
 data5 = data2.copy()
-
+#data4 = data4.dropna(how='any', inplace=True)
+print(data4.head())
 printout=False
 dane3_full = data3.copy()
 for name in var[0:3]:
-        temp = stopnie(data4, name, plot,expert=expert, survey=survey, printout=printout)
-        dane3_full = pd.concat([dane3_full, temp], axis=1)
+    temp = stopnie(data4, name, plot,expert=expert, printout=printout)
+    dane3_full = pd.concat([dane3_full, temp], axis=1)
 
+name='survey'
+temp = stopnie(survey_data, name, plot,expert=expert,survey=True, printout=printout)
+temp.reset_index(drop=True, inplace=True)
+dane3_full = pd.concat([dane3_full, temp], axis=1)
+dane3_full.head()
 plot=False
 
 for fcst_no in range(4):
@@ -396,15 +454,10 @@ for fcst_no in range(4):
         spread_name=fcsts[fcst_no+3]
         temp = evolving_linguistic_terms(data4, 'inf',str(fcst_no),central_name,spread_name, plot, printout=printout)
         dane3_full = pd.concat([dane3_full, temp], axis=1)
-    else:
-        central_name='survey'
-        spread_name='survey'
-        survey_data = pd.read_csv(survey_file, sep=',')
-        temp = evolving_linguistic_terms(data4, 'inf',str(fcst_no),central_name,spread_name, plot, printout=printout, survey = True)
-        dane3_full = pd.concat([dane3_full, temp], axis=1)
+    
 dane3_full.head
 
-dane3_full.to_csv("data_with_liguistic_variables_membership_functions_20230429_evolving_inf.csv")
+dane3_full.to_csv("data_with_liguistic_variables_membership_functions_20230509_evolving_inf_test.csv")
 
 var_names=['IT_years','inf','BN']
 df_protoform = all_protoform(dane3_full, var_names, Q = 'wiekszosc', desc = 'most')
@@ -416,8 +469,11 @@ df_protoform_all = df_protoform_all.append(df_protoform)
 
 for fcst_no in range(4):
     if fcst_no == 3:
-        print(fcst_no)
-        #get membership bazed on survey
+        var_names=['IT_years','survey','BN']
+        df_protoform = all_protoform(dane3_full, var_names, Q = 'wiekszosc', desc = 'most')
+        df_protoform_all = df_protoform_all.append(df_protoform)
+        df_protoform = all_protoform(dane3_full, var_names, Q = 'mniejszosc', desc = 'minority')
+        df_protoform_all = df_protoform_all.append(df_protoform)
     else:
         var_names=['IT_years','inf'+str(fcst_no),'BN']
         df_protoform = all_protoform(dane3_full, var_names, Q = 'wiekszosc', desc = 'most')
@@ -425,13 +481,13 @@ for fcst_no in range(4):
         df_protoform = all_protoform(dane3_full, var_names, Q = 'mniejszosc', desc = 'minority')
         df_protoform_all = df_protoform_all.append(df_protoform)
         
-df_protoform_all.to_csv("Protoforms_20230429_BN_inf_it_years.csv")
+df_protoform_all.to_csv("Protoforms_20230509_BN_inf_it_years.csv")
 
 #df_protoform_m = all_protoform(df, Q = 'mniejszosc', desc = 'minority')
    
 #dane3_full['trans_low']
     
 # 40 najbardzien prawdziwych podsumowan lingwistycznych 
-print(df_protoform.sort_values(by='DoT', ascending=False).head(n = 40))
-print(df_protoform.sort_values(by='DoS', ascending=False).head(n = 40))
+print(df_protoform.sort_values(by='DoT', ascending=False).head(n = 50))
+print(df_protoform.sort_values(by='DoS', ascending=False).head(n = 50))
 

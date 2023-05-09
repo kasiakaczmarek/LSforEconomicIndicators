@@ -1,0 +1,2401 @@
+,protoform,DoT,DoS,DoS2
+0,"Among all records, most are inf_low",0.1958830299225842,0.5065913370998116,0.5065913370998116
+1,"Among all records, most are IT_years_low",0.12747175141242947,0.5028248587570622,0.5028248587570622
+2,"Among all records, most are BN_low",0.1916195856919627,0.557909604519774,0.557909604519774
+3,"Among all records, most are BN_low and inf_low",0.0,0.557909604519774,0.557909604519774
+4,"Among all records, most are IT_years_low and inf_low",0.0,0.5028248587570622,0.5028248587570622
+5,"Among all records, most are inf_medium",0.0,0.5009416195856874,0.5009416195856874
+6,"Among all records, most are IT_years_medium",0.0,0.5423728813559322,0.5423728813559322
+7,"Among all records, most are BN_medium",0.0,0.6468926553672316,0.6468926553672316
+8,"Among all records, most are BN_medium and inf_medium",0.0,0.6468926553672316,0.6468926553672316
+9,"Among all records, most are IT_years_medium and inf_medium",0.0,0.5423728813559322,0.5423728813559322
+10,"Among all records, most are inf_high",0.13251338902409177,0.5028248587570622,0.5028248587570622
+11,"Among all records, most are IT_years_high",0.2161016949152542,0.5616760828625236,0.5616760828625236
+12,"Among all records, most are BN_high",0.11334745763025193,0.6224105461393596,0.6224105461393596
+13,"Among all records, most are BN_high and inf_high",0.0,0.6224105461393596,0.6224105461393596
+14,"Among all records, most are IT_years_high and inf_high",0.0,0.5616760828625236,0.5616760828625236
+15,"Among all IT_years_low records, most are inf_low",0.0,0.1902071563088512,0.1902071563088512
+16,"Among all IT_years_low records, most are inf_medium",0.0,0.2222222222222222,0.2222222222222222
+17,"Among all IT_years_low records, most are inf_high",0.6534078526575148,0.3173258003766478,0.3173258003766478
+18,"Among all IT_years_low records, most are BN_low",0.3180751173810441,0.2787193973634652,0.2787193973634652
+19,"Among all IT_years_low records, most are BN_medium",0.0,0.3220338983050847,0.3220338983050847
+20,"Among all IT_years_low records, most are BN_high",0.08249496982773691,0.3107344632768362,0.3107344632768362
+21,"Among all IT_years_medium records, most are inf_low",0.2906722655227588,0.2801318267419962,0.2801318267419962
+22,"Among all IT_years_medium records, most are inf_medium",0.06037171268352488,0.288135593220339,0.288135593220339
+23,"Among all IT_years_medium records, most are inf_high",0.2522547664672083,0.268361581920904,0.268361581920904
+24,"Among all IT_years_medium records, most are BN_low",0.0,0.2678907721280603,0.2678907721280603
+25,"Among all IT_years_medium records, most are BN_medium",0.050933478374016745,0.3455743879472693,0.3455743879472693
+26,"Among all IT_years_medium records, most are BN_high",0.4508337864947222,0.3667608286252354,0.3667608286252354
+27,"Among all IT_years_high records, most are inf_low",0.532894736842126,0.3488700564971751,0.3488700564971751
+28,"Among all IT_years_high records, most are inf_medium",0.13703623914248036,0.3121468926553672,0.3121468926553672
+29,"Among all IT_years_high records, most are inf_high",0.0,0.2189265536723164,0.2189265536723164
+30,"Among all IT_years_high records, most are BN_low",0.20029239767710735,0.3036723163841808,0.3036723163841808
+31,"Among all IT_years_high records, most are BN_medium",0.04739278752808288,0.3672316384180791,0.3672316384180791
+32,"Among all IT_years_high records, most are BN_high",0.0869883041031372,0.3606403013182674,0.3606403013182674
+33,"Among all inf_low records, most are IT_years_low",0.0,0.1902071563088512,0.1902071563088512
+34,"Among all inf_low records, most are IT_years_medium",0.0,0.2801318267419962,0.2801318267419962
+35,"Among all inf_low records, most are IT_years_high",0.5603171750131474,0.3488700564971751,0.3488700564971751
+36,"Among all inf_low records, most are BN_low",0.3218482980004214,0.2909604519774011,0.2909604519774011
+37,"Among all inf_low records, most are BN_medium",0.0,0.3154425612052731,0.3154425612052731
+38,"Among all inf_low records, most are BN_high",0.07688106629360633,0.3055555555555556,0.3055555555555556
+39,"Among all inf_medium records, most are IT_years_low",0.018218290171502366,0.2222222222222222,0.2222222222222222
+40,"Among all inf_medium records, most are IT_years_medium",0.034913039795221035,0.288135593220339,0.288135593220339
+41,"Among all inf_medium records, most are IT_years_high",0.528241748760102,0.3121468926553672,0.3121468926553672
+42,"Among all inf_medium records, most are BN_low",0.09786629640773746,0.2645951035781544,0.2645951035781544
+43,"Among all inf_medium records, most are BN_medium",0.10443739880193899,0.3215630885122411,0.3215630885122411
+44,"Among all inf_medium records, most are BN_high",0.2624523084588872,0.3286252354048964,0.3286252354048964
+45,"Among all inf_high records, most are IT_years_low",0.6453904402279034,0.3173258003766478,0.3173258003766478
+46,"Among all inf_high records, most are IT_years_medium",0.0,0.268361581920904,0.268361581920904
+47,"Among all inf_high records, most are IT_years_high",0.0,0.2189265536723164,0.2189265536723164
+48,"Among all inf_high records, most are BN_low",0.12451791283378019,0.2721280602636535,0.2721280602636535
+49,"Among all inf_high records, most are BN_medium",0.0,0.3380414312617702,0.3380414312617702
+50,"Among all inf_high records, most are BN_high",0.20549848151900033,0.3234463276836158,0.3234463276836158
+51,"Among all BN_low records, most are IT_years_low",0.24531250000461902,0.2787193973634652,0.2787193973634652
+52,"Among all BN_low records, most are IT_years_medium",0.0,0.2678907721280603,0.2678907721280603
+53,"Among all BN_low records, most are IT_years_high",0.22500000001196926,0.3036723163841808,0.3036723163841808
+54,"Among all BN_low records, most are inf_low",0.32670138890002615,0.2909604519774011,0.2909604519774011
+55,"Among all BN_low records, most are inf_medium",0.0,0.2645951035781544,0.2645951035781544
+56,"Among all BN_low records, most are inf_high",0.06962374056829493,0.2721280602636535,0.2721280602636535
+57,"Among all BN_medium records, most are IT_years_low",0.11448598133260283,0.3220338983050847,0.3220338983050847
+58,"Among all BN_medium records, most are IT_years_medium",0.0008496177126007809,0.3455743879472693,0.3455743879472693
+59,"Among all BN_medium records, most are IT_years_high",0.36214953272784867,0.3672316384180791,0.3672316384180791
+60,"Among all BN_medium records, most are inf_low",0.1841546304434315,0.3154425612052731,0.3154425612052731
+61,"Among all BN_medium records, most are inf_medium",0.07698854650461884,0.3215630885122411,0.3215630885122411
+62,"Among all BN_medium records, most are inf_high",0.20356208097305362,0.3380414312617702,0.3380414312617702
+63,"Among all BN_high records, most are IT_years_low",0.09611451943330006,0.3107344632768362,0.3107344632768362
+64,"Among all BN_high records, most are IT_years_medium",0.15320381732342708,0.3667608286252354,0.3667608286252354
+65,"Among all BN_high records, most are IT_years_high",0.186605316980725,0.3606403013182674,0.3606403013182674
+66,"Among all BN_high records, most are inf_low",0.1559304703557482,0.3055555555555556,0.3055555555555556
+67,"Among all BN_high records, most are inf_medium",0.03621290750747769,0.3286252354048964,0.3286252354048964
+68,"Among all BN_high records, most are inf_high",0.22671012485200734,0.3234463276836158,0.3234463276836158
+69,"Among all IT_years_low records, most are inf_low and BN_low",0.0,0.1902071563088512,0.1902071563088512
+70,"Among all IT_years_low records, most are inf_low and BN_medium",0.0,0.1902071563088512,0.1902071563088512
+71,"Among all IT_years_low records, most are inf_low and BN_high",0.0,0.1902071563088512,0.1902071563088512
+72,"Among all IT_years_medium records, most are inf_low and BN_low",0.0,0.2801318267419962,0.2801318267419962
+73,"Among all IT_years_medium records, most are inf_low and BN_medium",0.0,0.2801318267419962,0.2801318267419962
+74,"Among all IT_years_medium records, most are inf_low and BN_high",0.0,0.2801318267419962,0.2801318267419962
+75,"Among all IT_years_high records, most are inf_low and BN_low",0.0,0.3488700564971751,0.3488700564971751
+76,"Among all IT_years_high records, most are inf_low and BN_medium",0.0,0.3488700564971751,0.3488700564971751
+77,"Among all IT_years_high records, most are inf_low and BN_high",0.0,0.3488700564971751,0.3488700564971751
+78,"Among all IT_years_low records, most are inf_medium and BN_low",0.0,0.2222222222222222,0.2222222222222222
+79,"Among all IT_years_low records, most are inf_medium and BN_medium",0.0,0.2222222222222222,0.2222222222222222
+80,"Among all IT_years_low records, most are inf_medium and BN_high",0.0,0.2222222222222222,0.2222222222222222
+81,"Among all IT_years_medium records, most are inf_medium and BN_low",0.0,0.288135593220339,0.288135593220339
+82,"Among all IT_years_medium records, most are inf_medium and BN_medium",0.0,0.288135593220339,0.288135593220339
+83,"Among all IT_years_medium records, most are inf_medium and BN_high",0.0,0.288135593220339,0.288135593220339
+84,"Among all IT_years_high records, most are inf_medium and BN_low",0.0,0.3121468926553672,0.3121468926553672
+85,"Among all IT_years_high records, most are inf_medium and BN_medium",0.0,0.3121468926553672,0.3121468926553672
+86,"Among all IT_years_high records, most are inf_medium and BN_high",0.0,0.3121468926553672,0.3121468926553672
+87,"Among all IT_years_low records, most are inf_high and BN_low",0.0,0.3173258003766478,0.3173258003766478
+88,"Among all IT_years_low records, most are inf_high and BN_medium",0.0,0.3173258003766478,0.3173258003766478
+89,"Among all IT_years_low records, most are inf_high and BN_high",0.0,0.3173258003766478,0.3173258003766478
+90,"Among all IT_years_medium records, most are inf_high and BN_low",0.0,0.268361581920904,0.268361581920904
+91,"Among all IT_years_medium records, most are inf_high and BN_medium",0.0,0.268361581920904,0.268361581920904
+92,"Among all IT_years_medium records, most are inf_high and BN_high",0.0,0.268361581920904,0.268361581920904
+93,"Among all IT_years_high records, most are inf_high and BN_low",0.0,0.2189265536723164,0.2189265536723164
+94,"Among all IT_years_high records, most are inf_high and BN_medium",0.0,0.2189265536723164,0.2189265536723164
+95,"Among all IT_years_high records, most are inf_high and BN_high",0.0,0.2189265536723164,0.2189265536723164
+96,,0.0,0.0,0.0
+97,,0.0,0.0,0.0
+98,,0.0,0.0,0.0
+99,,0.0,0.0,0.0
+100,,0.0,0.0,0.0
+101,,0.0,0.0,0.0
+102,,0.0,0.0,0.0
+103,,0.0,0.0,0.0
+104,,0.0,0.0,0.0
+105,,0.0,0.0,0.0
+106,,0.0,0.0,0.0
+107,,0.0,0.0,0.0
+108,,0.0,0.0,0.0
+109,,0.0,0.0,0.0
+110,,0.0,0.0,0.0
+111,,0.0,0.0,0.0
+112,,0.0,0.0,0.0
+113,,0.0,0.0,0.0
+114,,0.0,0.0,0.0
+115,,0.0,0.0,0.0
+116,,0.0,0.0,0.0
+117,,0.0,0.0,0.0
+118,,0.0,0.0,0.0
+119,,0.0,0.0,0.0
+120,,0.0,0.0,0.0
+121,,0.0,0.0,0.0
+122,,0.0,0.0,0.0
+123,,0.0,0.0,0.0
+124,,0.0,0.0,0.0
+125,,0.0,0.0,0.0
+126,,0.0,0.0,0.0
+127,,0.0,0.0,0.0
+128,,0.0,0.0,0.0
+129,,0.0,0.0,0.0
+130,,0.0,0.0,0.0
+131,,0.0,0.0,0.0
+132,,0.0,0.0,0.0
+133,,0.0,0.0,0.0
+134,,0.0,0.0,0.0
+135,,0.0,0.0,0.0
+136,,0.0,0.0,0.0
+137,,0.0,0.0,0.0
+138,,0.0,0.0,0.0
+139,,0.0,0.0,0.0
+140,,0.0,0.0,0.0
+141,,0.0,0.0,0.0
+142,,0.0,0.0,0.0
+143,,0.0,0.0,0.0
+144,,0.0,0.0,0.0
+145,,0.0,0.0,0.0
+146,,0.0,0.0,0.0
+147,,0.0,0.0,0.0
+148,,0.0,0.0,0.0
+149,,0.0,0.0,0.0
+150,,0.0,0.0,0.0
+151,,0.0,0.0,0.0
+152,,0.0,0.0,0.0
+153,,0.0,0.0,0.0
+154,,0.0,0.0,0.0
+155,,0.0,0.0,0.0
+156,,0.0,0.0,0.0
+157,,0.0,0.0,0.0
+158,,0.0,0.0,0.0
+159,,0.0,0.0,0.0
+160,,0.0,0.0,0.0
+161,,0.0,0.0,0.0
+162,,0.0,0.0,0.0
+163,,0.0,0.0,0.0
+164,,0.0,0.0,0.0
+165,,0.0,0.0,0.0
+166,,0.0,0.0,0.0
+167,,0.0,0.0,0.0
+168,,0.0,0.0,0.0
+169,,0.0,0.0,0.0
+170,,0.0,0.0,0.0
+171,,0.0,0.0,0.0
+172,,0.0,0.0,0.0
+173,,0.0,0.0,0.0
+174,,0.0,0.0,0.0
+175,,0.0,0.0,0.0
+176,,0.0,0.0,0.0
+177,,0.0,0.0,0.0
+178,,0.0,0.0,0.0
+179,,0.0,0.0,0.0
+180,,0.0,0.0,0.0
+181,,0.0,0.0,0.0
+182,,0.0,0.0,0.0
+183,,0.0,0.0,0.0
+184,,0.0,0.0,0.0
+185,,0.0,0.0,0.0
+186,,0.0,0.0,0.0
+187,,0.0,0.0,0.0
+188,,0.0,0.0,0.0
+189,,0.0,0.0,0.0
+190,,0.0,0.0,0.0
+191,,0.0,0.0,0.0
+192,,0.0,0.0,0.0
+193,,0.0,0.0,0.0
+194,,0.0,0.0,0.0
+195,,0.0,0.0,0.0
+196,,0.0,0.0,0.0
+197,,0.0,0.0,0.0
+198,,0.0,0.0,0.0
+199,,0.0,0.0,0.0
+200,,0.0,0.0,0.0
+201,,0.0,0.0,0.0
+202,,0.0,0.0,0.0
+203,,0.0,0.0,0.0
+204,,0.0,0.0,0.0
+205,,0.0,0.0,0.0
+206,,0.0,0.0,0.0
+207,,0.0,0.0,0.0
+208,,0.0,0.0,0.0
+209,,0.0,0.0,0.0
+210,,0.0,0.0,0.0
+211,,0.0,0.0,0.0
+212,,0.0,0.0,0.0
+213,,0.0,0.0,0.0
+214,,0.0,0.0,0.0
+215,,0.0,0.0,0.0
+216,,0.0,0.0,0.0
+217,,0.0,0.0,0.0
+218,,0.0,0.0,0.0
+219,,0.0,0.0,0.0
+220,,0.0,0.0,0.0
+221,,0.0,0.0,0.0
+222,,0.0,0.0,0.0
+223,,0.0,0.0,0.0
+224,,0.0,0.0,0.0
+225,,0.0,0.0,0.0
+226,,0.0,0.0,0.0
+227,,0.0,0.0,0.0
+228,,0.0,0.0,0.0
+229,,0.0,0.0,0.0
+230,,0.0,0.0,0.0
+231,,0.0,0.0,0.0
+232,,0.0,0.0,0.0
+233,,0.0,0.0,0.0
+234,,0.0,0.0,0.0
+235,,0.0,0.0,0.0
+236,,0.0,0.0,0.0
+237,,0.0,0.0,0.0
+238,,0.0,0.0,0.0
+239,,0.0,0.0,0.0
+240,,0.0,0.0,0.0
+241,,0.0,0.0,0.0
+242,,0.0,0.0,0.0
+243,,0.0,0.0,0.0
+244,,0.0,0.0,0.0
+245,,0.0,0.0,0.0
+246,,0.0,0.0,0.0
+247,,0.0,0.0,0.0
+248,,0.0,0.0,0.0
+249,,0.0,0.0,0.0
+250,,0.0,0.0,0.0
+251,,0.0,0.0,0.0
+252,,0.0,0.0,0.0
+253,,0.0,0.0,0.0
+254,,0.0,0.0,0.0
+255,,0.0,0.0,0.0
+256,,0.0,0.0,0.0
+257,,0.0,0.0,0.0
+258,,0.0,0.0,0.0
+259,,0.0,0.0,0.0
+260,,0.0,0.0,0.0
+261,,0.0,0.0,0.0
+262,,0.0,0.0,0.0
+263,,0.0,0.0,0.0
+264,,0.0,0.0,0.0
+265,,0.0,0.0,0.0
+266,,0.0,0.0,0.0
+267,,0.0,0.0,0.0
+268,,0.0,0.0,0.0
+269,,0.0,0.0,0.0
+270,,0.0,0.0,0.0
+271,,0.0,0.0,0.0
+272,,0.0,0.0,0.0
+273,,0.0,0.0,0.0
+274,,0.0,0.0,0.0
+275,,0.0,0.0,0.0
+276,,0.0,0.0,0.0
+277,,0.0,0.0,0.0
+278,,0.0,0.0,0.0
+279,,0.0,0.0,0.0
+280,,0.0,0.0,0.0
+281,,0.0,0.0,0.0
+282,,0.0,0.0,0.0
+283,,0.0,0.0,0.0
+284,,0.0,0.0,0.0
+285,,0.0,0.0,0.0
+286,,0.0,0.0,0.0
+287,,0.0,0.0,0.0
+288,,0.0,0.0,0.0
+289,,0.0,0.0,0.0
+290,,0.0,0.0,0.0
+291,,0.0,0.0,0.0
+292,,0.0,0.0,0.0
+293,,0.0,0.0,0.0
+294,,0.0,0.0,0.0
+295,,0.0,0.0,0.0
+296,,0.0,0.0,0.0
+297,,0.0,0.0,0.0
+298,,0.0,0.0,0.0
+299,,0.0,0.0,0.0
+0,"Among all records, minority are inf_low",0.6082339401548318,0.5065913370998116,0.5065913370998116
+1,"Among all records, minority are IT_years_low",0.745056497175141,0.5028248587570622,0.5028248587570622
+2,"Among all records, minority are BN_low",0.6167608286160747,0.557909604519774,0.557909604519774
+3,"Among all records, minority are BN_low and inf_low",1.0,0.557909604519774,0.557909604519774
+4,"Among all records, minority are IT_years_low and inf_low",1.0,0.5028248587570622,0.5028248587570622
+5,"Among all records, minority are inf_medium",1.0,0.5009416195856874,0.5009416195856874
+6,"Among all records, minority are IT_years_medium",1.0,0.5423728813559322,0.5423728813559322
+7,"Among all records, minority are BN_medium",1.0,0.6468926553672316,0.6468926553672316
+8,"Among all records, minority are BN_medium and inf_medium",1.0,0.6468926553672316,0.6468926553672316
+9,"Among all records, minority are IT_years_medium and inf_medium",1.0,0.5423728813559322,0.5423728813559322
+10,"Among all records, minority are inf_high",0.7349732219518166,0.5028248587570622,0.5028248587570622
+11,"Among all records, minority are IT_years_high",0.5677966101694918,0.5616760828625236,0.5616760828625236
+12,"Among all records, minority are BN_high",0.7733050847394962,0.6224105461393596,0.6224105461393596
+13,"Among all records, minority are BN_high and inf_high",1.0,0.6224105461393596,0.6224105461393596
+14,"Among all records, minority are IT_years_high and inf_high",1.0,0.5616760828625236,0.5616760828625236
+15,"Among all IT_years_low records, minority are inf_low",1.0,0.1902071563088512,0.1902071563088512
+16,"Among all IT_years_low records, minority are inf_medium",1.0,0.2222222222222222,0.2222222222222222
+17,"Among all IT_years_low records, minority are inf_high",0.0,0.3173258003766478,0.3173258003766478
+18,"Among all IT_years_low records, minority are BN_low",0.3638497652379119,0.2787193973634652,0.2787193973634652
+19,"Among all IT_years_low records, minority are BN_medium",1.0,0.3220338983050847,0.3220338983050847
+20,"Among all IT_years_low records, minority are BN_high",0.8350100603445262,0.3107344632768362,0.3107344632768362
+21,"Among all IT_years_medium records, minority are inf_low",0.41865546895448247,0.2801318267419962,0.2801318267419962
+22,"Among all IT_years_medium records, minority are inf_medium",0.8792565746329503,0.288135593220339,0.288135593220339
+23,"Among all IT_years_medium records, minority are inf_high",0.49549046706558353,0.268361581920904,0.268361581920904
+24,"Among all IT_years_medium records, minority are BN_low",1.0,0.2678907721280603,0.2678907721280603
+25,"Among all IT_years_medium records, minority are BN_medium",0.8981330432519665,0.3455743879472693,0.3455743879472693
+26,"Among all IT_years_medium records, minority are BN_high",0.09833242701055567,0.3667608286252354,0.3667608286252354
+27,"Among all IT_years_high records, minority are inf_low",0.0,0.3488700564971751,0.3488700564971751
+28,"Among all IT_years_high records, minority are inf_medium",0.7259275217150394,0.3121468926553672,0.3121468926553672
+29,"Among all IT_years_high records, minority are inf_high",1.0,0.2189265536723164,0.2189265536723164
+30,"Among all IT_years_high records, minority are BN_low",0.5994152046457855,0.3036723163841808,0.3036723163841808
+31,"Among all IT_years_high records, minority are BN_medium",0.9052144249438343,0.3672316384180791,0.3672316384180791
+32,"Among all IT_years_high records, minority are BN_high",0.8260233917937256,0.3606403013182674,0.3606403013182674
+33,"Among all inf_low records, minority are IT_years_low",1.0,0.1902071563088512,0.1902071563088512
+34,"Among all inf_low records, minority are IT_years_medium",1.0,0.2801318267419962,0.2801318267419962
+35,"Among all inf_low records, minority are IT_years_high",0.0,0.3488700564971751,0.3488700564971751
+36,"Among all inf_low records, minority are BN_low",0.3563034039991572,0.2909604519774011,0.2909604519774011
+37,"Among all inf_low records, minority are BN_medium",1.0,0.3154425612052731,0.3154425612052731
+38,"Among all inf_low records, minority are BN_high",0.8462378674127873,0.3055555555555556,0.3055555555555556
+39,"Among all inf_medium records, minority are IT_years_low",0.9635634196569953,0.2222222222222222,0.2222222222222222
+40,"Among all inf_medium records, minority are IT_years_medium",0.9301739204095579,0.288135593220339,0.288135593220339
+41,"Among all inf_medium records, minority are IT_years_high",0.0,0.3121468926553672,0.3121468926553672
+42,"Among all inf_medium records, minority are BN_low",0.804267407184525,0.2645951035781544,0.2645951035781544
+43,"Among all inf_medium records, minority are BN_medium",0.791125202396122,0.3215630885122411,0.3215630885122411
+44,"Among all inf_medium records, minority are BN_high",0.47509538308222576,0.3286252354048964,0.3286252354048964
+45,"Among all inf_high records, minority are IT_years_low",0.0,0.3173258003766478,0.3173258003766478
+46,"Among all inf_high records, minority are IT_years_medium",1.0,0.268361581920904,0.268361581920904
+47,"Among all inf_high records, minority are IT_years_high",1.0,0.2189265536723164,0.2189265536723164
+48,"Among all inf_high records, minority are BN_low",0.7509641743324396,0.2721280602636535,0.2721280602636535
+49,"Among all inf_high records, minority are BN_medium",1.0,0.3380414312617702,0.3380414312617702
+50,"Among all inf_high records, minority are BN_high",0.5890030369619994,0.3234463276836158,0.3234463276836158
+51,"Among all BN_low records, minority are IT_years_low",0.5093749999907621,0.2787193973634652,0.2787193973634652
+52,"Among all BN_low records, minority are IT_years_medium",1.0,0.2678907721280603,0.2678907721280603
+53,"Among all BN_low records, minority are IT_years_high",0.5499999999760616,0.3036723163841808,0.3036723163841808
+54,"Among all BN_low records, minority are inf_low",0.34659722219994776,0.2909604519774011,0.2909604519774011
+55,"Among all BN_low records, minority are inf_medium",1.0,0.2645951035781544,0.2645951035781544
+56,"Among all BN_low records, minority are inf_high",0.8607525188634102,0.2721280602636535,0.2721280602636535
+57,"Among all BN_medium records, minority are IT_years_low",0.7710280373347944,0.3220338983050847,0.3220338983050847
+58,"Among all BN_medium records, minority are IT_years_medium",0.9983007645747984,0.3455743879472693,0.3455743879472693
+59,"Among all BN_medium records, minority are IT_years_high",0.2757009345443029,0.3672316384180791,0.3672316384180791
+60,"Among all BN_medium records, minority are inf_low",0.6316907391131371,0.3154425612052731,0.3154425612052731
+61,"Among all BN_medium records, minority are inf_medium",0.8460229069907623,0.3215630885122411,0.3215630885122411
+62,"Among all BN_medium records, minority are inf_high",0.5928758380538929,0.3380414312617702,0.3380414312617702
+63,"Among all BN_high records, minority are IT_years_low",0.8077709611333999,0.3107344632768362,0.3107344632768362
+64,"Among all BN_high records, minority are IT_years_medium",0.693592365353146,0.3667608286252354,0.3667608286252354
+65,"Among all BN_high records, minority are IT_years_high",0.6267893660385502,0.3606403013182674,0.3606403013182674
+66,"Among all BN_high records, minority are inf_low",0.6881390592885037,0.3055555555555556,0.3055555555555556
+67,"Among all BN_high records, minority are inf_medium",0.9275741849850446,0.3286252354048964,0.3286252354048964
+68,"Among all BN_high records, minority are inf_high",0.5465797502959855,0.3234463276836158,0.3234463276836158
+69,"Among all IT_years_low records, minority are inf_low and BN_low",1.0,0.1902071563088512,0.1902071563088512
+70,"Among all IT_years_low records, minority are inf_low and BN_medium",1.0,0.1902071563088512,0.1902071563088512
+71,"Among all IT_years_low records, minority are inf_low and BN_high",1.0,0.1902071563088512,0.1902071563088512
+72,"Among all IT_years_medium records, minority are inf_low and BN_low",1.0,0.2801318267419962,0.2801318267419962
+73,"Among all IT_years_medium records, minority are inf_low and BN_medium",1.0,0.2801318267419962,0.2801318267419962
+74,"Among all IT_years_medium records, minority are inf_low and BN_high",1.0,0.2801318267419962,0.2801318267419962
+75,"Among all IT_years_high records, minority are inf_low and BN_low",1.0,0.3488700564971751,0.3488700564971751
+76,"Among all IT_years_high records, minority are inf_low and BN_medium",1.0,0.3488700564971751,0.3488700564971751
+77,"Among all IT_years_high records, minority are inf_low and BN_high",1.0,0.3488700564971751,0.3488700564971751
+78,"Among all IT_years_low records, minority are inf_medium and BN_low",1.0,0.2222222222222222,0.2222222222222222
+79,"Among all IT_years_low records, minority are inf_medium and BN_medium",1.0,0.2222222222222222,0.2222222222222222
+80,"Among all IT_years_low records, minority are inf_medium and BN_high",1.0,0.2222222222222222,0.2222222222222222
+81,"Among all IT_years_medium records, minority are inf_medium and BN_low",1.0,0.288135593220339,0.288135593220339
+82,"Among all IT_years_medium records, minority are inf_medium and BN_medium",1.0,0.288135593220339,0.288135593220339
+83,"Among all IT_years_medium records, minority are inf_medium and BN_high",1.0,0.288135593220339,0.288135593220339
+84,"Among all IT_years_high records, minority are inf_medium and BN_low",1.0,0.3121468926553672,0.3121468926553672
+85,"Among all IT_years_high records, minority are inf_medium and BN_medium",1.0,0.3121468926553672,0.3121468926553672
+86,"Among all IT_years_high records, minority are inf_medium and BN_high",1.0,0.3121468926553672,0.3121468926553672
+87,"Among all IT_years_low records, minority are inf_high and BN_low",1.0,0.3173258003766478,0.3173258003766478
+88,"Among all IT_years_low records, minority are inf_high and BN_medium",1.0,0.3173258003766478,0.3173258003766478
+89,"Among all IT_years_low records, minority are inf_high and BN_high",1.0,0.3173258003766478,0.3173258003766478
+90,"Among all IT_years_medium records, minority are inf_high and BN_low",1.0,0.268361581920904,0.268361581920904
+91,"Among all IT_years_medium records, minority are inf_high and BN_medium",1.0,0.268361581920904,0.268361581920904
+92,"Among all IT_years_medium records, minority are inf_high and BN_high",1.0,0.268361581920904,0.268361581920904
+93,"Among all IT_years_high records, minority are inf_high and BN_low",1.0,0.2189265536723164,0.2189265536723164
+94,"Among all IT_years_high records, minority are inf_high and BN_medium",1.0,0.2189265536723164,0.2189265536723164
+95,"Among all IT_years_high records, minority are inf_high and BN_high",1.0,0.2189265536723164,0.2189265536723164
+96,,0.0,0.0,0.0
+97,,0.0,0.0,0.0
+98,,0.0,0.0,0.0
+99,,0.0,0.0,0.0
+100,,0.0,0.0,0.0
+101,,0.0,0.0,0.0
+102,,0.0,0.0,0.0
+103,,0.0,0.0,0.0
+104,,0.0,0.0,0.0
+105,,0.0,0.0,0.0
+106,,0.0,0.0,0.0
+107,,0.0,0.0,0.0
+108,,0.0,0.0,0.0
+109,,0.0,0.0,0.0
+110,,0.0,0.0,0.0
+111,,0.0,0.0,0.0
+112,,0.0,0.0,0.0
+113,,0.0,0.0,0.0
+114,,0.0,0.0,0.0
+115,,0.0,0.0,0.0
+116,,0.0,0.0,0.0
+117,,0.0,0.0,0.0
+118,,0.0,0.0,0.0
+119,,0.0,0.0,0.0
+120,,0.0,0.0,0.0
+121,,0.0,0.0,0.0
+122,,0.0,0.0,0.0
+123,,0.0,0.0,0.0
+124,,0.0,0.0,0.0
+125,,0.0,0.0,0.0
+126,,0.0,0.0,0.0
+127,,0.0,0.0,0.0
+128,,0.0,0.0,0.0
+129,,0.0,0.0,0.0
+130,,0.0,0.0,0.0
+131,,0.0,0.0,0.0
+132,,0.0,0.0,0.0
+133,,0.0,0.0,0.0
+134,,0.0,0.0,0.0
+135,,0.0,0.0,0.0
+136,,0.0,0.0,0.0
+137,,0.0,0.0,0.0
+138,,0.0,0.0,0.0
+139,,0.0,0.0,0.0
+140,,0.0,0.0,0.0
+141,,0.0,0.0,0.0
+142,,0.0,0.0,0.0
+143,,0.0,0.0,0.0
+144,,0.0,0.0,0.0
+145,,0.0,0.0,0.0
+146,,0.0,0.0,0.0
+147,,0.0,0.0,0.0
+148,,0.0,0.0,0.0
+149,,0.0,0.0,0.0
+150,,0.0,0.0,0.0
+151,,0.0,0.0,0.0
+152,,0.0,0.0,0.0
+153,,0.0,0.0,0.0
+154,,0.0,0.0,0.0
+155,,0.0,0.0,0.0
+156,,0.0,0.0,0.0
+157,,0.0,0.0,0.0
+158,,0.0,0.0,0.0
+159,,0.0,0.0,0.0
+160,,0.0,0.0,0.0
+161,,0.0,0.0,0.0
+162,,0.0,0.0,0.0
+163,,0.0,0.0,0.0
+164,,0.0,0.0,0.0
+165,,0.0,0.0,0.0
+166,,0.0,0.0,0.0
+167,,0.0,0.0,0.0
+168,,0.0,0.0,0.0
+169,,0.0,0.0,0.0
+170,,0.0,0.0,0.0
+171,,0.0,0.0,0.0
+172,,0.0,0.0,0.0
+173,,0.0,0.0,0.0
+174,,0.0,0.0,0.0
+175,,0.0,0.0,0.0
+176,,0.0,0.0,0.0
+177,,0.0,0.0,0.0
+178,,0.0,0.0,0.0
+179,,0.0,0.0,0.0
+180,,0.0,0.0,0.0
+181,,0.0,0.0,0.0
+182,,0.0,0.0,0.0
+183,,0.0,0.0,0.0
+184,,0.0,0.0,0.0
+185,,0.0,0.0,0.0
+186,,0.0,0.0,0.0
+187,,0.0,0.0,0.0
+188,,0.0,0.0,0.0
+189,,0.0,0.0,0.0
+190,,0.0,0.0,0.0
+191,,0.0,0.0,0.0
+192,,0.0,0.0,0.0
+193,,0.0,0.0,0.0
+194,,0.0,0.0,0.0
+195,,0.0,0.0,0.0
+196,,0.0,0.0,0.0
+197,,0.0,0.0,0.0
+198,,0.0,0.0,0.0
+199,,0.0,0.0,0.0
+200,,0.0,0.0,0.0
+201,,0.0,0.0,0.0
+202,,0.0,0.0,0.0
+203,,0.0,0.0,0.0
+204,,0.0,0.0,0.0
+205,,0.0,0.0,0.0
+206,,0.0,0.0,0.0
+207,,0.0,0.0,0.0
+208,,0.0,0.0,0.0
+209,,0.0,0.0,0.0
+210,,0.0,0.0,0.0
+211,,0.0,0.0,0.0
+212,,0.0,0.0,0.0
+213,,0.0,0.0,0.0
+214,,0.0,0.0,0.0
+215,,0.0,0.0,0.0
+216,,0.0,0.0,0.0
+217,,0.0,0.0,0.0
+218,,0.0,0.0,0.0
+219,,0.0,0.0,0.0
+220,,0.0,0.0,0.0
+221,,0.0,0.0,0.0
+222,,0.0,0.0,0.0
+223,,0.0,0.0,0.0
+224,,0.0,0.0,0.0
+225,,0.0,0.0,0.0
+226,,0.0,0.0,0.0
+227,,0.0,0.0,0.0
+228,,0.0,0.0,0.0
+229,,0.0,0.0,0.0
+230,,0.0,0.0,0.0
+231,,0.0,0.0,0.0
+232,,0.0,0.0,0.0
+233,,0.0,0.0,0.0
+234,,0.0,0.0,0.0
+235,,0.0,0.0,0.0
+236,,0.0,0.0,0.0
+237,,0.0,0.0,0.0
+238,,0.0,0.0,0.0
+239,,0.0,0.0,0.0
+240,,0.0,0.0,0.0
+241,,0.0,0.0,0.0
+242,,0.0,0.0,0.0
+243,,0.0,0.0,0.0
+244,,0.0,0.0,0.0
+245,,0.0,0.0,0.0
+246,,0.0,0.0,0.0
+247,,0.0,0.0,0.0
+248,,0.0,0.0,0.0
+249,,0.0,0.0,0.0
+250,,0.0,0.0,0.0
+251,,0.0,0.0,0.0
+252,,0.0,0.0,0.0
+253,,0.0,0.0,0.0
+254,,0.0,0.0,0.0
+255,,0.0,0.0,0.0
+256,,0.0,0.0,0.0
+257,,0.0,0.0,0.0
+258,,0.0,0.0,0.0
+259,,0.0,0.0,0.0
+260,,0.0,0.0,0.0
+261,,0.0,0.0,0.0
+262,,0.0,0.0,0.0
+263,,0.0,0.0,0.0
+264,,0.0,0.0,0.0
+265,,0.0,0.0,0.0
+266,,0.0,0.0,0.0
+267,,0.0,0.0,0.0
+268,,0.0,0.0,0.0
+269,,0.0,0.0,0.0
+270,,0.0,0.0,0.0
+271,,0.0,0.0,0.0
+272,,0.0,0.0,0.0
+273,,0.0,0.0,0.0
+274,,0.0,0.0,0.0
+275,,0.0,0.0,0.0
+276,,0.0,0.0,0.0
+277,,0.0,0.0,0.0
+278,,0.0,0.0,0.0
+279,,0.0,0.0,0.0
+280,,0.0,0.0,0.0
+281,,0.0,0.0,0.0
+282,,0.0,0.0,0.0
+283,,0.0,0.0,0.0
+284,,0.0,0.0,0.0
+285,,0.0,0.0,0.0
+286,,0.0,0.0,0.0
+287,,0.0,0.0,0.0
+288,,0.0,0.0,0.0
+289,,0.0,0.0,0.0
+290,,0.0,0.0,0.0
+291,,0.0,0.0,0.0
+292,,0.0,0.0,0.0
+293,,0.0,0.0,0.0
+294,,0.0,0.0,0.0
+295,,0.0,0.0,0.0
+296,,0.0,0.0,0.0
+297,,0.0,0.0,0.0
+298,,0.0,0.0,0.0
+299,,0.0,0.0,0.0
+0,"Among all records, most are inf0_low",0.3103657762309182,0.5117702448210922,0.5117702448210922
+1,"Among all records, most are IT_years_low",0.12747175141242947,0.5028248587570622,0.5028248587570622
+2,"Among all records, most are BN_low",0.1916195856919627,0.557909604519774,0.557909604519774
+3,"Among all records, most are BN_low and inf0_low",0.0,0.557909604519774,0.557909604519774
+4,"Among all records, most are IT_years_low and inf0_low",0.0,0.5028248587570622,0.5028248587570622
+5,"Among all records, most are inf0_medium",0.0,0.3639359698681733,0.3639359698681733
+6,"Among all records, most are IT_years_medium",0.0,0.5423728813559322,0.5423728813559322
+7,"Among all records, most are BN_medium",0.0,0.6468926553672316,0.6468926553672316
+8,"Among all records, most are BN_medium and inf0_medium",0.0,0.6468926553672316,0.6468926553672316
+9,"Among all records, most are IT_years_medium and inf0_medium",0.0,0.5423728813559322,0.5423728813559322
+10,"Among all records, most are inf0_high",0.25271367365214226,0.4924670433145009,0.4924670433145009
+11,"Among all records, most are IT_years_high",0.2161016949152542,0.5616760828625236,0.5616760828625236
+12,"Among all records, most are BN_high",0.11334745763025193,0.6224105461393596,0.6224105461393596
+13,"Among all records, most are BN_high and inf0_high",0.0,0.6224105461393596,0.6224105461393596
+14,"Among all records, most are IT_years_high and inf0_high",0.0,0.5616760828625236,0.5616760828625236
+15,"Among all IT_years_low records, most are inf0_low",0.45472986198749527,0.2711864406779661,0.2711864406779661
+16,"Among all IT_years_low records, most are inf0_medium",0.0,0.17749529190207156,0.17749529190207156
+17,"Among all IT_years_low records, most are inf0_high",0.22111540588472786,0.2330508474576271,0.2330508474576271
+18,"Among all IT_years_low records, most are BN_low",0.3180751173810441,0.2787193973634652,0.2787193973634652
+19,"Among all IT_years_low records, most are BN_medium",0.0,0.3220338983050847,0.3220338983050847
+20,"Among all IT_years_low records, most are BN_high",0.08249496982773691,0.3107344632768362,0.3107344632768362
+21,"Among all IT_years_medium records, most are inf0_low",0.3349877048496515,0.2707156308851224,0.2707156308851224
+22,"Among all IT_years_medium records, most are inf0_medium",0.0,0.2085687382297552,0.2085687382297552
+23,"Among all IT_years_medium records, most are inf0_high",0.29538131648808597,0.2730696798493409,0.2730696798493409
+24,"Among all IT_years_medium records, most are BN_low",0.0,0.2678907721280603,0.2678907721280603
+25,"Among all IT_years_medium records, most are BN_medium",0.050933478374016745,0.3455743879472693,0.3455743879472693
+26,"Among all IT_years_medium records, most are BN_high",0.4508337864947222,0.3667608286252354,0.3667608286252354
+27,"Among all IT_years_high records, most are inf0_low",0.25130046540791057,0.2744821092278719,0.2744821092278719
+28,"Among all IT_years_high records, most are inf0_medium",0.0,0.2085687382297552,0.2085687382297552
+29,"Among all IT_years_high records, most are inf0_high",0.34609026201735105,0.2904896421845574,0.2904896421845574
+30,"Among all IT_years_high records, most are BN_low",0.20029239767710735,0.3036723163841808,0.3036723163841808
+31,"Among all IT_years_high records, most are BN_medium",0.04739278752808288,0.3672316384180791,0.3672316384180791
+32,"Among all IT_years_high records, most are BN_high",0.0869883041031372,0.3606403013182674,0.3606403013182674
+33,"Among all inf0_low records, most are IT_years_low",0.24693562888699952,0.2711864406779661,0.2711864406779661
+34,"Among all inf0_low records, most are IT_years_medium",0.0,0.2707156308851224,0.2707156308851224
+35,"Among all inf0_low records, most are IT_years_high",0.16228715452181047,0.2744821092278719,0.2744821092278719
+36,"Among all inf0_low records, most are BN_low",0.4598772755143069,0.3258003766478343,0.3258003766478343
+37,"Among all inf0_low records, most are BN_medium",0.0,0.3177966101694915,0.3177966101694915
+38,"Among all inf0_low records, most are BN_high",0.0,0.2735404896421846,0.2735404896421846
+39,"Among all inf0_medium records, most are IT_years_low",0.10083682805428111,0.17749529190207156,0.17749529190207156
+40,"Among all inf0_medium records, most are IT_years_medium",0.1917797240793326,0.2085687382297552,0.2085687382297552
+41,"Among all inf0_medium records, most are IT_years_high",0.33415193359792406,0.2085687382297552,0.2085687382297552
+42,"Among all inf0_medium records, most are BN_low",0.14912370939445835,0.19491525423728814,0.19491525423728814
+43,"Among all inf0_medium records, most are BN_medium",0.07198012725535566,0.2387005649717514,0.2387005649717514
+44,"Among all inf0_medium records, most are BN_high",0.2860755291119743,0.23587570621468926,0.23587570621468926
+45,"Among all inf0_high records, most are IT_years_low",0.09982020133584125,0.2330508474576271,0.2330508474576271
+46,"Among all inf0_high records, most are IT_years_medium",0.0,0.2730696798493409,0.2730696798493409
+47,"Among all inf0_high records, most are IT_years_high",0.3060688337460826,0.2904896421845574,0.2904896421845574
+48,"Among all inf0_high records, most are BN_low",0.0,0.2344632768361582,0.2344632768361582
+49,"Among all inf0_high records, most are BN_medium",0.030956547225992757,0.332391713747646,0.332391713747646
+50,"Among all inf0_high records, most are BN_high",0.3422208493739876,0.3516949152542373,0.3516949152542373
+51,"Among all BN_low records, most are IT_years_low",0.24531250000461902,0.2787193973634652,0.2787193973634652
+52,"Among all BN_low records, most are IT_years_medium",0.0,0.2678907721280603,0.2678907721280603
+53,"Among all BN_low records, most are IT_years_high",0.22500000001196926,0.3036723163841808,0.3036723163841808
+54,"Among all BN_low records, most are inf0_low",0.6124530286847315,0.3258003766478343,0.3258003766478343
+55,"Among all BN_low records, most are inf0_medium",0.0,0.19491525423728814,0.19491525423728814
+56,"Among all BN_low records, most are inf0_high",0.0,0.2344632768361582,0.2344632768361582
+57,"Among all BN_medium records, most are IT_years_low",0.11448598133260283,0.3220338983050847,0.3220338983050847
+58,"Among all BN_medium records, most are IT_years_medium",0.0008496177126007809,0.3455743879472693,0.3455743879472693
+59,"Among all BN_medium records, most are IT_years_high",0.36214953272784867,0.3672316384180791,0.3672316384180791
+60,"Among all BN_medium records, most are inf0_low",0.2641974556098853,0.3177966101694915,0.3177966101694915
+61,"Among all BN_medium records, most are inf0_medium",0.0,0.2387005649717514,0.2387005649717514
+62,"Among all BN_medium records, most are inf0_high",0.3805033251503038,0.332391713747646,0.332391713747646
+63,"Among all BN_high records, most are IT_years_low",0.09611451943330006,0.3107344632768362,0.3107344632768362
+64,"Among all BN_high records, most are IT_years_medium",0.15320381732342708,0.3667608286252354,0.3667608286252354
+65,"Among all BN_high records, most are IT_years_high",0.186605316980725,0.3606403013182674,0.3606403013182674
+66,"Among all BN_high records, most are inf0_low",0.08493886016073247,0.2735404896421846,0.2735404896421846
+67,"Among all BN_high records, most are inf0_medium",0.0,0.23587570621468926,0.23587570621468926
+68,"Among all BN_high records, most are inf0_high",0.5185330461519607,0.3516949152542373,0.3516949152542373
+69,"Among all IT_years_low records, most are inf0_low and BN_low",0.0,0.2711864406779661,0.2711864406779661
+70,"Among all IT_years_low records, most are inf0_low and BN_medium",0.0,0.2711864406779661,0.2711864406779661
+71,"Among all IT_years_low records, most are inf0_low and BN_high",0.0,0.2711864406779661,0.2711864406779661
+72,"Among all IT_years_medium records, most are inf0_low and BN_low",0.0,0.2707156308851224,0.2707156308851224
+73,"Among all IT_years_medium records, most are inf0_low and BN_medium",0.0,0.2707156308851224,0.2707156308851224
+74,"Among all IT_years_medium records, most are inf0_low and BN_high",0.0,0.2707156308851224,0.2707156308851224
+75,"Among all IT_years_high records, most are inf0_low and BN_low",0.0,0.2744821092278719,0.2744821092278719
+76,"Among all IT_years_high records, most are inf0_low and BN_medium",0.0,0.2744821092278719,0.2744821092278719
+77,"Among all IT_years_high records, most are inf0_low and BN_high",0.0,0.2744821092278719,0.2744821092278719
+78,"Among all IT_years_low records, most are inf0_medium and BN_low",0.0,0.17749529190207156,0.17749529190207156
+79,"Among all IT_years_low records, most are inf0_medium and BN_medium",0.0,0.17749529190207156,0.17749529190207156
+80,"Among all IT_years_low records, most are inf0_medium and BN_high",0.0,0.17749529190207156,0.17749529190207156
+81,"Among all IT_years_medium records, most are inf0_medium and BN_low",0.0,0.2085687382297552,0.2085687382297552
+82,"Among all IT_years_medium records, most are inf0_medium and BN_medium",0.0,0.2085687382297552,0.2085687382297552
+83,"Among all IT_years_medium records, most are inf0_medium and BN_high",0.0,0.2085687382297552,0.2085687382297552
+84,"Among all IT_years_high records, most are inf0_medium and BN_low",0.0,0.2085687382297552,0.2085687382297552
+85,"Among all IT_years_high records, most are inf0_medium and BN_medium",0.0,0.2085687382297552,0.2085687382297552
+86,"Among all IT_years_high records, most are inf0_medium and BN_high",0.0,0.2085687382297552,0.2085687382297552
+87,"Among all IT_years_low records, most are inf0_high and BN_low",0.0,0.2330508474576271,0.2330508474576271
+88,"Among all IT_years_low records, most are inf0_high and BN_medium",0.0,0.2330508474576271,0.2330508474576271
+89,"Among all IT_years_low records, most are inf0_high and BN_high",0.0,0.2330508474576271,0.2330508474576271
+90,"Among all IT_years_medium records, most are inf0_high and BN_low",0.0,0.2730696798493409,0.2730696798493409
+91,"Among all IT_years_medium records, most are inf0_high and BN_medium",0.0,0.2730696798493409,0.2730696798493409
+92,"Among all IT_years_medium records, most are inf0_high and BN_high",0.0,0.2730696798493409,0.2730696798493409
+93,"Among all IT_years_high records, most are inf0_high and BN_low",0.0,0.2904896421845574,0.2904896421845574
+94,"Among all IT_years_high records, most are inf0_high and BN_medium",0.0,0.2904896421845574,0.2904896421845574
+95,"Among all IT_years_high records, most are inf0_high and BN_high",0.0,0.2904896421845574,0.2904896421845574
+96,,0.0,0.0,0.0
+97,,0.0,0.0,0.0
+98,,0.0,0.0,0.0
+99,,0.0,0.0,0.0
+100,,0.0,0.0,0.0
+101,,0.0,0.0,0.0
+102,,0.0,0.0,0.0
+103,,0.0,0.0,0.0
+104,,0.0,0.0,0.0
+105,,0.0,0.0,0.0
+106,,0.0,0.0,0.0
+107,,0.0,0.0,0.0
+108,,0.0,0.0,0.0
+109,,0.0,0.0,0.0
+110,,0.0,0.0,0.0
+111,,0.0,0.0,0.0
+112,,0.0,0.0,0.0
+113,,0.0,0.0,0.0
+114,,0.0,0.0,0.0
+115,,0.0,0.0,0.0
+116,,0.0,0.0,0.0
+117,,0.0,0.0,0.0
+118,,0.0,0.0,0.0
+119,,0.0,0.0,0.0
+120,,0.0,0.0,0.0
+121,,0.0,0.0,0.0
+122,,0.0,0.0,0.0
+123,,0.0,0.0,0.0
+124,,0.0,0.0,0.0
+125,,0.0,0.0,0.0
+126,,0.0,0.0,0.0
+127,,0.0,0.0,0.0
+128,,0.0,0.0,0.0
+129,,0.0,0.0,0.0
+130,,0.0,0.0,0.0
+131,,0.0,0.0,0.0
+132,,0.0,0.0,0.0
+133,,0.0,0.0,0.0
+134,,0.0,0.0,0.0
+135,,0.0,0.0,0.0
+136,,0.0,0.0,0.0
+137,,0.0,0.0,0.0
+138,,0.0,0.0,0.0
+139,,0.0,0.0,0.0
+140,,0.0,0.0,0.0
+141,,0.0,0.0,0.0
+142,,0.0,0.0,0.0
+143,,0.0,0.0,0.0
+144,,0.0,0.0,0.0
+145,,0.0,0.0,0.0
+146,,0.0,0.0,0.0
+147,,0.0,0.0,0.0
+148,,0.0,0.0,0.0
+149,,0.0,0.0,0.0
+150,,0.0,0.0,0.0
+151,,0.0,0.0,0.0
+152,,0.0,0.0,0.0
+153,,0.0,0.0,0.0
+154,,0.0,0.0,0.0
+155,,0.0,0.0,0.0
+156,,0.0,0.0,0.0
+157,,0.0,0.0,0.0
+158,,0.0,0.0,0.0
+159,,0.0,0.0,0.0
+160,,0.0,0.0,0.0
+161,,0.0,0.0,0.0
+162,,0.0,0.0,0.0
+163,,0.0,0.0,0.0
+164,,0.0,0.0,0.0
+165,,0.0,0.0,0.0
+166,,0.0,0.0,0.0
+167,,0.0,0.0,0.0
+168,,0.0,0.0,0.0
+169,,0.0,0.0,0.0
+170,,0.0,0.0,0.0
+171,,0.0,0.0,0.0
+172,,0.0,0.0,0.0
+173,,0.0,0.0,0.0
+174,,0.0,0.0,0.0
+175,,0.0,0.0,0.0
+176,,0.0,0.0,0.0
+177,,0.0,0.0,0.0
+178,,0.0,0.0,0.0
+179,,0.0,0.0,0.0
+180,,0.0,0.0,0.0
+181,,0.0,0.0,0.0
+182,,0.0,0.0,0.0
+183,,0.0,0.0,0.0
+184,,0.0,0.0,0.0
+185,,0.0,0.0,0.0
+186,,0.0,0.0,0.0
+187,,0.0,0.0,0.0
+188,,0.0,0.0,0.0
+189,,0.0,0.0,0.0
+190,,0.0,0.0,0.0
+191,,0.0,0.0,0.0
+192,,0.0,0.0,0.0
+193,,0.0,0.0,0.0
+194,,0.0,0.0,0.0
+195,,0.0,0.0,0.0
+196,,0.0,0.0,0.0
+197,,0.0,0.0,0.0
+198,,0.0,0.0,0.0
+199,,0.0,0.0,0.0
+200,,0.0,0.0,0.0
+201,,0.0,0.0,0.0
+202,,0.0,0.0,0.0
+203,,0.0,0.0,0.0
+204,,0.0,0.0,0.0
+205,,0.0,0.0,0.0
+206,,0.0,0.0,0.0
+207,,0.0,0.0,0.0
+208,,0.0,0.0,0.0
+209,,0.0,0.0,0.0
+210,,0.0,0.0,0.0
+211,,0.0,0.0,0.0
+212,,0.0,0.0,0.0
+213,,0.0,0.0,0.0
+214,,0.0,0.0,0.0
+215,,0.0,0.0,0.0
+216,,0.0,0.0,0.0
+217,,0.0,0.0,0.0
+218,,0.0,0.0,0.0
+219,,0.0,0.0,0.0
+220,,0.0,0.0,0.0
+221,,0.0,0.0,0.0
+222,,0.0,0.0,0.0
+223,,0.0,0.0,0.0
+224,,0.0,0.0,0.0
+225,,0.0,0.0,0.0
+226,,0.0,0.0,0.0
+227,,0.0,0.0,0.0
+228,,0.0,0.0,0.0
+229,,0.0,0.0,0.0
+230,,0.0,0.0,0.0
+231,,0.0,0.0,0.0
+232,,0.0,0.0,0.0
+233,,0.0,0.0,0.0
+234,,0.0,0.0,0.0
+235,,0.0,0.0,0.0
+236,,0.0,0.0,0.0
+237,,0.0,0.0,0.0
+238,,0.0,0.0,0.0
+239,,0.0,0.0,0.0
+240,,0.0,0.0,0.0
+241,,0.0,0.0,0.0
+242,,0.0,0.0,0.0
+243,,0.0,0.0,0.0
+244,,0.0,0.0,0.0
+245,,0.0,0.0,0.0
+246,,0.0,0.0,0.0
+247,,0.0,0.0,0.0
+248,,0.0,0.0,0.0
+249,,0.0,0.0,0.0
+250,,0.0,0.0,0.0
+251,,0.0,0.0,0.0
+252,,0.0,0.0,0.0
+253,,0.0,0.0,0.0
+254,,0.0,0.0,0.0
+255,,0.0,0.0,0.0
+256,,0.0,0.0,0.0
+257,,0.0,0.0,0.0
+258,,0.0,0.0,0.0
+259,,0.0,0.0,0.0
+260,,0.0,0.0,0.0
+261,,0.0,0.0,0.0
+262,,0.0,0.0,0.0
+263,,0.0,0.0,0.0
+264,,0.0,0.0,0.0
+265,,0.0,0.0,0.0
+266,,0.0,0.0,0.0
+267,,0.0,0.0,0.0
+268,,0.0,0.0,0.0
+269,,0.0,0.0,0.0
+270,,0.0,0.0,0.0
+271,,0.0,0.0,0.0
+272,,0.0,0.0,0.0
+273,,0.0,0.0,0.0
+274,,0.0,0.0,0.0
+275,,0.0,0.0,0.0
+276,,0.0,0.0,0.0
+277,,0.0,0.0,0.0
+278,,0.0,0.0,0.0
+279,,0.0,0.0,0.0
+280,,0.0,0.0,0.0
+281,,0.0,0.0,0.0
+282,,0.0,0.0,0.0
+283,,0.0,0.0,0.0
+284,,0.0,0.0,0.0
+285,,0.0,0.0,0.0
+286,,0.0,0.0,0.0
+287,,0.0,0.0,0.0
+288,,0.0,0.0,0.0
+289,,0.0,0.0,0.0
+290,,0.0,0.0,0.0
+291,,0.0,0.0,0.0
+292,,0.0,0.0,0.0
+293,,0.0,0.0,0.0
+294,,0.0,0.0,0.0
+295,,0.0,0.0,0.0
+296,,0.0,0.0,0.0
+297,,0.0,0.0,0.0
+298,,0.0,0.0,0.0
+299,,0.0,0.0,0.0
+0,"Among all records, minority are inf0_low",0.3792684475381636,0.5117702448210922,0.5117702448210922
+1,"Among all records, minority are IT_years_low",0.745056497175141,0.5028248587570622,0.5028248587570622
+2,"Among all records, minority are BN_low",0.6167608286160747,0.557909604519774,0.557909604519774
+3,"Among all records, minority are BN_low and inf0_low",1.0,0.557909604519774,0.557909604519774
+4,"Among all records, minority are IT_years_low and inf0_low",1.0,0.5028248587570622,0.5028248587570622
+5,"Among all records, minority are inf0_medium",1.0,0.3639359698681733,0.3639359698681733
+6,"Among all records, minority are IT_years_medium",1.0,0.5423728813559322,0.5423728813559322
+7,"Among all records, minority are BN_medium",1.0,0.6468926553672316,0.6468926553672316
+8,"Among all records, minority are BN_medium and inf0_medium",1.0,0.6468926553672316,0.6468926553672316
+9,"Among all records, minority are IT_years_medium and inf0_medium",1.0,0.5423728813559322,0.5423728813559322
+10,"Among all records, minority are inf0_high",0.4945726526957156,0.4924670433145009,0.4924670433145009
+11,"Among all records, minority are IT_years_high",0.5677966101694918,0.5616760828625236,0.5616760828625236
+12,"Among all records, minority are BN_high",0.7733050847394962,0.6224105461393596,0.6224105461393596
+13,"Among all records, minority are BN_high and inf0_high",1.0,0.6224105461393596,0.6224105461393596
+14,"Among all records, minority are IT_years_high and inf0_high",1.0,0.5616760828625236,0.5616760828625236
+15,"Among all IT_years_low records, minority are inf0_low",0.09054027602500958,0.2711864406779661,0.2711864406779661
+16,"Among all IT_years_low records, minority are inf0_medium",1.0,0.17749529190207156,0.17749529190207156
+17,"Among all IT_years_low records, minority are inf0_high",0.5577691882305444,0.2330508474576271,0.2330508474576271
+18,"Among all IT_years_low records, minority are BN_low",0.3638497652379119,0.2787193973634652,0.2787193973634652
+19,"Among all IT_years_low records, minority are BN_medium",1.0,0.3220338983050847,0.3220338983050847
+20,"Among all IT_years_low records, minority are BN_high",0.8350100603445262,0.3107344632768362,0.3107344632768362
+21,"Among all IT_years_medium records, minority are inf0_low",0.3300245903006971,0.2707156308851224,0.2707156308851224
+22,"Among all IT_years_medium records, minority are inf0_medium",1.0,0.2085687382297552,0.2085687382297552
+23,"Among all IT_years_medium records, minority are inf0_high",0.40923736702382807,0.2730696798493409,0.2730696798493409
+24,"Among all IT_years_medium records, minority are BN_low",1.0,0.2678907721280603,0.2678907721280603
+25,"Among all IT_years_medium records, minority are BN_medium",0.8981330432519665,0.3455743879472693,0.3455743879472693
+26,"Among all IT_years_medium records, minority are BN_high",0.09833242701055567,0.3667608286252354,0.3667608286252354
+27,"Among all IT_years_high records, minority are inf0_low",0.497399069184179,0.2744821092278719,0.2744821092278719
+28,"Among all IT_years_high records, minority are inf0_medium",1.0,0.2085687382297552,0.2085687382297552
+29,"Among all IT_years_high records, minority are inf0_high",0.307819475965298,0.2904896421845574,0.2904896421845574
+30,"Among all IT_years_high records, minority are BN_low",0.5994152046457855,0.3036723163841808,0.3036723163841808
+31,"Among all IT_years_high records, minority are BN_medium",0.9052144249438343,0.3672316384180791,0.3672316384180791
+32,"Among all IT_years_high records, minority are BN_high",0.8260233917937256,0.3606403013182674,0.3606403013182674
+33,"Among all inf0_low records, minority are IT_years_low",0.506128742226001,0.2711864406779661,0.2711864406779661
+34,"Among all inf0_low records, minority are IT_years_medium",1.0,0.2707156308851224,0.2707156308851224
+35,"Among all inf0_low records, minority are IT_years_high",0.6754256909563792,0.2744821092278719,0.2744821092278719
+36,"Among all inf0_low records, minority are BN_low",0.08024544897138636,0.3258003766478343,0.3258003766478343
+37,"Among all inf0_low records, minority are BN_medium",1.0,0.3177966101694915,0.3177966101694915
+38,"Among all inf0_low records, minority are BN_high",1.0,0.2735404896421846,0.2735404896421846
+39,"Among all inf0_medium records, minority are IT_years_low",0.7983263438914379,0.17749529190207156,0.17749529190207156
+40,"Among all inf0_medium records, minority are IT_years_medium",0.616440551841335,0.2085687382297552,0.2085687382297552
+41,"Among all inf0_medium records, minority are IT_years_high",0.33169613280415206,0.2085687382297552,0.2085687382297552
+42,"Among all inf0_medium records, minority are BN_low",0.7017525812110834,0.19491525423728814,0.19491525423728814
+43,"Among all inf0_medium records, minority are BN_medium",0.8560397454892887,0.2387005649717514,0.2387005649717514
+44,"Among all inf0_medium records, minority are BN_high",0.42784894177605143,0.23587570621468926,0.23587570621468926
+45,"Among all inf0_high records, minority are IT_years_low",0.8003595973283175,0.2330508474576271,0.2330508474576271
+46,"Among all inf0_high records, minority are IT_years_medium",1.0,0.2730696798493409,0.2730696798493409
+47,"Among all inf0_high records, minority are IT_years_high",0.3878623325078348,0.2904896421845574,0.2904896421845574
+48,"Among all inf0_high records, minority are BN_low",1.0,0.2344632768361582,0.2344632768361582
+49,"Among all inf0_high records, minority are BN_medium",0.9380869055480145,0.332391713747646,0.332391713747646
+50,"Among all inf0_high records, minority are BN_high",0.31555830125202494,0.3516949152542373,0.3516949152542373
+51,"Among all BN_low records, minority are IT_years_low",0.5093749999907621,0.2787193973634652,0.2787193973634652
+52,"Among all BN_low records, minority are IT_years_medium",1.0,0.2678907721280603,0.2678907721280603
+53,"Among all BN_low records, minority are IT_years_high",0.5499999999760616,0.3036723163841808,0.3036723163841808
+54,"Among all BN_low records, minority are inf0_low",0.0,0.3258003766478343,0.3258003766478343
+55,"Among all BN_low records, minority are inf0_medium",1.0,0.19491525423728814,0.19491525423728814
+56,"Among all BN_low records, minority are inf0_high",1.0,0.2344632768361582,0.2344632768361582
+57,"Among all BN_medium records, minority are IT_years_low",0.7710280373347944,0.3220338983050847,0.3220338983050847
+58,"Among all BN_medium records, minority are IT_years_medium",0.9983007645747984,0.3455743879472693,0.3455743879472693
+59,"Among all BN_medium records, minority are IT_years_high",0.2757009345443029,0.3672316384180791,0.3672316384180791
+60,"Among all BN_medium records, minority are inf0_low",0.4716050887802295,0.3177966101694915,0.3177966101694915
+61,"Among all BN_medium records, minority are inf0_medium",1.0,0.2387005649717514,0.2387005649717514
+62,"Among all BN_medium records, minority are inf0_high",0.23899334969939262,0.332391713747646,0.332391713747646
+63,"Among all BN_high records, minority are IT_years_low",0.8077709611333999,0.3107344632768362,0.3107344632768362
+64,"Among all BN_high records, minority are IT_years_medium",0.693592365353146,0.3667608286252354,0.3667608286252354
+65,"Among all BN_high records, minority are IT_years_high",0.6267893660385502,0.3606403013182674,0.3606403013182674
+66,"Among all BN_high records, minority are inf0_low",0.830122279678535,0.2735404896421846,0.2735404896421846
+67,"Among all BN_high records, minority are inf0_medium",1.0,0.23587570621468926,0.23587570621468926
+68,"Among all BN_high records, minority are inf0_high",0.0,0.3516949152542373,0.3516949152542373
+69,"Among all IT_years_low records, minority are inf0_low and BN_low",1.0,0.2711864406779661,0.2711864406779661
+70,"Among all IT_years_low records, minority are inf0_low and BN_medium",1.0,0.2711864406779661,0.2711864406779661
+71,"Among all IT_years_low records, minority are inf0_low and BN_high",1.0,0.2711864406779661,0.2711864406779661
+72,"Among all IT_years_medium records, minority are inf0_low and BN_low",1.0,0.2707156308851224,0.2707156308851224
+73,"Among all IT_years_medium records, minority are inf0_low and BN_medium",1.0,0.2707156308851224,0.2707156308851224
+74,"Among all IT_years_medium records, minority are inf0_low and BN_high",1.0,0.2707156308851224,0.2707156308851224
+75,"Among all IT_years_high records, minority are inf0_low and BN_low",1.0,0.2744821092278719,0.2744821092278719
+76,"Among all IT_years_high records, minority are inf0_low and BN_medium",1.0,0.2744821092278719,0.2744821092278719
+77,"Among all IT_years_high records, minority are inf0_low and BN_high",1.0,0.2744821092278719,0.2744821092278719
+78,"Among all IT_years_low records, minority are inf0_medium and BN_low",1.0,0.17749529190207156,0.17749529190207156
+79,"Among all IT_years_low records, minority are inf0_medium and BN_medium",1.0,0.17749529190207156,0.17749529190207156
+80,"Among all IT_years_low records, minority are inf0_medium and BN_high",1.0,0.17749529190207156,0.17749529190207156
+81,"Among all IT_years_medium records, minority are inf0_medium and BN_low",1.0,0.2085687382297552,0.2085687382297552
+82,"Among all IT_years_medium records, minority are inf0_medium and BN_medium",1.0,0.2085687382297552,0.2085687382297552
+83,"Among all IT_years_medium records, minority are inf0_medium and BN_high",1.0,0.2085687382297552,0.2085687382297552
+84,"Among all IT_years_high records, minority are inf0_medium and BN_low",1.0,0.2085687382297552,0.2085687382297552
+85,"Among all IT_years_high records, minority are inf0_medium and BN_medium",1.0,0.2085687382297552,0.2085687382297552
+86,"Among all IT_years_high records, minority are inf0_medium and BN_high",1.0,0.2085687382297552,0.2085687382297552
+87,"Among all IT_years_low records, minority are inf0_high and BN_low",1.0,0.2330508474576271,0.2330508474576271
+88,"Among all IT_years_low records, minority are inf0_high and BN_medium",1.0,0.2330508474576271,0.2330508474576271
+89,"Among all IT_years_low records, minority are inf0_high and BN_high",1.0,0.2330508474576271,0.2330508474576271
+90,"Among all IT_years_medium records, minority are inf0_high and BN_low",1.0,0.2730696798493409,0.2730696798493409
+91,"Among all IT_years_medium records, minority are inf0_high and BN_medium",1.0,0.2730696798493409,0.2730696798493409
+92,"Among all IT_years_medium records, minority are inf0_high and BN_high",1.0,0.2730696798493409,0.2730696798493409
+93,"Among all IT_years_high records, minority are inf0_high and BN_low",1.0,0.2904896421845574,0.2904896421845574
+94,"Among all IT_years_high records, minority are inf0_high and BN_medium",1.0,0.2904896421845574,0.2904896421845574
+95,"Among all IT_years_high records, minority are inf0_high and BN_high",1.0,0.2904896421845574,0.2904896421845574
+96,,0.0,0.0,0.0
+97,,0.0,0.0,0.0
+98,,0.0,0.0,0.0
+99,,0.0,0.0,0.0
+100,,0.0,0.0,0.0
+101,,0.0,0.0,0.0
+102,,0.0,0.0,0.0
+103,,0.0,0.0,0.0
+104,,0.0,0.0,0.0
+105,,0.0,0.0,0.0
+106,,0.0,0.0,0.0
+107,,0.0,0.0,0.0
+108,,0.0,0.0,0.0
+109,,0.0,0.0,0.0
+110,,0.0,0.0,0.0
+111,,0.0,0.0,0.0
+112,,0.0,0.0,0.0
+113,,0.0,0.0,0.0
+114,,0.0,0.0,0.0
+115,,0.0,0.0,0.0
+116,,0.0,0.0,0.0
+117,,0.0,0.0,0.0
+118,,0.0,0.0,0.0
+119,,0.0,0.0,0.0
+120,,0.0,0.0,0.0
+121,,0.0,0.0,0.0
+122,,0.0,0.0,0.0
+123,,0.0,0.0,0.0
+124,,0.0,0.0,0.0
+125,,0.0,0.0,0.0
+126,,0.0,0.0,0.0
+127,,0.0,0.0,0.0
+128,,0.0,0.0,0.0
+129,,0.0,0.0,0.0
+130,,0.0,0.0,0.0
+131,,0.0,0.0,0.0
+132,,0.0,0.0,0.0
+133,,0.0,0.0,0.0
+134,,0.0,0.0,0.0
+135,,0.0,0.0,0.0
+136,,0.0,0.0,0.0
+137,,0.0,0.0,0.0
+138,,0.0,0.0,0.0
+139,,0.0,0.0,0.0
+140,,0.0,0.0,0.0
+141,,0.0,0.0,0.0
+142,,0.0,0.0,0.0
+143,,0.0,0.0,0.0
+144,,0.0,0.0,0.0
+145,,0.0,0.0,0.0
+146,,0.0,0.0,0.0
+147,,0.0,0.0,0.0
+148,,0.0,0.0,0.0
+149,,0.0,0.0,0.0
+150,,0.0,0.0,0.0
+151,,0.0,0.0,0.0
+152,,0.0,0.0,0.0
+153,,0.0,0.0,0.0
+154,,0.0,0.0,0.0
+155,,0.0,0.0,0.0
+156,,0.0,0.0,0.0
+157,,0.0,0.0,0.0
+158,,0.0,0.0,0.0
+159,,0.0,0.0,0.0
+160,,0.0,0.0,0.0
+161,,0.0,0.0,0.0
+162,,0.0,0.0,0.0
+163,,0.0,0.0,0.0
+164,,0.0,0.0,0.0
+165,,0.0,0.0,0.0
+166,,0.0,0.0,0.0
+167,,0.0,0.0,0.0
+168,,0.0,0.0,0.0
+169,,0.0,0.0,0.0
+170,,0.0,0.0,0.0
+171,,0.0,0.0,0.0
+172,,0.0,0.0,0.0
+173,,0.0,0.0,0.0
+174,,0.0,0.0,0.0
+175,,0.0,0.0,0.0
+176,,0.0,0.0,0.0
+177,,0.0,0.0,0.0
+178,,0.0,0.0,0.0
+179,,0.0,0.0,0.0
+180,,0.0,0.0,0.0
+181,,0.0,0.0,0.0
+182,,0.0,0.0,0.0
+183,,0.0,0.0,0.0
+184,,0.0,0.0,0.0
+185,,0.0,0.0,0.0
+186,,0.0,0.0,0.0
+187,,0.0,0.0,0.0
+188,,0.0,0.0,0.0
+189,,0.0,0.0,0.0
+190,,0.0,0.0,0.0
+191,,0.0,0.0,0.0
+192,,0.0,0.0,0.0
+193,,0.0,0.0,0.0
+194,,0.0,0.0,0.0
+195,,0.0,0.0,0.0
+196,,0.0,0.0,0.0
+197,,0.0,0.0,0.0
+198,,0.0,0.0,0.0
+199,,0.0,0.0,0.0
+200,,0.0,0.0,0.0
+201,,0.0,0.0,0.0
+202,,0.0,0.0,0.0
+203,,0.0,0.0,0.0
+204,,0.0,0.0,0.0
+205,,0.0,0.0,0.0
+206,,0.0,0.0,0.0
+207,,0.0,0.0,0.0
+208,,0.0,0.0,0.0
+209,,0.0,0.0,0.0
+210,,0.0,0.0,0.0
+211,,0.0,0.0,0.0
+212,,0.0,0.0,0.0
+213,,0.0,0.0,0.0
+214,,0.0,0.0,0.0
+215,,0.0,0.0,0.0
+216,,0.0,0.0,0.0
+217,,0.0,0.0,0.0
+218,,0.0,0.0,0.0
+219,,0.0,0.0,0.0
+220,,0.0,0.0,0.0
+221,,0.0,0.0,0.0
+222,,0.0,0.0,0.0
+223,,0.0,0.0,0.0
+224,,0.0,0.0,0.0
+225,,0.0,0.0,0.0
+226,,0.0,0.0,0.0
+227,,0.0,0.0,0.0
+228,,0.0,0.0,0.0
+229,,0.0,0.0,0.0
+230,,0.0,0.0,0.0
+231,,0.0,0.0,0.0
+232,,0.0,0.0,0.0
+233,,0.0,0.0,0.0
+234,,0.0,0.0,0.0
+235,,0.0,0.0,0.0
+236,,0.0,0.0,0.0
+237,,0.0,0.0,0.0
+238,,0.0,0.0,0.0
+239,,0.0,0.0,0.0
+240,,0.0,0.0,0.0
+241,,0.0,0.0,0.0
+242,,0.0,0.0,0.0
+243,,0.0,0.0,0.0
+244,,0.0,0.0,0.0
+245,,0.0,0.0,0.0
+246,,0.0,0.0,0.0
+247,,0.0,0.0,0.0
+248,,0.0,0.0,0.0
+249,,0.0,0.0,0.0
+250,,0.0,0.0,0.0
+251,,0.0,0.0,0.0
+252,,0.0,0.0,0.0
+253,,0.0,0.0,0.0
+254,,0.0,0.0,0.0
+255,,0.0,0.0,0.0
+256,,0.0,0.0,0.0
+257,,0.0,0.0,0.0
+258,,0.0,0.0,0.0
+259,,0.0,0.0,0.0
+260,,0.0,0.0,0.0
+261,,0.0,0.0,0.0
+262,,0.0,0.0,0.0
+263,,0.0,0.0,0.0
+264,,0.0,0.0,0.0
+265,,0.0,0.0,0.0
+266,,0.0,0.0,0.0
+267,,0.0,0.0,0.0
+268,,0.0,0.0,0.0
+269,,0.0,0.0,0.0
+270,,0.0,0.0,0.0
+271,,0.0,0.0,0.0
+272,,0.0,0.0,0.0
+273,,0.0,0.0,0.0
+274,,0.0,0.0,0.0
+275,,0.0,0.0,0.0
+276,,0.0,0.0,0.0
+277,,0.0,0.0,0.0
+278,,0.0,0.0,0.0
+279,,0.0,0.0,0.0
+280,,0.0,0.0,0.0
+281,,0.0,0.0,0.0
+282,,0.0,0.0,0.0
+283,,0.0,0.0,0.0
+284,,0.0,0.0,0.0
+285,,0.0,0.0,0.0
+286,,0.0,0.0,0.0
+287,,0.0,0.0,0.0
+288,,0.0,0.0,0.0
+289,,0.0,0.0,0.0
+290,,0.0,0.0,0.0
+291,,0.0,0.0,0.0
+292,,0.0,0.0,0.0
+293,,0.0,0.0,0.0
+294,,0.0,0.0,0.0
+295,,0.0,0.0,0.0
+296,,0.0,0.0,0.0
+297,,0.0,0.0,0.0
+298,,0.0,0.0,0.0
+299,,0.0,0.0,0.0
+0,"Among all records, most are inf1_low",0.0,0.5263653483992468,0.5263653483992468
+1,"Among all records, most are IT_years_low",0.12747175141242947,0.5028248587570622,0.5028248587570622
+2,"Among all records, most are BN_low",0.1916195856919627,0.557909604519774,0.557909604519774
+3,"Among all records, most are BN_low and inf1_low",0.0,0.557909604519774,0.557909604519774
+4,"Among all records, most are IT_years_low and inf1_low",0.0,0.5028248587570622,0.5028248587570622
+5,"Among all records, most are inf1_medium",0.5729690199940343,0.8592278719397364,0.8592278719397364
+6,"Among all records, most are IT_years_medium",0.0,0.5423728813559322,0.5423728813559322
+7,"Among all records, most are BN_medium",0.0,0.6468926553672316,0.6468926553672316
+8,"Among all records, most are BN_medium and inf1_medium",0.0,0.6468926553672316,0.6468926553672316
+9,"Among all records, most are IT_years_medium and inf1_medium",0.0,0.5423728813559322,0.5423728813559322
+10,"Among all records, most are inf1_high",0.0,0.4887005649717514,0.4887005649717514
+11,"Among all records, most are IT_years_high",0.2161016949152542,0.5616760828625236,0.5616760828625236
+12,"Among all records, most are BN_high",0.11334745763025193,0.6224105461393596,0.6224105461393596
+13,"Among all records, most are BN_high and inf1_high",0.0,0.6224105461393596,0.6224105461393596
+14,"Among all records, most are IT_years_high and inf1_high",0.0,0.5616760828625236,0.5616760828625236
+15,"Among all IT_years_low records, most are inf1_low",0.0,0.2693032015065913,0.2693032015065913
+16,"Among all IT_years_low records, most are inf1_medium",0.7636161297928387,0.4402071563088512,0.4402071563088512
+17,"Among all IT_years_low records, most are inf1_high",0.0,0.24105461393596986,0.24105461393596986
+18,"Among all IT_years_low records, most are BN_low",0.3180751173810441,0.2787193973634652,0.2787193973634652
+19,"Among all IT_years_low records, most are BN_medium",0.0,0.3220338983050847,0.3220338983050847
+20,"Among all IT_years_low records, most are BN_high",0.08249496982773691,0.3107344632768362,0.3107344632768362
+21,"Among all IT_years_medium records, most are inf1_low",0.06704010780403044,0.2848399246704331,0.2848399246704331
+22,"Among all IT_years_medium records, most are inf1_medium",0.864436594900865,0.4609227871939736,0.4609227871939736
+23,"Among all IT_years_medium records, most are inf1_high",0.0,0.2650659133709981,0.2650659133709981
+24,"Among all IT_years_medium records, most are BN_low",0.0,0.2678907721280603,0.2678907721280603
+25,"Among all IT_years_medium records, most are BN_medium",0.050933478374016745,0.3455743879472693,0.3455743879472693
+26,"Among all IT_years_medium records, most are BN_high",0.4508337864947222,0.3667608286252354,0.3667608286252354
+27,"Among all IT_years_high records, most are inf1_low",0.0,0.2914312617702448,0.2914312617702448
+28,"Among all IT_years_high records, most are inf1_medium",0.6370141135573106,0.4759887005649718,0.4759887005649718
+29,"Among all IT_years_high records, most are inf1_high",0.0,0.2782485875706215,0.2782485875706215
+30,"Among all IT_years_high records, most are BN_low",0.20029239767710735,0.3036723163841808,0.3036723163841808
+31,"Among all IT_years_high records, most are BN_medium",0.04739278752808288,0.3672316384180791,0.3672316384180791
+32,"Among all IT_years_high records, most are BN_high",0.0869883041031372,0.3606403013182674,0.3606403013182674
+33,"Among all inf1_low records, most are IT_years_low",0.15813219106514065,0.2693032015065913,0.2693032015065913
+34,"Among all inf1_low records, most are IT_years_medium",0.11524133142058123,0.2848399246704331,0.2848399246704331
+35,"Among all inf1_low records, most are IT_years_high",0.3097988322245486,0.2914312617702448,0.2914312617702448
+36,"Among all inf1_low records, most are BN_low",0.3369778234557775,0.3177966101694915,0.3177966101694915
+37,"Among all inf1_low records, most are BN_medium",0.0,0.3347457627118644,0.3347457627118644
+38,"Among all inf1_low records, most are BN_high",0.15577048016214373,0.2999058380414313,0.2999058380414313
+39,"Among all inf1_medium records, most are IT_years_low",0.25392025535217333,0.4402071563088512,0.4402071563088512
+40,"Among all inf1_medium records, most are IT_years_medium",0.04242797517352529,0.4609227871939736,0.4609227871939736
+41,"Among all inf1_medium records, most are IT_years_high",0.262870797220285,0.4759887005649718,0.4759887005649718
+42,"Among all inf1_medium records, most are BN_low",0.19112448343709762,0.4759887005649718,0.4759887005649718
+43,"Among all inf1_medium records, most are BN_medium",0.057611846015194486,0.5607344632768362,0.5607344632768362
+44,"Among all inf1_medium records, most are BN_high",0.20052637312360153,0.5390772128060264,0.5390772128060264
+45,"Among all inf1_high records, most are IT_years_low",0.1250325176448601,0.24105461393596986,0.24105461393596986
+46,"Among all inf1_high records, most are IT_years_medium",0.07173887238526785,0.2650659133709981,0.2650659133709981
+47,"Among all inf1_high records, most are IT_years_high",0.4196926783624729,0.2782485875706215,0.2782485875706215
+48,"Among all inf1_high records, most are BN_low",0.03470120302941623,0.2509416195856874,0.2509416195856874
+49,"Among all inf1_high records, most are BN_medium",0.10565370732251085,0.3210922787193974,0.3210922787193974
+50,"Among all inf1_high records, most are BN_high",0.3362097710080001,0.3300376647834275,0.3300376647834275
+51,"Among all BN_low records, most are IT_years_low",0.24531250000461902,0.2787193973634652,0.2787193973634652
+52,"Among all BN_low records, most are IT_years_medium",0.0,0.2678907721280603,0.2678907721280603
+53,"Among all BN_low records, most are IT_years_high",0.22500000001196926,0.3036723163841808,0.3036723163841808
+54,"Among all BN_low records, most are inf1_low",0.0,0.3177966101694915,0.3177966101694915
+55,"Among all BN_low records, most are inf1_medium",0.5722734047425373,0.4759887005649718,0.4759887005649718
+56,"Among all BN_low records, most are inf1_high",0.0,0.2509416195856874,0.2509416195856874
+57,"Among all BN_medium records, most are IT_years_low",0.11448598133260283,0.3220338983050847,0.3220338983050847
+58,"Among all BN_medium records, most are IT_years_medium",0.0008496177126007809,0.3455743879472693,0.3455743879472693
+59,"Among all BN_medium records, most are IT_years_high",0.36214953272784867,0.3672316384180791,0.3672316384180791
+60,"Among all BN_medium records, most are inf1_low",0.0,0.3347457627118644,0.3347457627118644
+61,"Among all BN_medium records, most are inf1_medium",0.7924830185533998,0.5607344632768362,0.5607344632768362
+62,"Among all BN_medium records, most are inf1_high",0.0,0.3210922787193974,0.3210922787193974
+63,"Among all BN_high records, most are IT_years_low",0.09611451943330006,0.3107344632768362,0.3107344632768362
+64,"Among all BN_high records, most are IT_years_medium",0.15320381732342708,0.3667608286252354,0.3667608286252354
+65,"Among all BN_high records, most are IT_years_high",0.186605316980725,0.3606403013182674,0.3606403013182674
+66,"Among all BN_high records, most are inf1_low",0.0,0.2999058380414313,0.2999058380414313
+67,"Among all BN_high records, most are inf1_medium",0.7065595036110885,0.5390772128060264,0.5390772128060264
+68,"Among all BN_high records, most are inf1_high",0.0,0.3300376647834275,0.3300376647834275
+69,"Among all IT_years_low records, most are inf1_low and BN_low",0.0,0.2693032015065913,0.2693032015065913
+70,"Among all IT_years_low records, most are inf1_low and BN_medium",0.0,0.2693032015065913,0.2693032015065913
+71,"Among all IT_years_low records, most are inf1_low and BN_high",0.0,0.2693032015065913,0.2693032015065913
+72,"Among all IT_years_medium records, most are inf1_low and BN_low",0.0,0.2848399246704331,0.2848399246704331
+73,"Among all IT_years_medium records, most are inf1_low and BN_medium",0.0,0.2848399246704331,0.2848399246704331
+74,"Among all IT_years_medium records, most are inf1_low and BN_high",0.0,0.2848399246704331,0.2848399246704331
+75,"Among all IT_years_high records, most are inf1_low and BN_low",0.0,0.2914312617702448,0.2914312617702448
+76,"Among all IT_years_high records, most are inf1_low and BN_medium",0.0,0.2914312617702448,0.2914312617702448
+77,"Among all IT_years_high records, most are inf1_low and BN_high",0.0,0.2914312617702448,0.2914312617702448
+78,"Among all IT_years_low records, most are inf1_medium and BN_low",0.0,0.4402071563088512,0.4402071563088512
+79,"Among all IT_years_low records, most are inf1_medium and BN_medium",0.0,0.4402071563088512,0.4402071563088512
+80,"Among all IT_years_low records, most are inf1_medium and BN_high",0.0,0.4402071563088512,0.4402071563088512
+81,"Among all IT_years_medium records, most are inf1_medium and BN_low",0.0,0.4609227871939736,0.4609227871939736
+82,"Among all IT_years_medium records, most are inf1_medium and BN_medium",0.0,0.4609227871939736,0.4609227871939736
+83,"Among all IT_years_medium records, most are inf1_medium and BN_high",0.0,0.4609227871939736,0.4609227871939736
+84,"Among all IT_years_high records, most are inf1_medium and BN_low",0.0,0.4759887005649718,0.4759887005649718
+85,"Among all IT_years_high records, most are inf1_medium and BN_medium",0.0,0.4759887005649718,0.4759887005649718
+86,"Among all IT_years_high records, most are inf1_medium and BN_high",0.0,0.4759887005649718,0.4759887005649718
+87,"Among all IT_years_low records, most are inf1_high and BN_low",0.0,0.24105461393596986,0.24105461393596986
+88,"Among all IT_years_low records, most are inf1_high and BN_medium",0.0,0.24105461393596986,0.24105461393596986
+89,"Among all IT_years_low records, most are inf1_high and BN_high",0.0,0.24105461393596986,0.24105461393596986
+90,"Among all IT_years_medium records, most are inf1_high and BN_low",0.0,0.2650659133709981,0.2650659133709981
+91,"Among all IT_years_medium records, most are inf1_high and BN_medium",0.0,0.2650659133709981,0.2650659133709981
+92,"Among all IT_years_medium records, most are inf1_high and BN_high",0.0,0.2650659133709981,0.2650659133709981
+93,"Among all IT_years_high records, most are inf1_high and BN_low",0.0,0.2782485875706215,0.2782485875706215
+94,"Among all IT_years_high records, most are inf1_high and BN_medium",0.0,0.2782485875706215,0.2782485875706215
+95,"Among all IT_years_high records, most are inf1_high and BN_high",0.0,0.2782485875706215,0.2782485875706215
+96,,0.0,0.0,0.0
+97,,0.0,0.0,0.0
+98,,0.0,0.0,0.0
+99,,0.0,0.0,0.0
+100,,0.0,0.0,0.0
+101,,0.0,0.0,0.0
+102,,0.0,0.0,0.0
+103,,0.0,0.0,0.0
+104,,0.0,0.0,0.0
+105,,0.0,0.0,0.0
+106,,0.0,0.0,0.0
+107,,0.0,0.0,0.0
+108,,0.0,0.0,0.0
+109,,0.0,0.0,0.0
+110,,0.0,0.0,0.0
+111,,0.0,0.0,0.0
+112,,0.0,0.0,0.0
+113,,0.0,0.0,0.0
+114,,0.0,0.0,0.0
+115,,0.0,0.0,0.0
+116,,0.0,0.0,0.0
+117,,0.0,0.0,0.0
+118,,0.0,0.0,0.0
+119,,0.0,0.0,0.0
+120,,0.0,0.0,0.0
+121,,0.0,0.0,0.0
+122,,0.0,0.0,0.0
+123,,0.0,0.0,0.0
+124,,0.0,0.0,0.0
+125,,0.0,0.0,0.0
+126,,0.0,0.0,0.0
+127,,0.0,0.0,0.0
+128,,0.0,0.0,0.0
+129,,0.0,0.0,0.0
+130,,0.0,0.0,0.0
+131,,0.0,0.0,0.0
+132,,0.0,0.0,0.0
+133,,0.0,0.0,0.0
+134,,0.0,0.0,0.0
+135,,0.0,0.0,0.0
+136,,0.0,0.0,0.0
+137,,0.0,0.0,0.0
+138,,0.0,0.0,0.0
+139,,0.0,0.0,0.0
+140,,0.0,0.0,0.0
+141,,0.0,0.0,0.0
+142,,0.0,0.0,0.0
+143,,0.0,0.0,0.0
+144,,0.0,0.0,0.0
+145,,0.0,0.0,0.0
+146,,0.0,0.0,0.0
+147,,0.0,0.0,0.0
+148,,0.0,0.0,0.0
+149,,0.0,0.0,0.0
+150,,0.0,0.0,0.0
+151,,0.0,0.0,0.0
+152,,0.0,0.0,0.0
+153,,0.0,0.0,0.0
+154,,0.0,0.0,0.0
+155,,0.0,0.0,0.0
+156,,0.0,0.0,0.0
+157,,0.0,0.0,0.0
+158,,0.0,0.0,0.0
+159,,0.0,0.0,0.0
+160,,0.0,0.0,0.0
+161,,0.0,0.0,0.0
+162,,0.0,0.0,0.0
+163,,0.0,0.0,0.0
+164,,0.0,0.0,0.0
+165,,0.0,0.0,0.0
+166,,0.0,0.0,0.0
+167,,0.0,0.0,0.0
+168,,0.0,0.0,0.0
+169,,0.0,0.0,0.0
+170,,0.0,0.0,0.0
+171,,0.0,0.0,0.0
+172,,0.0,0.0,0.0
+173,,0.0,0.0,0.0
+174,,0.0,0.0,0.0
+175,,0.0,0.0,0.0
+176,,0.0,0.0,0.0
+177,,0.0,0.0,0.0
+178,,0.0,0.0,0.0
+179,,0.0,0.0,0.0
+180,,0.0,0.0,0.0
+181,,0.0,0.0,0.0
+182,,0.0,0.0,0.0
+183,,0.0,0.0,0.0
+184,,0.0,0.0,0.0
+185,,0.0,0.0,0.0
+186,,0.0,0.0,0.0
+187,,0.0,0.0,0.0
+188,,0.0,0.0,0.0
+189,,0.0,0.0,0.0
+190,,0.0,0.0,0.0
+191,,0.0,0.0,0.0
+192,,0.0,0.0,0.0
+193,,0.0,0.0,0.0
+194,,0.0,0.0,0.0
+195,,0.0,0.0,0.0
+196,,0.0,0.0,0.0
+197,,0.0,0.0,0.0
+198,,0.0,0.0,0.0
+199,,0.0,0.0,0.0
+200,,0.0,0.0,0.0
+201,,0.0,0.0,0.0
+202,,0.0,0.0,0.0
+203,,0.0,0.0,0.0
+204,,0.0,0.0,0.0
+205,,0.0,0.0,0.0
+206,,0.0,0.0,0.0
+207,,0.0,0.0,0.0
+208,,0.0,0.0,0.0
+209,,0.0,0.0,0.0
+210,,0.0,0.0,0.0
+211,,0.0,0.0,0.0
+212,,0.0,0.0,0.0
+213,,0.0,0.0,0.0
+214,,0.0,0.0,0.0
+215,,0.0,0.0,0.0
+216,,0.0,0.0,0.0
+217,,0.0,0.0,0.0
+218,,0.0,0.0,0.0
+219,,0.0,0.0,0.0
+220,,0.0,0.0,0.0
+221,,0.0,0.0,0.0
+222,,0.0,0.0,0.0
+223,,0.0,0.0,0.0
+224,,0.0,0.0,0.0
+225,,0.0,0.0,0.0
+226,,0.0,0.0,0.0
+227,,0.0,0.0,0.0
+228,,0.0,0.0,0.0
+229,,0.0,0.0,0.0
+230,,0.0,0.0,0.0
+231,,0.0,0.0,0.0
+232,,0.0,0.0,0.0
+233,,0.0,0.0,0.0
+234,,0.0,0.0,0.0
+235,,0.0,0.0,0.0
+236,,0.0,0.0,0.0
+237,,0.0,0.0,0.0
+238,,0.0,0.0,0.0
+239,,0.0,0.0,0.0
+240,,0.0,0.0,0.0
+241,,0.0,0.0,0.0
+242,,0.0,0.0,0.0
+243,,0.0,0.0,0.0
+244,,0.0,0.0,0.0
+245,,0.0,0.0,0.0
+246,,0.0,0.0,0.0
+247,,0.0,0.0,0.0
+248,,0.0,0.0,0.0
+249,,0.0,0.0,0.0
+250,,0.0,0.0,0.0
+251,,0.0,0.0,0.0
+252,,0.0,0.0,0.0
+253,,0.0,0.0,0.0
+254,,0.0,0.0,0.0
+255,,0.0,0.0,0.0
+256,,0.0,0.0,0.0
+257,,0.0,0.0,0.0
+258,,0.0,0.0,0.0
+259,,0.0,0.0,0.0
+260,,0.0,0.0,0.0
+261,,0.0,0.0,0.0
+262,,0.0,0.0,0.0
+263,,0.0,0.0,0.0
+264,,0.0,0.0,0.0
+265,,0.0,0.0,0.0
+266,,0.0,0.0,0.0
+267,,0.0,0.0,0.0
+268,,0.0,0.0,0.0
+269,,0.0,0.0,0.0
+270,,0.0,0.0,0.0
+271,,0.0,0.0,0.0
+272,,0.0,0.0,0.0
+273,,0.0,0.0,0.0
+274,,0.0,0.0,0.0
+275,,0.0,0.0,0.0
+276,,0.0,0.0,0.0
+277,,0.0,0.0,0.0
+278,,0.0,0.0,0.0
+279,,0.0,0.0,0.0
+280,,0.0,0.0,0.0
+281,,0.0,0.0,0.0
+282,,0.0,0.0,0.0
+283,,0.0,0.0,0.0
+284,,0.0,0.0,0.0
+285,,0.0,0.0,0.0
+286,,0.0,0.0,0.0
+287,,0.0,0.0,0.0
+288,,0.0,0.0,0.0
+289,,0.0,0.0,0.0
+290,,0.0,0.0,0.0
+291,,0.0,0.0,0.0
+292,,0.0,0.0,0.0
+293,,0.0,0.0,0.0
+294,,0.0,0.0,0.0
+295,,0.0,0.0,0.0
+296,,0.0,0.0,0.0
+297,,0.0,0.0,0.0
+298,,0.0,0.0,0.0
+299,,0.0,0.0,0.0
+0,"Among all records, minority are inf1_low",1.0,0.5263653483992468,0.5263653483992468
+1,"Among all records, minority are IT_years_low",0.745056497175141,0.5028248587570622,0.5028248587570622
+2,"Among all records, minority are BN_low",0.6167608286160747,0.557909604519774,0.557909604519774
+3,"Among all records, minority are BN_low and inf1_low",1.0,0.557909604519774,0.557909604519774
+4,"Among all records, minority are IT_years_low and inf1_low",1.0,0.5028248587570622,0.5028248587570622
+5,"Among all records, minority are inf1_medium",0.0,0.8592278719397364,0.8592278719397364
+6,"Among all records, minority are IT_years_medium",1.0,0.5423728813559322,0.5423728813559322
+7,"Among all records, minority are BN_medium",1.0,0.6468926553672316,0.6468926553672316
+8,"Among all records, minority are BN_medium and inf1_medium",1.0,0.6468926553672316,0.6468926553672316
+9,"Among all records, minority are IT_years_medium and inf1_medium",1.0,0.5423728813559322,0.5423728813559322
+10,"Among all records, minority are inf1_high",1.0,0.4887005649717514,0.4887005649717514
+11,"Among all records, minority are IT_years_high",0.5677966101694918,0.5616760828625236,0.5616760828625236
+12,"Among all records, minority are BN_high",0.7733050847394962,0.6224105461393596,0.6224105461393596
+13,"Among all records, minority are BN_high and inf1_high",1.0,0.6224105461393596,0.6224105461393596
+14,"Among all records, minority are IT_years_high and inf1_high",1.0,0.5616760828625236,0.5616760828625236
+15,"Among all IT_years_low records, minority are inf1_low",1.0,0.2693032015065913,0.2693032015065913
+16,"Among all IT_years_low records, minority are inf1_medium",0.0,0.4402071563088512,0.4402071563088512
+17,"Among all IT_years_low records, minority are inf1_high",1.0,0.24105461393596986,0.24105461393596986
+18,"Among all IT_years_low records, minority are BN_low",0.3638497652379119,0.2787193973634652,0.2787193973634652
+19,"Among all IT_years_low records, minority are BN_medium",1.0,0.3220338983050847,0.3220338983050847
+20,"Among all IT_years_low records, minority are BN_high",0.8350100603445262,0.3107344632768362,0.3107344632768362
+21,"Among all IT_years_medium records, minority are inf1_low",0.8659197843919391,0.2848399246704331,0.2848399246704331
+22,"Among all IT_years_medium records, minority are inf1_medium",0.0,0.4609227871939736,0.4609227871939736
+23,"Among all IT_years_medium records, minority are inf1_high",1.0,0.2650659133709981,0.2650659133709981
+24,"Among all IT_years_medium records, minority are BN_low",1.0,0.2678907721280603,0.2678907721280603
+25,"Among all IT_years_medium records, minority are BN_medium",0.8981330432519665,0.3455743879472693,0.3455743879472693
+26,"Among all IT_years_medium records, minority are BN_high",0.09833242701055567,0.3667608286252354,0.3667608286252354
+27,"Among all IT_years_high records, minority are inf1_low",1.0,0.2914312617702448,0.2914312617702448
+28,"Among all IT_years_high records, minority are inf1_medium",0.0,0.4759887005649718,0.4759887005649718
+29,"Among all IT_years_high records, minority are inf1_high",1.0,0.2782485875706215,0.2782485875706215
+30,"Among all IT_years_high records, minority are BN_low",0.5994152046457855,0.3036723163841808,0.3036723163841808
+31,"Among all IT_years_high records, minority are BN_medium",0.9052144249438343,0.3672316384180791,0.3672316384180791
+32,"Among all IT_years_high records, minority are BN_high",0.8260233917937256,0.3606403013182674,0.3606403013182674
+33,"Among all inf1_low records, minority are IT_years_low",0.6837356178697187,0.2693032015065913,0.2693032015065913
+34,"Among all inf1_low records, minority are IT_years_medium",0.7695173371588375,0.2848399246704331,0.2848399246704331
+35,"Among all inf1_low records, minority are IT_years_high",0.38040233555090286,0.2914312617702448,0.2914312617702448
+36,"Among all inf1_low records, minority are BN_low",0.3260443530884452,0.3177966101694915,0.3177966101694915
+37,"Among all inf1_low records, minority are BN_medium",1.0,0.3347457627118644,0.3347457627118644
+38,"Among all inf1_low records, minority are BN_high",0.6884590396757126,0.2999058380414313,0.2999058380414313
+39,"Among all inf1_medium records, minority are IT_years_low",0.4921594892956535,0.4402071563088512,0.4402071563088512
+40,"Among all inf1_medium records, minority are IT_years_medium",0.9151440496529495,0.4609227871939736,0.4609227871939736
+41,"Among all inf1_medium records, minority are IT_years_high",0.4742584055594301,0.4759887005649718,0.4759887005649718
+42,"Among all inf1_medium records, minority are BN_low",0.6177510331258049,0.4759887005649718,0.4759887005649718
+43,"Among all inf1_medium records, minority are BN_medium",0.884776307969611,0.5607344632768362,0.5607344632768362
+44,"Among all inf1_medium records, minority are BN_high",0.5989472537527971,0.5390772128060264,0.5390772128060264
+45,"Among all inf1_high records, minority are IT_years_low",0.7499349647102798,0.24105461393596986,0.24105461393596986
+46,"Among all inf1_high records, minority are IT_years_medium",0.8565222552294642,0.2650659133709981,0.2650659133709981
+47,"Among all inf1_high records, minority are IT_years_high",0.16061464327505437,0.2782485875706215,0.2782485875706215
+48,"Among all inf1_high records, minority are BN_low",0.9305975939411675,0.2509416195856874,0.2509416195856874
+49,"Among all inf1_high records, minority are BN_medium",0.7886925853549783,0.3210922787193974,0.3210922787193974
+50,"Among all inf1_high records, minority are BN_high",0.327580457984,0.3300376647834275,0.3300376647834275
+51,"Among all BN_low records, minority are IT_years_low",0.5093749999907621,0.2787193973634652,0.2787193973634652
+52,"Among all BN_low records, minority are IT_years_medium",1.0,0.2678907721280603,0.2678907721280603
+53,"Among all BN_low records, minority are IT_years_high",0.5499999999760616,0.3036723163841808,0.3036723163841808
+54,"Among all BN_low records, minority are inf1_low",1.0,0.3177966101694915,0.3177966101694915
+55,"Among all BN_low records, minority are inf1_medium",0.0,0.4759887005649718,0.4759887005649718
+56,"Among all BN_low records, minority are inf1_high",1.0,0.2509416195856874,0.2509416195856874
+57,"Among all BN_medium records, minority are IT_years_low",0.7710280373347944,0.3220338983050847,0.3220338983050847
+58,"Among all BN_medium records, minority are IT_years_medium",0.9983007645747984,0.3455743879472693,0.3455743879472693
+59,"Among all BN_medium records, minority are IT_years_high",0.2757009345443029,0.3672316384180791,0.3672316384180791
+60,"Among all BN_medium records, minority are inf1_low",1.0,0.3347457627118644,0.3347457627118644
+61,"Among all BN_medium records, minority are inf1_medium",0.0,0.5607344632768362,0.5607344632768362
+62,"Among all BN_medium records, minority are inf1_high",1.0,0.3210922787193974,0.3210922787193974
+63,"Among all BN_high records, minority are IT_years_low",0.8077709611333999,0.3107344632768362,0.3107344632768362
+64,"Among all BN_high records, minority are IT_years_medium",0.693592365353146,0.3667608286252354,0.3667608286252354
+65,"Among all BN_high records, minority are IT_years_high",0.6267893660385502,0.3606403013182674,0.3606403013182674
+66,"Among all BN_high records, minority are inf1_low",1.0,0.2999058380414313,0.2999058380414313
+67,"Among all BN_high records, minority are inf1_medium",0.0,0.5390772128060264,0.5390772128060264
+68,"Among all BN_high records, minority are inf1_high",1.0,0.3300376647834275,0.3300376647834275
+69,"Among all IT_years_low records, minority are inf1_low and BN_low",1.0,0.2693032015065913,0.2693032015065913
+70,"Among all IT_years_low records, minority are inf1_low and BN_medium",1.0,0.2693032015065913,0.2693032015065913
+71,"Among all IT_years_low records, minority are inf1_low and BN_high",1.0,0.2693032015065913,0.2693032015065913
+72,"Among all IT_years_medium records, minority are inf1_low and BN_low",1.0,0.2848399246704331,0.2848399246704331
+73,"Among all IT_years_medium records, minority are inf1_low and BN_medium",1.0,0.2848399246704331,0.2848399246704331
+74,"Among all IT_years_medium records, minority are inf1_low and BN_high",1.0,0.2848399246704331,0.2848399246704331
+75,"Among all IT_years_high records, minority are inf1_low and BN_low",1.0,0.2914312617702448,0.2914312617702448
+76,"Among all IT_years_high records, minority are inf1_low and BN_medium",1.0,0.2914312617702448,0.2914312617702448
+77,"Among all IT_years_high records, minority are inf1_low and BN_high",1.0,0.2914312617702448,0.2914312617702448
+78,"Among all IT_years_low records, minority are inf1_medium and BN_low",1.0,0.4402071563088512,0.4402071563088512
+79,"Among all IT_years_low records, minority are inf1_medium and BN_medium",1.0,0.4402071563088512,0.4402071563088512
+80,"Among all IT_years_low records, minority are inf1_medium and BN_high",1.0,0.4402071563088512,0.4402071563088512
+81,"Among all IT_years_medium records, minority are inf1_medium and BN_low",1.0,0.4609227871939736,0.4609227871939736
+82,"Among all IT_years_medium records, minority are inf1_medium and BN_medium",1.0,0.4609227871939736,0.4609227871939736
+83,"Among all IT_years_medium records, minority are inf1_medium and BN_high",1.0,0.4609227871939736,0.4609227871939736
+84,"Among all IT_years_high records, minority are inf1_medium and BN_low",1.0,0.4759887005649718,0.4759887005649718
+85,"Among all IT_years_high records, minority are inf1_medium and BN_medium",1.0,0.4759887005649718,0.4759887005649718
+86,"Among all IT_years_high records, minority are inf1_medium and BN_high",1.0,0.4759887005649718,0.4759887005649718
+87,"Among all IT_years_low records, minority are inf1_high and BN_low",1.0,0.24105461393596986,0.24105461393596986
+88,"Among all IT_years_low records, minority are inf1_high and BN_medium",1.0,0.24105461393596986,0.24105461393596986
+89,"Among all IT_years_low records, minority are inf1_high and BN_high",1.0,0.24105461393596986,0.24105461393596986
+90,"Among all IT_years_medium records, minority are inf1_high and BN_low",1.0,0.2650659133709981,0.2650659133709981
+91,"Among all IT_years_medium records, minority are inf1_high and BN_medium",1.0,0.2650659133709981,0.2650659133709981
+92,"Among all IT_years_medium records, minority are inf1_high and BN_high",1.0,0.2650659133709981,0.2650659133709981
+93,"Among all IT_years_high records, minority are inf1_high and BN_low",1.0,0.2782485875706215,0.2782485875706215
+94,"Among all IT_years_high records, minority are inf1_high and BN_medium",1.0,0.2782485875706215,0.2782485875706215
+95,"Among all IT_years_high records, minority are inf1_high and BN_high",1.0,0.2782485875706215,0.2782485875706215
+96,,0.0,0.0,0.0
+97,,0.0,0.0,0.0
+98,,0.0,0.0,0.0
+99,,0.0,0.0,0.0
+100,,0.0,0.0,0.0
+101,,0.0,0.0,0.0
+102,,0.0,0.0,0.0
+103,,0.0,0.0,0.0
+104,,0.0,0.0,0.0
+105,,0.0,0.0,0.0
+106,,0.0,0.0,0.0
+107,,0.0,0.0,0.0
+108,,0.0,0.0,0.0
+109,,0.0,0.0,0.0
+110,,0.0,0.0,0.0
+111,,0.0,0.0,0.0
+112,,0.0,0.0,0.0
+113,,0.0,0.0,0.0
+114,,0.0,0.0,0.0
+115,,0.0,0.0,0.0
+116,,0.0,0.0,0.0
+117,,0.0,0.0,0.0
+118,,0.0,0.0,0.0
+119,,0.0,0.0,0.0
+120,,0.0,0.0,0.0
+121,,0.0,0.0,0.0
+122,,0.0,0.0,0.0
+123,,0.0,0.0,0.0
+124,,0.0,0.0,0.0
+125,,0.0,0.0,0.0
+126,,0.0,0.0,0.0
+127,,0.0,0.0,0.0
+128,,0.0,0.0,0.0
+129,,0.0,0.0,0.0
+130,,0.0,0.0,0.0
+131,,0.0,0.0,0.0
+132,,0.0,0.0,0.0
+133,,0.0,0.0,0.0
+134,,0.0,0.0,0.0
+135,,0.0,0.0,0.0
+136,,0.0,0.0,0.0
+137,,0.0,0.0,0.0
+138,,0.0,0.0,0.0
+139,,0.0,0.0,0.0
+140,,0.0,0.0,0.0
+141,,0.0,0.0,0.0
+142,,0.0,0.0,0.0
+143,,0.0,0.0,0.0
+144,,0.0,0.0,0.0
+145,,0.0,0.0,0.0
+146,,0.0,0.0,0.0
+147,,0.0,0.0,0.0
+148,,0.0,0.0,0.0
+149,,0.0,0.0,0.0
+150,,0.0,0.0,0.0
+151,,0.0,0.0,0.0
+152,,0.0,0.0,0.0
+153,,0.0,0.0,0.0
+154,,0.0,0.0,0.0
+155,,0.0,0.0,0.0
+156,,0.0,0.0,0.0
+157,,0.0,0.0,0.0
+158,,0.0,0.0,0.0
+159,,0.0,0.0,0.0
+160,,0.0,0.0,0.0
+161,,0.0,0.0,0.0
+162,,0.0,0.0,0.0
+163,,0.0,0.0,0.0
+164,,0.0,0.0,0.0
+165,,0.0,0.0,0.0
+166,,0.0,0.0,0.0
+167,,0.0,0.0,0.0
+168,,0.0,0.0,0.0
+169,,0.0,0.0,0.0
+170,,0.0,0.0,0.0
+171,,0.0,0.0,0.0
+172,,0.0,0.0,0.0
+173,,0.0,0.0,0.0
+174,,0.0,0.0,0.0
+175,,0.0,0.0,0.0
+176,,0.0,0.0,0.0
+177,,0.0,0.0,0.0
+178,,0.0,0.0,0.0
+179,,0.0,0.0,0.0
+180,,0.0,0.0,0.0
+181,,0.0,0.0,0.0
+182,,0.0,0.0,0.0
+183,,0.0,0.0,0.0
+184,,0.0,0.0,0.0
+185,,0.0,0.0,0.0
+186,,0.0,0.0,0.0
+187,,0.0,0.0,0.0
+188,,0.0,0.0,0.0
+189,,0.0,0.0,0.0
+190,,0.0,0.0,0.0
+191,,0.0,0.0,0.0
+192,,0.0,0.0,0.0
+193,,0.0,0.0,0.0
+194,,0.0,0.0,0.0
+195,,0.0,0.0,0.0
+196,,0.0,0.0,0.0
+197,,0.0,0.0,0.0
+198,,0.0,0.0,0.0
+199,,0.0,0.0,0.0
+200,,0.0,0.0,0.0
+201,,0.0,0.0,0.0
+202,,0.0,0.0,0.0
+203,,0.0,0.0,0.0
+204,,0.0,0.0,0.0
+205,,0.0,0.0,0.0
+206,,0.0,0.0,0.0
+207,,0.0,0.0,0.0
+208,,0.0,0.0,0.0
+209,,0.0,0.0,0.0
+210,,0.0,0.0,0.0
+211,,0.0,0.0,0.0
+212,,0.0,0.0,0.0
+213,,0.0,0.0,0.0
+214,,0.0,0.0,0.0
+215,,0.0,0.0,0.0
+216,,0.0,0.0,0.0
+217,,0.0,0.0,0.0
+218,,0.0,0.0,0.0
+219,,0.0,0.0,0.0
+220,,0.0,0.0,0.0
+221,,0.0,0.0,0.0
+222,,0.0,0.0,0.0
+223,,0.0,0.0,0.0
+224,,0.0,0.0,0.0
+225,,0.0,0.0,0.0
+226,,0.0,0.0,0.0
+227,,0.0,0.0,0.0
+228,,0.0,0.0,0.0
+229,,0.0,0.0,0.0
+230,,0.0,0.0,0.0
+231,,0.0,0.0,0.0
+232,,0.0,0.0,0.0
+233,,0.0,0.0,0.0
+234,,0.0,0.0,0.0
+235,,0.0,0.0,0.0
+236,,0.0,0.0,0.0
+237,,0.0,0.0,0.0
+238,,0.0,0.0,0.0
+239,,0.0,0.0,0.0
+240,,0.0,0.0,0.0
+241,,0.0,0.0,0.0
+242,,0.0,0.0,0.0
+243,,0.0,0.0,0.0
+244,,0.0,0.0,0.0
+245,,0.0,0.0,0.0
+246,,0.0,0.0,0.0
+247,,0.0,0.0,0.0
+248,,0.0,0.0,0.0
+249,,0.0,0.0,0.0
+250,,0.0,0.0,0.0
+251,,0.0,0.0,0.0
+252,,0.0,0.0,0.0
+253,,0.0,0.0,0.0
+254,,0.0,0.0,0.0
+255,,0.0,0.0,0.0
+256,,0.0,0.0,0.0
+257,,0.0,0.0,0.0
+258,,0.0,0.0,0.0
+259,,0.0,0.0,0.0
+260,,0.0,0.0,0.0
+261,,0.0,0.0,0.0
+262,,0.0,0.0,0.0
+263,,0.0,0.0,0.0
+264,,0.0,0.0,0.0
+265,,0.0,0.0,0.0
+266,,0.0,0.0,0.0
+267,,0.0,0.0,0.0
+268,,0.0,0.0,0.0
+269,,0.0,0.0,0.0
+270,,0.0,0.0,0.0
+271,,0.0,0.0,0.0
+272,,0.0,0.0,0.0
+273,,0.0,0.0,0.0
+274,,0.0,0.0,0.0
+275,,0.0,0.0,0.0
+276,,0.0,0.0,0.0
+277,,0.0,0.0,0.0
+278,,0.0,0.0,0.0
+279,,0.0,0.0,0.0
+280,,0.0,0.0,0.0
+281,,0.0,0.0,0.0
+282,,0.0,0.0,0.0
+283,,0.0,0.0,0.0
+284,,0.0,0.0,0.0
+285,,0.0,0.0,0.0
+286,,0.0,0.0,0.0
+287,,0.0,0.0,0.0
+288,,0.0,0.0,0.0
+289,,0.0,0.0,0.0
+290,,0.0,0.0,0.0
+291,,0.0,0.0,0.0
+292,,0.0,0.0,0.0
+293,,0.0,0.0,0.0
+294,,0.0,0.0,0.0
+295,,0.0,0.0,0.0
+296,,0.0,0.0,0.0
+297,,0.0,0.0,0.0
+298,,0.0,0.0,0.0
+299,,0.0,0.0,0.0
+0,"Among all records, most are inf2_low",0.0,0.5602636534839924,0.5602636534839924
+1,"Among all records, most are IT_years_low",0.12747175141242947,0.5028248587570622,0.5028248587570622
+2,"Among all records, most are BN_low",0.1916195856919627,0.557909604519774,0.557909604519774
+3,"Among all records, most are BN_low and inf2_low",0.0,0.557909604519774,0.557909604519774
+4,"Among all records, most are IT_years_low and inf2_low",0.0,0.5028248587570622,0.5028248587570622
+5,"Among all records, most are inf2_medium",0.7776178824816307,0.8502824858757062,0.8502824858757062
+6,"Among all records, most are IT_years_medium",0.0,0.5423728813559322,0.5423728813559322
+7,"Among all records, most are BN_medium",0.0,0.6468926553672316,0.6468926553672316
+8,"Among all records, most are BN_medium and inf2_medium",0.0,0.6468926553672316,0.6468926553672316
+9,"Among all records, most are IT_years_medium and inf2_medium",0.0,0.5423728813559322,0.5423728813559322
+10,"Among all records, most are inf2_high",0.0,0.4585687382297552,0.4585687382297552
+11,"Among all records, most are IT_years_high",0.2161016949152542,0.5616760828625236,0.5616760828625236
+12,"Among all records, most are BN_high",0.11334745763025193,0.6224105461393596,0.6224105461393596
+13,"Among all records, most are BN_high and inf2_high",0.0,0.6224105461393596,0.6224105461393596
+14,"Among all records, most are IT_years_high and inf2_high",0.0,0.5616760828625236,0.5616760828625236
+15,"Among all IT_years_low records, most are inf2_low",0.0,0.2970809792843691,0.2970809792843691
+16,"Among all IT_years_low records, most are inf2_medium",0.8163391414503239,0.4218455743879473,0.4218455743879473
+17,"Among all IT_years_low records, most are inf2_high",0.0,0.2128060263653484,0.2128060263653484
+18,"Among all IT_years_low records, most are BN_low",0.3180751173810441,0.2787193973634652,0.2787193973634652
+19,"Among all IT_years_low records, most are BN_medium",0.0,0.3220338983050847,0.3220338983050847
+20,"Among all IT_years_low records, most are BN_high",0.08249496982773691,0.3107344632768362,0.3107344632768362
+21,"Among all IT_years_medium records, most are inf2_low",0.0,0.3069679849340866,0.3069679849340866
+22,"Among all IT_years_medium records, most are inf2_medium",1.0,0.4491525423728814,0.4491525423728814
+23,"Among all IT_years_medium records, most are inf2_high",0.0,0.24717514124293785,0.24717514124293785
+24,"Among all IT_years_medium records, most are BN_low",0.0,0.2678907721280603,0.2678907721280603
+25,"Among all IT_years_medium records, most are BN_medium",0.050933478374016745,0.3455743879472693,0.3455743879472693
+26,"Among all IT_years_medium records, most are BN_high",0.4508337864947222,0.3667608286252354,0.3667608286252354
+27,"Among all IT_years_high records, most are inf2_low",0.0,0.3055555555555556,0.3055555555555556
+28,"Among all IT_years_high records, most are inf2_medium",0.9249662924541737,0.4835216572504708,0.4835216572504708
+29,"Among all IT_years_high records, most are inf2_high",0.0,0.2688323917137476,0.2688323917137476
+30,"Among all IT_years_high records, most are BN_low",0.20029239767710735,0.3036723163841808,0.3036723163841808
+31,"Among all IT_years_high records, most are BN_medium",0.04739278752808288,0.3672316384180791,0.3672316384180791
+32,"Among all IT_years_high records, most are BN_high",0.0869883041031372,0.3606403013182674,0.3606403013182674
+33,"Among all inf2_low records, most are IT_years_low",0.2807222314200478,0.2970809792843691,0.2970809792843691
+34,"Among all inf2_low records, most are IT_years_medium",0.12198636655777585,0.3069679849340866,0.3069679849340866
+35,"Among all inf2_low records, most are IT_years_high",0.22053725949917047,0.3055555555555556,0.3055555555555556
+36,"Among all inf2_low records, most are BN_low",0.1932121310651808,0.3130885122410546,0.3130885122410546
+37,"Among all inf2_low records, most are BN_medium",0.10018408713489817,0.3611111111111111,0.3611111111111111
+38,"Among all inf2_low records, most are BN_high",0.20467800641646455,0.3498116760828625,0.3498116760828625
+39,"Among all inf2_medium records, most are IT_years_low",0.14971344635053674,0.4218455743879473,0.4218455743879473
+40,"Among all inf2_medium records, most are IT_years_medium",0.01563626550122127,0.4491525423728814,0.4491525423728814
+41,"Among all inf2_medium records, most are IT_years_high",0.30928831589555256,0.4835216572504708,0.4835216572504708
+42,"Among all inf2_medium records, most are BN_low",0.14107858345982494,0.4599811676082863,0.4599811676082863
+43,"Among all inf2_medium records, most are BN_medium",0.031096373183351348,0.5550847457627118,0.5550847457627118
+44,"Among all inf2_medium records, most are BN_high",0.23281066219335514,0.5423728813559322,0.5423728813559322
+45,"Among all inf2_high records, most are IT_years_low",0.2157837661269026,0.2128060263653484,0.2128060263653484
+46,"Among all inf2_high records, most are IT_years_medium",0.04576891683032367,0.24717514124293785,0.24717514124293785
+47,"Among all inf2_high records, most are IT_years_high",0.3503647618919141,0.2688323917137476,0.2688323917137476
+48,"Among all inf2_high records, most are BN_low",0.35890755636528165,0.2532956685499058,0.2532956685499058
+49,"Among all inf2_high records, most are BN_medium",0.0,0.2980225988700565,0.2980225988700565
+50,"Among all inf2_high records, most are BN_high",0.14112599731342518,0.2862523540489642,0.2862523540489642
+51,"Among all BN_low records, most are IT_years_low",0.24531250000461902,0.2787193973634652,0.2787193973634652
+52,"Among all BN_low records, most are IT_years_medium",0.0,0.2678907721280603,0.2678907721280603
+53,"Among all BN_low records, most are IT_years_high",0.22500000001196926,0.3036723163841808,0.3036723163841808
+54,"Among all BN_low records, most are inf2_low",0.0,0.3130885122410546,0.3130885122410546
+55,"Among all BN_low records, most are inf2_medium",0.6956236886675536,0.4599811676082863,0.4599811676082863
+56,"Among all BN_low records, most are inf2_high",0.0,0.2532956685499058,0.2532956685499058
+57,"Among all BN_medium records, most are IT_years_low",0.11448598133260283,0.3220338983050847,0.3220338983050847
+58,"Among all BN_medium records, most are IT_years_medium",0.0008496177126007809,0.3455743879472693,0.3455743879472693
+59,"Among all BN_medium records, most are IT_years_high",0.36214953272784867,0.3672316384180791,0.3672316384180791
+60,"Among all BN_medium records, most are inf2_low",0.0,0.3611111111111111,0.3611111111111111
+61,"Among all BN_medium records, most are inf2_medium",0.9726116954464067,0.5550847457627118,0.5550847457627118
+62,"Among all BN_medium records, most are inf2_high",0.0,0.2980225988700565,0.2980225988700565
+63,"Among all BN_high records, most are IT_years_low",0.09611451943330006,0.3107344632768362,0.3107344632768362
+64,"Among all BN_high records, most are IT_years_medium",0.15320381732342708,0.3667608286252354,0.3667608286252354
+65,"Among all BN_high records, most are IT_years_high",0.186605316980725,0.3606403013182674,0.3606403013182674
+66,"Among all BN_high records, most are inf2_low",0.0,0.3498116760828625,0.3498116760828625
+67,"Among all BN_high records, most are inf2_medium",0.988997583639348,0.5423728813559322,0.5423728813559322
+68,"Among all BN_high records, most are inf2_high",0.0,0.2862523540489642,0.2862523540489642
+69,"Among all IT_years_low records, most are inf2_low and BN_low",0.0,0.2970809792843691,0.2970809792843691
+70,"Among all IT_years_low records, most are inf2_low and BN_medium",0.0,0.2970809792843691,0.2970809792843691
+71,"Among all IT_years_low records, most are inf2_low and BN_high",0.0,0.2970809792843691,0.2970809792843691
+72,"Among all IT_years_medium records, most are inf2_low and BN_low",0.0,0.3069679849340866,0.3069679849340866
+73,"Among all IT_years_medium records, most are inf2_low and BN_medium",0.0,0.3069679849340866,0.3069679849340866
+74,"Among all IT_years_medium records, most are inf2_low and BN_high",0.0,0.3069679849340866,0.3069679849340866
+75,"Among all IT_years_high records, most are inf2_low and BN_low",0.0,0.3055555555555556,0.3055555555555556
+76,"Among all IT_years_high records, most are inf2_low and BN_medium",0.0,0.3055555555555556,0.3055555555555556
+77,"Among all IT_years_high records, most are inf2_low and BN_high",0.0,0.3055555555555556,0.3055555555555556
+78,"Among all IT_years_low records, most are inf2_medium and BN_low",0.0,0.4218455743879473,0.4218455743879473
+79,"Among all IT_years_low records, most are inf2_medium and BN_medium",0.0,0.4218455743879473,0.4218455743879473
+80,"Among all IT_years_low records, most are inf2_medium and BN_high",0.0,0.4218455743879473,0.4218455743879473
+81,"Among all IT_years_medium records, most are inf2_medium and BN_low",0.0,0.4491525423728814,0.4491525423728814
+82,"Among all IT_years_medium records, most are inf2_medium and BN_medium",0.0,0.4491525423728814,0.4491525423728814
+83,"Among all IT_years_medium records, most are inf2_medium and BN_high",0.0,0.4491525423728814,0.4491525423728814
+84,"Among all IT_years_high records, most are inf2_medium and BN_low",0.0,0.4835216572504708,0.4835216572504708
+85,"Among all IT_years_high records, most are inf2_medium and BN_medium",0.0,0.4835216572504708,0.4835216572504708
+86,"Among all IT_years_high records, most are inf2_medium and BN_high",0.0,0.4835216572504708,0.4835216572504708
+87,"Among all IT_years_low records, most are inf2_high and BN_low",0.0,0.2128060263653484,0.2128060263653484
+88,"Among all IT_years_low records, most are inf2_high and BN_medium",0.0,0.2128060263653484,0.2128060263653484
+89,"Among all IT_years_low records, most are inf2_high and BN_high",0.0,0.2128060263653484,0.2128060263653484
+90,"Among all IT_years_medium records, most are inf2_high and BN_low",0.0,0.24717514124293785,0.24717514124293785
+91,"Among all IT_years_medium records, most are inf2_high and BN_medium",0.0,0.24717514124293785,0.24717514124293785
+92,"Among all IT_years_medium records, most are inf2_high and BN_high",0.0,0.24717514124293785,0.24717514124293785
+93,"Among all IT_years_high records, most are inf2_high and BN_low",0.0,0.2688323917137476,0.2688323917137476
+94,"Among all IT_years_high records, most are inf2_high and BN_medium",0.0,0.2688323917137476,0.2688323917137476
+95,"Among all IT_years_high records, most are inf2_high and BN_high",0.0,0.2688323917137476,0.2688323917137476
+96,,0.0,0.0,0.0
+97,,0.0,0.0,0.0
+98,,0.0,0.0,0.0
+99,,0.0,0.0,0.0
+100,,0.0,0.0,0.0
+101,,0.0,0.0,0.0
+102,,0.0,0.0,0.0
+103,,0.0,0.0,0.0
+104,,0.0,0.0,0.0
+105,,0.0,0.0,0.0
+106,,0.0,0.0,0.0
+107,,0.0,0.0,0.0
+108,,0.0,0.0,0.0
+109,,0.0,0.0,0.0
+110,,0.0,0.0,0.0
+111,,0.0,0.0,0.0
+112,,0.0,0.0,0.0
+113,,0.0,0.0,0.0
+114,,0.0,0.0,0.0
+115,,0.0,0.0,0.0
+116,,0.0,0.0,0.0
+117,,0.0,0.0,0.0
+118,,0.0,0.0,0.0
+119,,0.0,0.0,0.0
+120,,0.0,0.0,0.0
+121,,0.0,0.0,0.0
+122,,0.0,0.0,0.0
+123,,0.0,0.0,0.0
+124,,0.0,0.0,0.0
+125,,0.0,0.0,0.0
+126,,0.0,0.0,0.0
+127,,0.0,0.0,0.0
+128,,0.0,0.0,0.0
+129,,0.0,0.0,0.0
+130,,0.0,0.0,0.0
+131,,0.0,0.0,0.0
+132,,0.0,0.0,0.0
+133,,0.0,0.0,0.0
+134,,0.0,0.0,0.0
+135,,0.0,0.0,0.0
+136,,0.0,0.0,0.0
+137,,0.0,0.0,0.0
+138,,0.0,0.0,0.0
+139,,0.0,0.0,0.0
+140,,0.0,0.0,0.0
+141,,0.0,0.0,0.0
+142,,0.0,0.0,0.0
+143,,0.0,0.0,0.0
+144,,0.0,0.0,0.0
+145,,0.0,0.0,0.0
+146,,0.0,0.0,0.0
+147,,0.0,0.0,0.0
+148,,0.0,0.0,0.0
+149,,0.0,0.0,0.0
+150,,0.0,0.0,0.0
+151,,0.0,0.0,0.0
+152,,0.0,0.0,0.0
+153,,0.0,0.0,0.0
+154,,0.0,0.0,0.0
+155,,0.0,0.0,0.0
+156,,0.0,0.0,0.0
+157,,0.0,0.0,0.0
+158,,0.0,0.0,0.0
+159,,0.0,0.0,0.0
+160,,0.0,0.0,0.0
+161,,0.0,0.0,0.0
+162,,0.0,0.0,0.0
+163,,0.0,0.0,0.0
+164,,0.0,0.0,0.0
+165,,0.0,0.0,0.0
+166,,0.0,0.0,0.0
+167,,0.0,0.0,0.0
+168,,0.0,0.0,0.0
+169,,0.0,0.0,0.0
+170,,0.0,0.0,0.0
+171,,0.0,0.0,0.0
+172,,0.0,0.0,0.0
+173,,0.0,0.0,0.0
+174,,0.0,0.0,0.0
+175,,0.0,0.0,0.0
+176,,0.0,0.0,0.0
+177,,0.0,0.0,0.0
+178,,0.0,0.0,0.0
+179,,0.0,0.0,0.0
+180,,0.0,0.0,0.0
+181,,0.0,0.0,0.0
+182,,0.0,0.0,0.0
+183,,0.0,0.0,0.0
+184,,0.0,0.0,0.0
+185,,0.0,0.0,0.0
+186,,0.0,0.0,0.0
+187,,0.0,0.0,0.0
+188,,0.0,0.0,0.0
+189,,0.0,0.0,0.0
+190,,0.0,0.0,0.0
+191,,0.0,0.0,0.0
+192,,0.0,0.0,0.0
+193,,0.0,0.0,0.0
+194,,0.0,0.0,0.0
+195,,0.0,0.0,0.0
+196,,0.0,0.0,0.0
+197,,0.0,0.0,0.0
+198,,0.0,0.0,0.0
+199,,0.0,0.0,0.0
+200,,0.0,0.0,0.0
+201,,0.0,0.0,0.0
+202,,0.0,0.0,0.0
+203,,0.0,0.0,0.0
+204,,0.0,0.0,0.0
+205,,0.0,0.0,0.0
+206,,0.0,0.0,0.0
+207,,0.0,0.0,0.0
+208,,0.0,0.0,0.0
+209,,0.0,0.0,0.0
+210,,0.0,0.0,0.0
+211,,0.0,0.0,0.0
+212,,0.0,0.0,0.0
+213,,0.0,0.0,0.0
+214,,0.0,0.0,0.0
+215,,0.0,0.0,0.0
+216,,0.0,0.0,0.0
+217,,0.0,0.0,0.0
+218,,0.0,0.0,0.0
+219,,0.0,0.0,0.0
+220,,0.0,0.0,0.0
+221,,0.0,0.0,0.0
+222,,0.0,0.0,0.0
+223,,0.0,0.0,0.0
+224,,0.0,0.0,0.0
+225,,0.0,0.0,0.0
+226,,0.0,0.0,0.0
+227,,0.0,0.0,0.0
+228,,0.0,0.0,0.0
+229,,0.0,0.0,0.0
+230,,0.0,0.0,0.0
+231,,0.0,0.0,0.0
+232,,0.0,0.0,0.0
+233,,0.0,0.0,0.0
+234,,0.0,0.0,0.0
+235,,0.0,0.0,0.0
+236,,0.0,0.0,0.0
+237,,0.0,0.0,0.0
+238,,0.0,0.0,0.0
+239,,0.0,0.0,0.0
+240,,0.0,0.0,0.0
+241,,0.0,0.0,0.0
+242,,0.0,0.0,0.0
+243,,0.0,0.0,0.0
+244,,0.0,0.0,0.0
+245,,0.0,0.0,0.0
+246,,0.0,0.0,0.0
+247,,0.0,0.0,0.0
+248,,0.0,0.0,0.0
+249,,0.0,0.0,0.0
+250,,0.0,0.0,0.0
+251,,0.0,0.0,0.0
+252,,0.0,0.0,0.0
+253,,0.0,0.0,0.0
+254,,0.0,0.0,0.0
+255,,0.0,0.0,0.0
+256,,0.0,0.0,0.0
+257,,0.0,0.0,0.0
+258,,0.0,0.0,0.0
+259,,0.0,0.0,0.0
+260,,0.0,0.0,0.0
+261,,0.0,0.0,0.0
+262,,0.0,0.0,0.0
+263,,0.0,0.0,0.0
+264,,0.0,0.0,0.0
+265,,0.0,0.0,0.0
+266,,0.0,0.0,0.0
+267,,0.0,0.0,0.0
+268,,0.0,0.0,0.0
+269,,0.0,0.0,0.0
+270,,0.0,0.0,0.0
+271,,0.0,0.0,0.0
+272,,0.0,0.0,0.0
+273,,0.0,0.0,0.0
+274,,0.0,0.0,0.0
+275,,0.0,0.0,0.0
+276,,0.0,0.0,0.0
+277,,0.0,0.0,0.0
+278,,0.0,0.0,0.0
+279,,0.0,0.0,0.0
+280,,0.0,0.0,0.0
+281,,0.0,0.0,0.0
+282,,0.0,0.0,0.0
+283,,0.0,0.0,0.0
+284,,0.0,0.0,0.0
+285,,0.0,0.0,0.0
+286,,0.0,0.0,0.0
+287,,0.0,0.0,0.0
+288,,0.0,0.0,0.0
+289,,0.0,0.0,0.0
+290,,0.0,0.0,0.0
+291,,0.0,0.0,0.0
+292,,0.0,0.0,0.0
+293,,0.0,0.0,0.0
+294,,0.0,0.0,0.0
+295,,0.0,0.0,0.0
+296,,0.0,0.0,0.0
+297,,0.0,0.0,0.0
+298,,0.0,0.0,0.0
+299,,0.0,0.0,0.0
+0,"Among all records, minority are inf2_low",1.0,0.5602636534839924,0.5602636534839924
+1,"Among all records, minority are IT_years_low",0.745056497175141,0.5028248587570622,0.5028248587570622
+2,"Among all records, minority are BN_low",0.6167608286160747,0.557909604519774,0.557909604519774
+3,"Among all records, minority are BN_low and inf2_low",1.0,0.557909604519774,0.557909604519774
+4,"Among all records, minority are IT_years_low and inf2_low",1.0,0.5028248587570622,0.5028248587570622
+5,"Among all records, minority are inf2_medium",0.0,0.8502824858757062,0.8502824858757062
+6,"Among all records, minority are IT_years_medium",1.0,0.5423728813559322,0.5423728813559322
+7,"Among all records, minority are BN_medium",1.0,0.6468926553672316,0.6468926553672316
+8,"Among all records, minority are BN_medium and inf2_medium",1.0,0.6468926553672316,0.6468926553672316
+9,"Among all records, minority are IT_years_medium and inf2_medium",1.0,0.5423728813559322,0.5423728813559322
+10,"Among all records, minority are inf2_high",1.0,0.4585687382297552,0.4585687382297552
+11,"Among all records, minority are IT_years_high",0.5677966101694918,0.5616760828625236,0.5616760828625236
+12,"Among all records, minority are BN_high",0.7733050847394962,0.6224105461393596,0.6224105461393596
+13,"Among all records, minority are BN_high and inf2_high",1.0,0.6224105461393596,0.6224105461393596
+14,"Among all records, minority are IT_years_high and inf2_high",1.0,0.5616760828625236,0.5616760828625236
+15,"Among all IT_years_low records, minority are inf2_low",1.0,0.2970809792843691,0.2970809792843691
+16,"Among all IT_years_low records, minority are inf2_medium",0.0,0.4218455743879473,0.4218455743879473
+17,"Among all IT_years_low records, minority are inf2_high",1.0,0.2128060263653484,0.2128060263653484
+18,"Among all IT_years_low records, minority are BN_low",0.3638497652379119,0.2787193973634652,0.2787193973634652
+19,"Among all IT_years_low records, minority are BN_medium",1.0,0.3220338983050847,0.3220338983050847
+20,"Among all IT_years_low records, minority are BN_high",0.8350100603445262,0.3107344632768362,0.3107344632768362
+21,"Among all IT_years_medium records, minority are inf2_low",1.0,0.3069679849340866,0.3069679849340866
+22,"Among all IT_years_medium records, minority are inf2_medium",0.0,0.4491525423728814,0.4491525423728814
+23,"Among all IT_years_medium records, minority are inf2_high",1.0,0.24717514124293785,0.24717514124293785
+24,"Among all IT_years_medium records, minority are BN_low",1.0,0.2678907721280603,0.2678907721280603
+25,"Among all IT_years_medium records, minority are BN_medium",0.8981330432519665,0.3455743879472693,0.3455743879472693
+26,"Among all IT_years_medium records, minority are BN_high",0.09833242701055567,0.3667608286252354,0.3667608286252354
+27,"Among all IT_years_high records, minority are inf2_low",1.0,0.3055555555555556,0.3055555555555556
+28,"Among all IT_years_high records, minority are inf2_medium",0.0,0.4835216572504708,0.4835216572504708
+29,"Among all IT_years_high records, minority are inf2_high",1.0,0.2688323917137476,0.2688323917137476
+30,"Among all IT_years_high records, minority are BN_low",0.5994152046457855,0.3036723163841808,0.3036723163841808
+31,"Among all IT_years_high records, minority are BN_medium",0.9052144249438343,0.3672316384180791,0.3672316384180791
+32,"Among all IT_years_high records, minority are BN_high",0.8260233917937256,0.3606403013182674,0.3606403013182674
+33,"Among all inf2_low records, minority are IT_years_low",0.43855553715990453,0.2970809792843691,0.2970809792843691
+34,"Among all inf2_low records, minority are IT_years_medium",0.7560272668844483,0.3069679849340866,0.3069679849340866
+35,"Among all inf2_low records, minority are IT_years_high",0.5589254810016592,0.3055555555555556,0.3055555555555556
+36,"Among all inf2_low records, minority are BN_low",0.6135757378696385,0.3130885122410546,0.3130885122410546
+37,"Among all inf2_low records, minority are BN_medium",0.7996318257302037,0.3611111111111111,0.3611111111111111
+38,"Among all inf2_low records, minority are BN_high",0.590643987167071,0.3498116760828625,0.3498116760828625
+39,"Among all inf2_medium records, minority are IT_years_low",0.7005731072989265,0.4218455743879473,0.4218455743879473
+40,"Among all inf2_medium records, minority are IT_years_medium",0.9687274689975575,0.4491525423728814,0.4491525423728814
+41,"Among all inf2_medium records, minority are IT_years_high",0.38142336820889494,0.4835216572504708,0.4835216572504708
+42,"Among all inf2_medium records, minority are BN_low",0.7178428330803501,0.4599811676082863,0.4599811676082863
+43,"Among all inf2_medium records, minority are BN_medium",0.9378072536332973,0.5550847457627118,0.5550847457627118
+44,"Among all inf2_medium records, minority are BN_high",0.5343786756132898,0.5423728813559322,0.5423728813559322
+45,"Among all inf2_high records, minority are IT_years_low",0.5684324677461949,0.2128060263653484,0.2128060263653484
+46,"Among all inf2_high records, minority are IT_years_medium",0.9084621663393526,0.24717514124293785,0.24717514124293785
+47,"Among all inf2_high records, minority are IT_years_high",0.29927047621617187,0.2688323917137476,0.2688323917137476
+48,"Among all inf2_high records, minority are BN_low",0.28218488726943686,0.2532956685499058,0.2532956685499058
+49,"Among all inf2_high records, minority are BN_medium",1.0,0.2980225988700565,0.2980225988700565
+50,"Among all inf2_high records, minority are BN_high",0.7177480053731498,0.2862523540489642,0.2862523540489642
+51,"Among all BN_low records, minority are IT_years_low",0.5093749999907621,0.2787193973634652,0.2787193973634652
+52,"Among all BN_low records, minority are IT_years_medium",1.0,0.2678907721280603,0.2678907721280603
+53,"Among all BN_low records, minority are IT_years_high",0.5499999999760616,0.3036723163841808,0.3036723163841808
+54,"Among all BN_low records, minority are inf2_low",1.0,0.3130885122410546,0.3130885122410546
+55,"Among all BN_low records, minority are inf2_medium",0.0,0.4599811676082863,0.4599811676082863
+56,"Among all BN_low records, minority are inf2_high",1.0,0.2532956685499058,0.2532956685499058
+57,"Among all BN_medium records, minority are IT_years_low",0.7710280373347944,0.3220338983050847,0.3220338983050847
+58,"Among all BN_medium records, minority are IT_years_medium",0.9983007645747984,0.3455743879472693,0.3455743879472693
+59,"Among all BN_medium records, minority are IT_years_high",0.2757009345443029,0.3672316384180791,0.3672316384180791
+60,"Among all BN_medium records, minority are inf2_low",1.0,0.3611111111111111,0.3611111111111111
+61,"Among all BN_medium records, minority are inf2_medium",0.0,0.5550847457627118,0.5550847457627118
+62,"Among all BN_medium records, minority are inf2_high",1.0,0.2980225988700565,0.2980225988700565
+63,"Among all BN_high records, minority are IT_years_low",0.8077709611333999,0.3107344632768362,0.3107344632768362
+64,"Among all BN_high records, minority are IT_years_medium",0.693592365353146,0.3667608286252354,0.3667608286252354
+65,"Among all BN_high records, minority are IT_years_high",0.6267893660385502,0.3606403013182674,0.3606403013182674
+66,"Among all BN_high records, minority are inf2_low",1.0,0.3498116760828625,0.3498116760828625
+67,"Among all BN_high records, minority are inf2_medium",0.0,0.5423728813559322,0.5423728813559322
+68,"Among all BN_high records, minority are inf2_high",1.0,0.2862523540489642,0.2862523540489642
+69,"Among all IT_years_low records, minority are inf2_low and BN_low",1.0,0.2970809792843691,0.2970809792843691
+70,"Among all IT_years_low records, minority are inf2_low and BN_medium",1.0,0.2970809792843691,0.2970809792843691
+71,"Among all IT_years_low records, minority are inf2_low and BN_high",1.0,0.2970809792843691,0.2970809792843691
+72,"Among all IT_years_medium records, minority are inf2_low and BN_low",1.0,0.3069679849340866,0.3069679849340866
+73,"Among all IT_years_medium records, minority are inf2_low and BN_medium",1.0,0.3069679849340866,0.3069679849340866
+74,"Among all IT_years_medium records, minority are inf2_low and BN_high",1.0,0.3069679849340866,0.3069679849340866
+75,"Among all IT_years_high records, minority are inf2_low and BN_low",1.0,0.3055555555555556,0.3055555555555556
+76,"Among all IT_years_high records, minority are inf2_low and BN_medium",1.0,0.3055555555555556,0.3055555555555556
+77,"Among all IT_years_high records, minority are inf2_low and BN_high",1.0,0.3055555555555556,0.3055555555555556
+78,"Among all IT_years_low records, minority are inf2_medium and BN_low",1.0,0.4218455743879473,0.4218455743879473
+79,"Among all IT_years_low records, minority are inf2_medium and BN_medium",1.0,0.4218455743879473,0.4218455743879473
+80,"Among all IT_years_low records, minority are inf2_medium and BN_high",1.0,0.4218455743879473,0.4218455743879473
+81,"Among all IT_years_medium records, minority are inf2_medium and BN_low",1.0,0.4491525423728814,0.4491525423728814
+82,"Among all IT_years_medium records, minority are inf2_medium and BN_medium",1.0,0.4491525423728814,0.4491525423728814
+83,"Among all IT_years_medium records, minority are inf2_medium and BN_high",1.0,0.4491525423728814,0.4491525423728814
+84,"Among all IT_years_high records, minority are inf2_medium and BN_low",1.0,0.4835216572504708,0.4835216572504708
+85,"Among all IT_years_high records, minority are inf2_medium and BN_medium",1.0,0.4835216572504708,0.4835216572504708
+86,"Among all IT_years_high records, minority are inf2_medium and BN_high",1.0,0.4835216572504708,0.4835216572504708
+87,"Among all IT_years_low records, minority are inf2_high and BN_low",1.0,0.2128060263653484,0.2128060263653484
+88,"Among all IT_years_low records, minority are inf2_high and BN_medium",1.0,0.2128060263653484,0.2128060263653484
+89,"Among all IT_years_low records, minority are inf2_high and BN_high",1.0,0.2128060263653484,0.2128060263653484
+90,"Among all IT_years_medium records, minority are inf2_high and BN_low",1.0,0.24717514124293785,0.24717514124293785
+91,"Among all IT_years_medium records, minority are inf2_high and BN_medium",1.0,0.24717514124293785,0.24717514124293785
+92,"Among all IT_years_medium records, minority are inf2_high and BN_high",1.0,0.24717514124293785,0.24717514124293785
+93,"Among all IT_years_high records, minority are inf2_high and BN_low",1.0,0.2688323917137476,0.2688323917137476
+94,"Among all IT_years_high records, minority are inf2_high and BN_medium",1.0,0.2688323917137476,0.2688323917137476
+95,"Among all IT_years_high records, minority are inf2_high and BN_high",1.0,0.2688323917137476,0.2688323917137476
+96,,0.0,0.0,0.0
+97,,0.0,0.0,0.0
+98,,0.0,0.0,0.0
+99,,0.0,0.0,0.0
+100,,0.0,0.0,0.0
+101,,0.0,0.0,0.0
+102,,0.0,0.0,0.0
+103,,0.0,0.0,0.0
+104,,0.0,0.0,0.0
+105,,0.0,0.0,0.0
+106,,0.0,0.0,0.0
+107,,0.0,0.0,0.0
+108,,0.0,0.0,0.0
+109,,0.0,0.0,0.0
+110,,0.0,0.0,0.0
+111,,0.0,0.0,0.0
+112,,0.0,0.0,0.0
+113,,0.0,0.0,0.0
+114,,0.0,0.0,0.0
+115,,0.0,0.0,0.0
+116,,0.0,0.0,0.0
+117,,0.0,0.0,0.0
+118,,0.0,0.0,0.0
+119,,0.0,0.0,0.0
+120,,0.0,0.0,0.0
+121,,0.0,0.0,0.0
+122,,0.0,0.0,0.0
+123,,0.0,0.0,0.0
+124,,0.0,0.0,0.0
+125,,0.0,0.0,0.0
+126,,0.0,0.0,0.0
+127,,0.0,0.0,0.0
+128,,0.0,0.0,0.0
+129,,0.0,0.0,0.0
+130,,0.0,0.0,0.0
+131,,0.0,0.0,0.0
+132,,0.0,0.0,0.0
+133,,0.0,0.0,0.0
+134,,0.0,0.0,0.0
+135,,0.0,0.0,0.0
+136,,0.0,0.0,0.0
+137,,0.0,0.0,0.0
+138,,0.0,0.0,0.0
+139,,0.0,0.0,0.0
+140,,0.0,0.0,0.0
+141,,0.0,0.0,0.0
+142,,0.0,0.0,0.0
+143,,0.0,0.0,0.0
+144,,0.0,0.0,0.0
+145,,0.0,0.0,0.0
+146,,0.0,0.0,0.0
+147,,0.0,0.0,0.0
+148,,0.0,0.0,0.0
+149,,0.0,0.0,0.0
+150,,0.0,0.0,0.0
+151,,0.0,0.0,0.0
+152,,0.0,0.0,0.0
+153,,0.0,0.0,0.0
+154,,0.0,0.0,0.0
+155,,0.0,0.0,0.0
+156,,0.0,0.0,0.0
+157,,0.0,0.0,0.0
+158,,0.0,0.0,0.0
+159,,0.0,0.0,0.0
+160,,0.0,0.0,0.0
+161,,0.0,0.0,0.0
+162,,0.0,0.0,0.0
+163,,0.0,0.0,0.0
+164,,0.0,0.0,0.0
+165,,0.0,0.0,0.0
+166,,0.0,0.0,0.0
+167,,0.0,0.0,0.0
+168,,0.0,0.0,0.0
+169,,0.0,0.0,0.0
+170,,0.0,0.0,0.0
+171,,0.0,0.0,0.0
+172,,0.0,0.0,0.0
+173,,0.0,0.0,0.0
+174,,0.0,0.0,0.0
+175,,0.0,0.0,0.0
+176,,0.0,0.0,0.0
+177,,0.0,0.0,0.0
+178,,0.0,0.0,0.0
+179,,0.0,0.0,0.0
+180,,0.0,0.0,0.0
+181,,0.0,0.0,0.0
+182,,0.0,0.0,0.0
+183,,0.0,0.0,0.0
+184,,0.0,0.0,0.0
+185,,0.0,0.0,0.0
+186,,0.0,0.0,0.0
+187,,0.0,0.0,0.0
+188,,0.0,0.0,0.0
+189,,0.0,0.0,0.0
+190,,0.0,0.0,0.0
+191,,0.0,0.0,0.0
+192,,0.0,0.0,0.0
+193,,0.0,0.0,0.0
+194,,0.0,0.0,0.0
+195,,0.0,0.0,0.0
+196,,0.0,0.0,0.0
+197,,0.0,0.0,0.0
+198,,0.0,0.0,0.0
+199,,0.0,0.0,0.0
+200,,0.0,0.0,0.0
+201,,0.0,0.0,0.0
+202,,0.0,0.0,0.0
+203,,0.0,0.0,0.0
+204,,0.0,0.0,0.0
+205,,0.0,0.0,0.0
+206,,0.0,0.0,0.0
+207,,0.0,0.0,0.0
+208,,0.0,0.0,0.0
+209,,0.0,0.0,0.0
+210,,0.0,0.0,0.0
+211,,0.0,0.0,0.0
+212,,0.0,0.0,0.0
+213,,0.0,0.0,0.0
+214,,0.0,0.0,0.0
+215,,0.0,0.0,0.0
+216,,0.0,0.0,0.0
+217,,0.0,0.0,0.0
+218,,0.0,0.0,0.0
+219,,0.0,0.0,0.0
+220,,0.0,0.0,0.0
+221,,0.0,0.0,0.0
+222,,0.0,0.0,0.0
+223,,0.0,0.0,0.0
+224,,0.0,0.0,0.0
+225,,0.0,0.0,0.0
+226,,0.0,0.0,0.0
+227,,0.0,0.0,0.0
+228,,0.0,0.0,0.0
+229,,0.0,0.0,0.0
+230,,0.0,0.0,0.0
+231,,0.0,0.0,0.0
+232,,0.0,0.0,0.0
+233,,0.0,0.0,0.0
+234,,0.0,0.0,0.0
+235,,0.0,0.0,0.0
+236,,0.0,0.0,0.0
+237,,0.0,0.0,0.0
+238,,0.0,0.0,0.0
+239,,0.0,0.0,0.0
+240,,0.0,0.0,0.0
+241,,0.0,0.0,0.0
+242,,0.0,0.0,0.0
+243,,0.0,0.0,0.0
+244,,0.0,0.0,0.0
+245,,0.0,0.0,0.0
+246,,0.0,0.0,0.0
+247,,0.0,0.0,0.0
+248,,0.0,0.0,0.0
+249,,0.0,0.0,0.0
+250,,0.0,0.0,0.0
+251,,0.0,0.0,0.0
+252,,0.0,0.0,0.0
+253,,0.0,0.0,0.0
+254,,0.0,0.0,0.0
+255,,0.0,0.0,0.0
+256,,0.0,0.0,0.0
+257,,0.0,0.0,0.0
+258,,0.0,0.0,0.0
+259,,0.0,0.0,0.0
+260,,0.0,0.0,0.0
+261,,0.0,0.0,0.0
+262,,0.0,0.0,0.0
+263,,0.0,0.0,0.0
+264,,0.0,0.0,0.0
+265,,0.0,0.0,0.0
+266,,0.0,0.0,0.0
+267,,0.0,0.0,0.0
+268,,0.0,0.0,0.0
+269,,0.0,0.0,0.0
+270,,0.0,0.0,0.0
+271,,0.0,0.0,0.0
+272,,0.0,0.0,0.0
+273,,0.0,0.0,0.0
+274,,0.0,0.0,0.0
+275,,0.0,0.0,0.0
+276,,0.0,0.0,0.0
+277,,0.0,0.0,0.0
+278,,0.0,0.0,0.0
+279,,0.0,0.0,0.0
+280,,0.0,0.0,0.0
+281,,0.0,0.0,0.0
+282,,0.0,0.0,0.0
+283,,0.0,0.0,0.0
+284,,0.0,0.0,0.0
+285,,0.0,0.0,0.0
+286,,0.0,0.0,0.0
+287,,0.0,0.0,0.0
+288,,0.0,0.0,0.0
+289,,0.0,0.0,0.0
+290,,0.0,0.0,0.0
+291,,0.0,0.0,0.0
+292,,0.0,0.0,0.0
+293,,0.0,0.0,0.0
+294,,0.0,0.0,0.0
+295,,0.0,0.0,0.0
+296,,0.0,0.0,0.0
+297,,0.0,0.0,0.0
+298,,0.0,0.0,0.0
+299,,0.0,0.0,0.0
