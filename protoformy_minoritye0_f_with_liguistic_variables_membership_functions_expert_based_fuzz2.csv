@@ -1,0 +1,91 @@
+,protoform,DoT,DoS,group
+0,"Among all records, minority are e0_low",1.0,0.42790697674418604,e0_f
+1,"Among all records, minority are gini_low",0.07364341085285997,0.5930232558139535,e0_f
+2,"Among all records, minority are year_low",0.7713178294468697,0.5162790697674419,e0_f
+3,"Among all records, minority are year_low and e0_low",1.0,0.5162790697674419,e0_f
+4,"Among all records, minority are gini_low and e0_low",1.0,0.5930232558139535,e0_f
+5,"Among all records, minority are e0_medium",0.0,0.9697674418604652,e0_f
+6,"Among all records, minority are gini_medium",1.0,0.5511627906976744,e0_f
+7,"Among all records, minority are year_medium",1.0,0.5511627906976744,e0_f
+8,"Among all records, minority are year_medium and e0_medium",1.0,0.5511627906976744,e0_f
+9,"Among all records, minority are gini_medium and e0_medium",1.0,0.5511627906976744,e0_f
+10,"Among all records, minority are e0_high",1.0,0.5720930232558139,e0_f
+11,"Among all records, minority are gini_high",1.0,0.2813953488372093,e0_f
+12,"Among all records, minority are year_high",0.6302325771193316,0.5372093023255814,e0_f
+13,"Among all records, minority are year_high and e0_high",1.0,0.5372093023255814,e0_f
+14,"Among all records, minority are gini_high and e0_high",1.0,0.2813953488372093,e0_f
+15,"Among all gini_low records, minority are e0_low",1.0,0.22325581395348837,e0_f
+16,"Among all gini_low records, minority are e0_medium",0.0,0.5837209302325581,e0_f
+17,"Among all gini_low records, minority are e0_high",0.982425300915132,0.3697674418604651,e0_f
+18,"Among all gini_low records, minority are year_low",0.5798722044614244,0.3209302325581395,e0_f
+19,"Among all gini_low records, minority are year_medium",1.0,0.30465116279069765,e0_f
+20,"Among all gini_low records, minority are year_high",0.733226876156452,0.3023255813953488,e0_f
+21,"Among all gini_medium records, minority are e0_low",1.0,0.20232558139534884,e0_f
+22,"Among all gini_medium records, minority are e0_medium",0.0,0.5209302325581395,e0_f
+23,"Among all gini_medium records, minority are e0_high",0.31608031025092104,0.3488372093023256,e0_f
+24,"Among all gini_medium records, minority are year_low",0.8127661109623993,0.27209302325581397,e0_f
+25,"Among all gini_medium records, minority are year_medium",0.7077650284555345,0.29069767441860467,e0_f
+26,"Among all gini_medium records, minority are year_high",0.2159558345616791,0.30930232558139537,e0_f
+27,"Among all gini_high records, minority are e0_low",0.9155268909264691,0.16046511627906976,e0_f
+28,"Among all gini_high records, minority are e0_medium",0.0,0.2627906976744186,e0_f
+29,"Among all gini_high records, minority are e0_high",1.0,0.12093023255813953,e0_f
+30,"Among all gini_high records, minority are year_low",0.7792909646485371,0.15348837209302327,e0_f
+31,"Among all gini_high records, minority are year_medium",0.8182014704697476,0.16046511627906976,e0_f
+32,"Among all gini_high records, minority are year_high",0.4399048844759518,0.14418604651162792,e0_f
+33,"Among all e0_low records, minority are gini_low",0.5505678652764943,0.22325581395348837,e0_f
+34,"Among all e0_low records, minority are gini_medium",1.0,0.20232558139534884,e0_f
+35,"Among all e0_low records, minority are gini_high",0.23544268894245268,0.16046511627906976,e0_f
+36,"Among all e0_low records, minority are year_low",0.0,0.2813953488372093,e0_f
+37,"Among all e0_low records, minority are year_medium",0.30413833505633925,0.20465116279069767,e0_f
+38,"Among all e0_low records, minority are year_high",1.0,0.16744186046511628,e0_f
+39,"Among all e0_medium records, minority are gini_low",0.0,0.5837209302325581,e0_f
+40,"Among all e0_medium records, minority are gini_medium",0.8453792323995761,0.5209302325581395,e0_f
+41,"Among all e0_medium records, minority are gini_high",1.0,0.2627906976744186,e0_f
+42,"Among all e0_medium records, minority are year_low",0.2652232389268061,0.5162790697674419,e0_f
+43,"Among all e0_medium records, minority are year_medium",0.7585763626977575,0.5395348837209303,e0_f
+44,"Among all e0_medium records, minority are year_high",0.7010328366912777,0.5069767441860465,e0_f
+45,"Among all e0_high records, minority are gini_low",0.0,0.3697674418604651,e0_f
+46,"Among all e0_high records, minority are gini_medium",0.2894469408557776,0.3488372093023256,e0_f
+47,"Among all e0_high records, minority are gini_high",1.0,0.12093023255813953,e0_f
+48,"Among all e0_high records, minority are year_low",1.0,0.23488372093023255,e0_f
+49,"Among all e0_high records, minority are year_medium",0.4328903945380838,0.34651162790697676,e0_f
+50,"Among all e0_high records, minority are year_high",0.0,0.3697674418604651,e0_f
+51,"Among all year_low records, minority are gini_low",0.0,0.3209302325581395,e0_f
+52,"Among all year_low records, minority are gini_medium",1.0,0.27209302325581397,e0_f
+53,"Among all year_low records, minority are gini_high",1.0,0.15348837209302327,e0_f
+54,"Among all year_low records, minority are e0_low",1.0,0.2813953488372093,e0_f
+55,"Among all year_low records, minority are e0_medium",0.0,0.5162790697674419,e0_f
+56,"Among all year_low records, minority are e0_high",1.0,0.23488372093023255,e0_f
+57,"Among all year_medium records, minority are gini_low",0.0,0.30465116279069765,e0_f
+58,"Among all year_medium records, minority are gini_medium",0.7829784291515653,0.29069767441860467,e0_f
+59,"Among all year_medium records, minority are gini_high",1.0,0.16046511627906976,e0_f
+60,"Among all year_medium records, minority are e0_low",1.0,0.20465116279069767,e0_f
+61,"Among all year_medium records, minority are e0_medium",0.0,0.5395348837209303,e0_f
+62,"Among all year_medium records, minority are e0_high",0.543499203061586,0.34651162790697676,e0_f
+63,"Among all year_high records, minority are gini_low",0.20729687654876844,0.3023255813953488,e0_f
+64,"Among all year_high records, minority are gini_medium",0.8597636649171259,0.30930232558139537,e0_f
+65,"Among all year_high records, minority are gini_high",1.0,0.14418604651162792,e0_f
+66,"Among all year_high records, minority are e0_low",1.0,0.16744186046511628,e0_f
+67,"Among all year_high records, minority are e0_medium",0.0,0.5069767441860465,e0_f
+68,"Among all year_high records, minority are e0_high",0.319564403424592,0.3697674418604651,e0_f
+69,,0.0,0.0,e0_f
+70,,0.0,0.0,e0_f
+71,,0.0,0.0,e0_f
+72,,0.0,0.0,e0_f
+73,,0.0,0.0,e0_f
+74,,0.0,0.0,e0_f
+75,,0.0,0.0,e0_f
+76,,0.0,0.0,e0_f
+77,,0.0,0.0,e0_f
+78,,0.0,0.0,e0_f
+79,,0.0,0.0,e0_f
+80,,0.0,0.0,e0_f
+81,,0.0,0.0,e0_f
+82,,0.0,0.0,e0_f
+83,,0.0,0.0,e0_f
+84,,0.0,0.0,e0_f
+85,,0.0,0.0,e0_f
+86,,0.0,0.0,e0_f
+87,,0.0,0.0,e0_f
+88,,0.0,0.0,e0_f
+89,,0.0,0.0,e0_f

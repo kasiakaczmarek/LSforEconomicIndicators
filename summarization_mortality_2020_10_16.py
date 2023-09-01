@@ -226,14 +226,14 @@ def all_protoform(d, Q = "wiekszosc", desc = 'most'):
 #calculation flow
 ######################################################################
 
-TempDataDir = os.getcwd()+r'/data'
+TempDataDir = '/Users/olarutkowska/Documents/GitHub/podsumowania lingwistyczne/LSforEconomicIndicators/data'
 relative_LS = True #if relative LS is True, patient_no must be provided
 #relative_LS = False #if relative LS is True, patient_no must be provided
 
 #dictionary with expert opinion about
 
-files=[ 'e0_f', 'e0_m']
-expert = False
+files=['e0_m']
+expert = True
 for file in files:
 
     data = pd.read_csv(TempDataDir+r'/dane_gini_'+ str(file) + '.csv', sep=';')
@@ -266,16 +266,16 @@ for file in files:
         data3 = pd.concat([data3, stopnie(data4, name, expert=expert)], axis=1)
         dane3_full = pd.concat([data3, data], axis=1)
 
-    dane3_full.to_csv("data_"+file+"_with_liguistic_variables_membership_functions_quantil_based_fuzz2.csv")
+    dane3_full.to_csv("data_"+file+"_with_liguistic_variables_membership_functions_expert_based_fuzz2.csv")
 
-    df = pd.read_csv("data_" + file + "_with_liguistic_variables_membership_functions_quantil_based_fuzz2.csv")
+    df = pd.read_csv("data_" + file + "_with_liguistic_variables_membership_functions_expert_based_fuzz2.csv")
 
     df_protoform = all_protoform(df, Q = 'wiekszosc', desc = 'most')
     df_protoform['group']=file
     # 40 najbardzien prawdziwych podsumowan lingwistycznych 
     #df_protoform.sort('DoT', ascending = False).head(n = 40)
-    df_protoform.to_csv("protoformy_"+file+"_with_liguistic_variables_membership_functions_quantil__based_fuzz2.csv")
+    df_protoform.to_csv("protoformy_"+file+"_with_liguistic_variables_membership_functions_expert__based_fuzz2.csv")
     
     df_protoform_m = all_protoform(df, Q = 'mniejszosc', desc = 'minority')
     df_protoform_m['group']=file
-    df_protoform_m.to_csv("protoformy_minority" + file + "_with_liguistic_variables_membership_functions_quantil_based_fuzz2.csv")
+    df_protoform_m.to_csv("protoformy_minority_" + file + "_with_liguistic_variables_membership_functions_expert_based_fuzz2.csv")

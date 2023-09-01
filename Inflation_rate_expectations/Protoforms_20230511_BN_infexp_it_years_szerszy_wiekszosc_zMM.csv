@@ -1,0 +1,1001 @@
+,protoform,DoT,DoS
+0,"Among all records, most are inf_low",0.17196333078687526,0.5118411000763942
+1,"Among all records, most are IT_years_low",0.23166539343009943,0.494270435446906
+2,"Among all records, most are BN_low",0.11898395722467732,0.5393430099312452
+3,"Among all records, most are BN_low and inf_low",0.0,0.5393430099312452
+4,"Among all records, most are IT_years_low and inf_low",0.0,0.494270435446906
+5,"Among all records, most are inf_medium",0.0,0.5034377387318564
+6,"Among all records, most are IT_years_medium",0.0,0.426279602750191
+7,"Among all records, most are BN_medium",0.0,0.666157372039725
+8,"Among all records, most are BN_medium and inf_medium",0.0,0.666157372039725
+9,"Among all records, most are IT_years_medium and inf_medium",0.0,0.426279602750191
+10,"Among all records, most are inf_high",0.13455178722208042,0.5026737967914439
+11,"Among all records, most are IT_years_high",0.14333460656990066,0.4377387318563789
+12,"Among all records, most are BN_high",0.15240641711477543,0.6508785332314744
+13,"Among all records, most are BN_high and inf_high",0.0,0.6508785332314744
+14,"Among all records, most are IT_years_high and inf_high",0.0,0.4377387318563789
+15,"Among all IT_years_low records, most are inf_low",0.0,0.19633307868601987
+16,"Among all IT_years_low records, most are inf_medium",0.0,0.22459893048128343
+17,"Among all IT_years_low records, most are inf_high",0.5579497747286704,0.30557677616501144
+18,"Among all IT_years_low records, most are BN_low",0.013618677054343943,0.23300229182582124
+19,"Among all IT_years_low records, most are BN_medium",0.0,0.3284950343773873
+20,"Among all IT_years_low records, most are BN_high",0.35043774319544574,0.34759358288770054
+21,"Among all IT_years_medium records, most are inf_low",0.29422032583399604,0.2238349885408709
+22,"Among all IT_years_medium records, most are inf_medium",0.033173410640651435,0.20168067226890757
+23,"Among all IT_years_medium records, most are inf_high",0.2439875872769748,0.2055003819709702
+24,"Among all IT_years_medium records, most are BN_low",0.0,0.21695951107715813
+25,"Among all IT_years_medium records, most are BN_medium",0.08204034137842528,0.2643239113827349
+26,"Among all IT_years_medium records, most are BN_high",0.40399534524313974,0.27883880825057294
+27,"Among all IT_years_high records, most are inf_low",0.5218332442544368,0.2757830404889228
+28,"Among all IT_years_high records, most are inf_medium",0.14872992207933922,0.23834988540870894
+29,"Among all IT_years_high records, most are inf_high",0.0,0.16883116883116883
+30,"Among all IT_years_high records, most are BN_low",0.3136023516990315,0.2849503437738732
+31,"Among all IT_years_high records, most are BN_medium",0.05839123463278834,0.29488158899923606
+32,"Among all IT_years_high records, most are BN_high",0.0,0.2482811306340718
+33,"Among all inf_low records, most are IT_years_low",0.0,0.19633307868601987
+34,"Among all inf_low records, most are IT_years_medium",0.0,0.2238349885408709
+35,"Among all inf_low records, most are IT_years_high",0.48234039027220277,0.2757830404889228
+36,"Among all inf_low records, most are BN_low",0.32998094213424756,0.2902979373567609
+37,"Among all inf_low records, most are BN_medium",0.0,0.33613445378151263
+38,"Among all inf_low records, most are BN_high",0.03007830302950307,0.31321619556913677
+39,"Among all inf_medium records, most are IT_years_low",0.16016400281103765,0.22459893048128343
+40,"Among all inf_medium records, most are IT_years_medium",0.0,0.20168067226890757
+41,"Among all inf_medium records, most are IT_years_high",0.41092471510079503,0.23834988540870894
+42,"Among all inf_medium records, most are BN_low",0.0,0.25362872421695953
+43,"Among all inf_medium records, most are BN_medium",0.17138301022647104,0.33460656990068754
+44,"Among all inf_medium records, most are BN_high",0.3621733588460305,0.34912146676852557
+45,"Among all inf_high records, most are IT_years_low",0.7015476072103279,0.30557677616501144
+46,"Among all inf_high records, most are IT_years_medium",0.0,0.2055003819709702
+47,"Among all inf_high records, most are IT_years_high",0.0,0.16883116883116883
+48,"Among all inf_high records, most are BN_low",0.052532706450779544,0.2559205500381971
+49,"Among all inf_high records, most are BN_medium",0.0,0.33995416348357527
+50,"Among all inf_high records, most are BN_high",0.2764350345971045,0.34759358288770054
+51,"Among all BN_low records, most are IT_years_low",0.1126373626450153,0.23300229182582124
+52,"Among all BN_low records, most are IT_years_medium",0.0,0.21695951107715813
+53,"Among all BN_low records, most are IT_years_high",0.3434065934156386,0.2849503437738732
+54,"Among all BN_low records, most are inf_low",0.39582417582997775,0.2902979373567609
+55,"Among all BN_low records, most are inf_medium",0.0,0.25362872421695953
+56,"Among all BN_low records, most are inf_high",0.06691006363615665,0.2559205500381971
+57,"Among all BN_medium records, most are IT_years_low",0.2430830039738548,0.3284950343773873
+58,"Among all BN_medium records, most are IT_years_medium",0.0,0.2643239113827349
+59,"Among all BN_medium records, most are IT_years_high",0.2463768116037131,0.29488158899923606
+60,"Among all BN_medium records, most are inf_low",0.1697628458729213,0.33613445378151263
+61,"Among all BN_medium records, most are inf_medium",0.1291588655880485,0.33460656990068754
+62,"Among all BN_medium records, most are inf_high",0.15120310660468012,0.33995416348357527
+63,"Among all BN_high records, most are IT_years_low",0.44708994709186717,0.34759358288770054
+64,"Among all BN_high records, most are IT_years_medium",0.03703703704461686,0.27883880825057294
+65,"Among all BN_high records, most are IT_years_high",0.0,0.2482811306340718
+66,"Among all BN_high records, most are inf_low",0.04698412699139746,0.31321619556913677
+67,"Among all BN_high records, most are inf_medium",0.10233361181929192,0.34912146676852557
+68,"Among all BN_high records, most are inf_high",0.256126427184691,0.34759358288770054
+69,"Among all IT_years_low records, most are inf_low and BN_low",0.0,0.19633307868601987
+70,"Among all IT_years_low records, most are inf_low and BN_medium",0.0,0.19633307868601987
+71,"Among all IT_years_low records, most are inf_low and BN_high",0.0,0.19633307868601987
+72,"Among all IT_years_medium records, most are inf_low and BN_low",0.0,0.2238349885408709
+73,"Among all IT_years_medium records, most are inf_low and BN_medium",0.0,0.2238349885408709
+74,"Among all IT_years_medium records, most are inf_low and BN_high",0.0,0.2238349885408709
+75,"Among all IT_years_high records, most are inf_low and BN_low",0.0,0.2757830404889228
+76,"Among all IT_years_high records, most are inf_low and BN_medium",0.0,0.2757830404889228
+77,"Among all IT_years_high records, most are inf_low and BN_high",0.0,0.2757830404889228
+78,"Among all IT_years_low records, most are inf_medium and BN_low",0.0,0.22459893048128343
+79,"Among all IT_years_low records, most are inf_medium and BN_medium",0.0,0.22459893048128343
+80,"Among all IT_years_low records, most are inf_medium and BN_high",0.0,0.22459893048128343
+81,"Among all IT_years_medium records, most are inf_medium and BN_low",0.0,0.20168067226890757
+82,"Among all IT_years_medium records, most are inf_medium and BN_medium",0.0,0.20168067226890757
+83,"Among all IT_years_medium records, most are inf_medium and BN_high",0.0,0.20168067226890757
+84,"Among all IT_years_high records, most are inf_medium and BN_low",0.0,0.23834988540870894
+85,"Among all IT_years_high records, most are inf_medium and BN_medium",0.0,0.23834988540870894
+86,"Among all IT_years_high records, most are inf_medium and BN_high",0.0,0.23834988540870894
+87,"Among all IT_years_low records, most are inf_high and BN_low",0.0,0.30557677616501144
+88,"Among all IT_years_low records, most are inf_high and BN_medium",0.0,0.30557677616501144
+89,"Among all IT_years_low records, most are inf_high and BN_high",0.0,0.30557677616501144
+90,"Among all IT_years_medium records, most are inf_high and BN_low",0.0,0.2055003819709702
+91,"Among all IT_years_medium records, most are inf_high and BN_medium",0.0,0.2055003819709702
+92,"Among all IT_years_medium records, most are inf_high and BN_high",0.0,0.2055003819709702
+93,"Among all IT_years_high records, most are inf_high and BN_low",0.0,0.16883116883116883
+94,"Among all IT_years_high records, most are inf_high and BN_medium",0.0,0.16883116883116883
+95,"Among all IT_years_high records, most are inf_high and BN_high",0.0,0.16883116883116883
+96,,0.0,0.0
+97,,0.0,0.0
+98,,0.0,0.0
+99,,0.0,0.0
+0,"Among all records, minority are inf_low",0.6560733384262496,0.5118411000763942
+1,"Among all records, minority are IT_years_low",0.5366692131398012,0.494270435446906
+2,"Among all records, minority are BN_low",0.7620320855506454,0.5393430099312452
+3,"Among all records, minority are BN_low and inf_low",1.0,0.5393430099312452
+4,"Among all records, minority are IT_years_low and inf_low",1.0,0.494270435446906
+5,"Among all records, minority are inf_medium",1.0,0.5034377387318564
+6,"Among all records, minority are IT_years_medium",1.0,0.426279602750191
+7,"Among all records, minority are BN_medium",1.0,0.666157372039725
+8,"Among all records, minority are BN_medium and inf_medium",1.0,0.666157372039725
+9,"Among all records, minority are IT_years_medium and inf_medium",1.0,0.426279602750191
+10,"Among all records, minority are inf_high",0.7308964255558392,0.5026737967914439
+11,"Among all records, minority are IT_years_high",0.7133307868601988,0.4377387318563789
+12,"Among all records, minority are BN_high",0.6951871657704491,0.6508785332314744
+13,"Among all records, minority are BN_high and inf_high",1.0,0.6508785332314744
+14,"Among all records, minority are IT_years_high and inf_high",1.0,0.4377387318563789
+15,"Among all IT_years_low records, minority are inf_low",1.0,0.19633307868601987
+16,"Among all IT_years_low records, minority are inf_medium",1.0,0.22459893048128343
+17,"Among all IT_years_low records, minority are inf_high",0.0,0.30557677616501144
+18,"Among all IT_years_low records, minority are BN_low",0.9727626458913121,0.23300229182582124
+19,"Among all IT_years_low records, minority are BN_medium",1.0,0.3284950343773873
+20,"Among all IT_years_low records, minority are BN_high",0.29912451360910863,0.34759358288770054
+21,"Among all IT_years_medium records, minority are inf_low",0.4115593483320079,0.2238349885408709
+22,"Among all IT_years_medium records, minority are inf_medium",0.9336531787186971,0.20168067226890757
+23,"Among all IT_years_medium records, minority are inf_high",0.5120248254460504,0.2055003819709702
+24,"Among all IT_years_medium records, minority are BN_low",1.0,0.21695951107715813
+25,"Among all IT_years_medium records, minority are BN_medium",0.8359193172431494,0.2643239113827349
+26,"Among all IT_years_medium records, minority are BN_high",0.1920093095137207,0.27883880825057294
+27,"Among all IT_years_high records, minority are inf_low",0.0,0.2757830404889228
+28,"Among all IT_years_high records, minority are inf_medium",0.7025401558413216,0.23834988540870894
+29,"Among all IT_years_high records, minority are inf_high",1.0,0.16883116883116883
+30,"Among all IT_years_high records, minority are BN_low",0.3727952966019371,0.2849503437738732
+31,"Among all IT_years_high records, minority are BN_medium",0.8832175307344233,0.29488158899923606
+32,"Among all IT_years_high records, minority are BN_high",1.0,0.2482811306340718
+33,"Among all inf_low records, minority are IT_years_low",1.0,0.19633307868601987
+34,"Among all inf_low records, minority are IT_years_medium",1.0,0.2238349885408709
+35,"Among all inf_low records, minority are IT_years_high",0.035319219455594575,0.2757830404889228
+36,"Among all inf_low records, minority are BN_low",0.34003811573150494,0.2902979373567609
+37,"Among all inf_low records, minority are BN_medium",1.0,0.33613445378151263
+38,"Among all inf_low records, minority are BN_high",0.9398433939409938,0.31321619556913677
+39,"Among all inf_medium records, minority are IT_years_low",0.6796719943779248,0.22459893048128343
+40,"Among all inf_medium records, minority are IT_years_medium",1.0,0.20168067226890757
+41,"Among all inf_medium records, minority are IT_years_high",0.1781505697984101,0.23834988540870894
+42,"Among all inf_medium records, minority are BN_low",1.0,0.25362872421695953
+43,"Among all inf_medium records, minority are BN_medium",0.6572339795470581,0.33460656990068754
+44,"Among all inf_medium records, minority are BN_high",0.2756532823079391,0.34912146676852557
+45,"Among all inf_high records, minority are IT_years_low",0.0,0.30557677616501144
+46,"Among all inf_high records, minority are IT_years_medium",1.0,0.2055003819709702
+47,"Among all inf_high records, minority are IT_years_high",1.0,0.16883116883116883
+48,"Among all inf_high records, minority are BN_low",0.8949345870984409,0.2559205500381971
+49,"Among all inf_high records, minority are BN_medium",1.0,0.33995416348357527
+50,"Among all inf_high records, minority are BN_high",0.44712993080579105,0.34759358288770054
+51,"Among all BN_low records, minority are IT_years_low",0.7747252747099694,0.23300229182582124
+52,"Among all BN_low records, minority are IT_years_medium",1.0,0.21695951107715813
+53,"Among all BN_low records, minority are IT_years_high",0.31318681316872293,0.2849503437738732
+54,"Among all BN_low records, minority are inf_low",0.20835164834004466,0.2902979373567609
+55,"Among all BN_low records, minority are inf_medium",1.0,0.25362872421695953
+56,"Among all BN_low records, minority are inf_high",0.8661798727276867,0.2559205500381971
+57,"Among all BN_medium records, minority are IT_years_low",0.5138339920522905,0.3284950343773873
+58,"Among all BN_medium records, minority are IT_years_medium",1.0,0.2643239113827349
+59,"Among all BN_medium records, minority are IT_years_high",0.5072463767925739,0.29488158899923606
+60,"Among all BN_medium records, minority are inf_low",0.6604743082541575,0.33613445378151263
+61,"Among all BN_medium records, minority are inf_medium",0.741682268823903,0.33460656990068754
+62,"Among all BN_medium records, minority are inf_high",0.6975937867906399,0.33995416348357527
+63,"Among all BN_high records, minority are IT_years_low",0.10582010581626583,0.34759358288770054
+64,"Among all BN_high records, minority are IT_years_medium",0.9259259259107663,0.27883880825057294
+65,"Among all BN_high records, minority are IT_years_high",1.0,0.2482811306340718
+66,"Among all BN_high records, minority are inf_low",0.9060317460172052,0.31321619556913677
+67,"Among all BN_high records, minority are inf_medium",0.7953327763614162,0.34912146676852557
+68,"Among all BN_high records, minority are inf_high",0.48774714563061816,0.34759358288770054
+69,"Among all IT_years_low records, minority are inf_low and BN_low",1.0,0.19633307868601987
+70,"Among all IT_years_low records, minority are inf_low and BN_medium",1.0,0.19633307868601987
+71,"Among all IT_years_low records, minority are inf_low and BN_high",1.0,0.19633307868601987
+72,"Among all IT_years_medium records, minority are inf_low and BN_low",1.0,0.2238349885408709
+73,"Among all IT_years_medium records, minority are inf_low and BN_medium",1.0,0.2238349885408709
+74,"Among all IT_years_medium records, minority are inf_low and BN_high",1.0,0.2238349885408709
+75,"Among all IT_years_high records, minority are inf_low and BN_low",1.0,0.2757830404889228
+76,"Among all IT_years_high records, minority are inf_low and BN_medium",1.0,0.2757830404889228
+77,"Among all IT_years_high records, minority are inf_low and BN_high",1.0,0.2757830404889228
+78,"Among all IT_years_low records, minority are inf_medium and BN_low",1.0,0.22459893048128343
+79,"Among all IT_years_low records, minority are inf_medium and BN_medium",1.0,0.22459893048128343
+80,"Among all IT_years_low records, minority are inf_medium and BN_high",1.0,0.22459893048128343
+81,"Among all IT_years_medium records, minority are inf_medium and BN_low",1.0,0.20168067226890757
+82,"Among all IT_years_medium records, minority are inf_medium and BN_medium",1.0,0.20168067226890757
+83,"Among all IT_years_medium records, minority are inf_medium and BN_high",1.0,0.20168067226890757
+84,"Among all IT_years_high records, minority are inf_medium and BN_low",1.0,0.23834988540870894
+85,"Among all IT_years_high records, minority are inf_medium and BN_medium",1.0,0.23834988540870894
+86,"Among all IT_years_high records, minority are inf_medium and BN_high",1.0,0.23834988540870894
+87,"Among all IT_years_low records, minority are inf_high and BN_low",1.0,0.30557677616501144
+88,"Among all IT_years_low records, minority are inf_high and BN_medium",1.0,0.30557677616501144
+89,"Among all IT_years_low records, minority are inf_high and BN_high",1.0,0.30557677616501144
+90,"Among all IT_years_medium records, minority are inf_high and BN_low",1.0,0.2055003819709702
+91,"Among all IT_years_medium records, minority are inf_high and BN_medium",1.0,0.2055003819709702
+92,"Among all IT_years_medium records, minority are inf_high and BN_high",1.0,0.2055003819709702
+93,"Among all IT_years_high records, minority are inf_high and BN_low",1.0,0.16883116883116883
+94,"Among all IT_years_high records, minority are inf_high and BN_medium",1.0,0.16883116883116883
+95,"Among all IT_years_high records, minority are inf_high and BN_high",1.0,0.16883116883116883
+96,,0.0,0.0
+97,,0.0,0.0
+98,,0.0,0.0
+99,,0.0,0.0
+0,"Among all records, most are inf0_low",0.26507605079747715,0.4957983193277311
+1,"Among all records, most are IT_years_low",0.23166539343009943,0.494270435446906
+2,"Among all records, most are BN_low",0.11898395722467732,0.5393430099312452
+3,"Among all records, most are BN_low and inf0_low",0.0,0.5393430099312452
+4,"Among all records, most are IT_years_low and inf0_low",0.0,0.494270435446906
+5,"Among all records, most are inf0_medium",0.0,0.37738731856378915
+6,"Among all records, most are IT_years_medium",0.0,0.426279602750191
+7,"Among all records, most are BN_medium",0.0,0.666157372039725
+8,"Among all records, most are BN_medium and inf0_medium",0.0,0.666157372039725
+9,"Among all records, most are IT_years_medium and inf0_medium",0.0,0.426279602750191
+10,"Among all records, most are inf0_high",0.26925407352107833,0.5080213903743316
+11,"Among all records, most are IT_years_high",0.14333460656990066,0.4377387318563789
+12,"Among all records, most are BN_high",0.15240641711477543,0.6508785332314744
+13,"Among all records, most are BN_high and inf0_high",0.0,0.6508785332314744
+14,"Among all records, most are IT_years_high and inf0_high",0.0,0.4377387318563789
+15,"Among all IT_years_low records, most are inf0_low",0.3503249414934007,0.2559205500381971
+16,"Among all IT_years_low records, most are inf0_medium",0.0,0.19633307868601987
+17,"Among all IT_years_low records, most are inf0_high",0.21530014586917795,0.23911382734912145
+18,"Among all IT_years_low records, most are BN_low",0.013618677054343943,0.23300229182582124
+19,"Among all IT_years_low records, most are BN_medium",0.0,0.3284950343773873
+20,"Among all IT_years_low records, most are BN_high",0.35043774319544574,0.34759358288770054
+21,"Among all IT_years_medium records, most are inf0_low",0.2874217470185667,0.21161191749427044
+22,"Among all IT_years_medium records, most are inf0_medium",0.0,0.14514896867838045
+23,"Among all IT_years_medium records, most are inf0_high",0.44030044943108715,0.21543162719633308
+24,"Among all IT_years_medium records, most are BN_low",0.0,0.21695951107715813
+25,"Among all IT_years_medium records, most are BN_medium",0.08204034137842528,0.2643239113827349
+26,"Among all IT_years_medium records, most are BN_high",0.40399534524313974,0.27883880825057294
+27,"Among all IT_years_high records, most are inf0_low",0.24374829480200508,0.21772345301757068
+28,"Among all IT_years_high records, most are inf0_medium",0.0,0.1650114591291062
+29,"Among all IT_years_high records, most are inf0_high",0.3322156050729398,0.2238349885408709
+30,"Among all IT_years_high records, most are BN_low",0.3136023516990315,0.2849503437738732
+31,"Among all IT_years_high records, most are BN_medium",0.05839123463278834,0.29488158899923606
+32,"Among all IT_years_high records, most are BN_high",0.0,0.2482811306340718
+33,"Among all inf0_low records, most are IT_years_low",0.3141083648298747,0.2559205500381971
+34,"Among all inf0_low records, most are IT_years_medium",0.0,0.21161191749427044
+35,"Among all inf0_low records, most are IT_years_high",0.12456475923061483,0.21772345301757068
+36,"Among all inf0_low records, most are BN_low",0.4412653037754436,0.30710466004583653
+37,"Among all inf0_low records, most are BN_medium",0.0,0.32085561497326204
+38,"Among all inf0_low records, most are BN_high",0.0,0.2727272727272727
+39,"Among all inf0_medium records, most are IT_years_low",0.4223252738675525,0.19633307868601987
+40,"Among all inf0_medium records, most are IT_years_medium",0.0,0.14514896867838045
+41,"Among all inf0_medium records, most are IT_years_high",0.20863234853352122,0.1650114591291062
+42,"Among all inf0_medium records, most are BN_low",0.04967013076483257,0.19480519480519481
+43,"Among all inf0_medium records, most are BN_medium",0.10457216563545772,0.25439266615737205
+44,"Among all inf0_medium records, most are BN_high",0.34426092578802864,0.2620320855614973
+45,"Among all inf0_high records, most are IT_years_low",0.1797012119846116,0.23911382734912145
+46,"Among all inf0_high records, most are IT_years_medium",0.0,0.21543162719633308
+47,"Among all inf0_high records, most are IT_years_high",0.19851781994045528,0.2238349885408709
+48,"Among all inf0_high records, most are BN_low",0.0,0.23376623376623376
+49,"Among all inf0_high records, most are BN_medium",0.07302264223691332,0.34912146676852557
+50,"Among all inf0_high records, most are BN_high",0.388514399099141,0.3804430863254393
+51,"Among all BN_low records, most are IT_years_low",0.1126373626450153,0.23300229182582124
+52,"Among all BN_low records, most are IT_years_medium",0.0,0.21695951107715813
+53,"Among all BN_low records, most are IT_years_high",0.3434065934156386,0.2849503437738732
+54,"Among all BN_low records, most are inf0_low",0.6415387849856323,0.30710466004583653
+55,"Among all BN_low records, most are inf0_medium",0.0,0.19480519480519481
+56,"Among all BN_low records, most are inf0_high",0.0,0.23376623376623376
+57,"Among all BN_medium records, most are IT_years_low",0.2430830039738548,0.3284950343773873
+58,"Among all BN_medium records, most are IT_years_medium",0.0,0.2643239113827349
+59,"Among all BN_medium records, most are IT_years_high",0.2463768116037131,0.29488158899923606
+60,"Among all BN_medium records, most are inf0_low",0.20480779757147838,0.32085561497326204
+61,"Among all BN_medium records, most are inf0_medium",0.0,0.25439266615737205
+62,"Among all BN_medium records, most are inf0_high",0.4073963188915346,0.34912146676852557
+63,"Among all BN_high records, most are IT_years_low",0.44708994709186717,0.34759358288770054
+64,"Among all BN_high records, most are IT_years_medium",0.03703703704461686,0.27883880825057294
+65,"Among all BN_high records, most are IT_years_high",0.0,0.2482811306340718
+66,"Among all BN_high records, most are inf0_low",0.02412720376903613,0.2727272727272727
+67,"Among all BN_high records, most are inf0_medium",0.0,0.2620320855614973
+68,"Among all BN_high records, most are inf0_high",0.5359343828187876,0.3804430863254393
+69,"Among all IT_years_low records, most are inf0_low and BN_low",0.0,0.2559205500381971
+70,"Among all IT_years_low records, most are inf0_low and BN_medium",0.0,0.2559205500381971
+71,"Among all IT_years_low records, most are inf0_low and BN_high",0.0,0.2559205500381971
+72,"Among all IT_years_medium records, most are inf0_low and BN_low",0.0,0.21161191749427044
+73,"Among all IT_years_medium records, most are inf0_low and BN_medium",0.0,0.21161191749427044
+74,"Among all IT_years_medium records, most are inf0_low and BN_high",0.0,0.21161191749427044
+75,"Among all IT_years_high records, most are inf0_low and BN_low",0.0,0.21772345301757068
+76,"Among all IT_years_high records, most are inf0_low and BN_medium",0.0,0.21772345301757068
+77,"Among all IT_years_high records, most are inf0_low and BN_high",0.0,0.21772345301757068
+78,"Among all IT_years_low records, most are inf0_medium and BN_low",0.0,0.19633307868601987
+79,"Among all IT_years_low records, most are inf0_medium and BN_medium",0.0,0.19633307868601987
+80,"Among all IT_years_low records, most are inf0_medium and BN_high",0.0,0.19633307868601987
+81,"Among all IT_years_medium records, most are inf0_medium and BN_low",0.0,0.14514896867838045
+82,"Among all IT_years_medium records, most are inf0_medium and BN_medium",0.0,0.14514896867838045
+83,"Among all IT_years_medium records, most are inf0_medium and BN_high",0.0,0.14514896867838045
+84,"Among all IT_years_high records, most are inf0_medium and BN_low",0.0,0.1650114591291062
+85,"Among all IT_years_high records, most are inf0_medium and BN_medium",0.0,0.1650114591291062
+86,"Among all IT_years_high records, most are inf0_medium and BN_high",0.0,0.1650114591291062
+87,"Among all IT_years_low records, most are inf0_high and BN_low",0.0,0.23911382734912145
+88,"Among all IT_years_low records, most are inf0_high and BN_medium",0.0,0.23911382734912145
+89,"Among all IT_years_low records, most are inf0_high and BN_high",0.0,0.23911382734912145
+90,"Among all IT_years_medium records, most are inf0_high and BN_low",0.0,0.21543162719633308
+91,"Among all IT_years_medium records, most are inf0_high and BN_medium",0.0,0.21543162719633308
+92,"Among all IT_years_medium records, most are inf0_high and BN_high",0.0,0.21543162719633308
+93,"Among all IT_years_high records, most are inf0_high and BN_low",0.0,0.2238349885408709
+94,"Among all IT_years_high records, most are inf0_high and BN_medium",0.0,0.2238349885408709
+95,"Among all IT_years_high records, most are inf0_high and BN_high",0.0,0.2238349885408709
+96,,0.0,0.0
+97,,0.0,0.0
+98,,0.0,0.0
+99,,0.0,0.0
+0,"Among all records, minority are inf0_low",0.4698478984050458,0.4957983193277311
+1,"Among all records, minority are IT_years_low",0.5366692131398012,0.494270435446906
+2,"Among all records, minority are BN_low",0.7620320855506454,0.5393430099312452
+3,"Among all records, minority are BN_low and inf0_low",1.0,0.5393430099312452
+4,"Among all records, minority are IT_years_low and inf0_low",1.0,0.494270435446906
+5,"Among all records, minority are inf0_medium",1.0,0.37738731856378915
+6,"Among all records, minority are IT_years_medium",1.0,0.426279602750191
+7,"Among all records, minority are BN_medium",1.0,0.666157372039725
+8,"Among all records, minority are BN_medium and inf0_medium",1.0,0.666157372039725
+9,"Among all records, minority are IT_years_medium and inf0_medium",1.0,0.426279602750191
+10,"Among all records, minority are inf0_high",0.4614918529578435,0.5080213903743316
+11,"Among all records, minority are IT_years_high",0.7133307868601988,0.4377387318563789
+12,"Among all records, minority are BN_high",0.6951871657704491,0.6508785332314744
+13,"Among all records, minority are BN_high and inf0_high",1.0,0.6508785332314744
+14,"Among all records, minority are IT_years_high and inf0_high",1.0,0.4377387318563789
+15,"Among all IT_years_low records, minority are inf0_low",0.29935011701319875,0.2559205500381971
+16,"Among all IT_years_low records, minority are inf0_medium",1.0,0.19633307868601987
+17,"Among all IT_years_low records, minority are inf0_high",0.5693997082616442,0.23911382734912145
+18,"Among all IT_years_low records, minority are BN_low",0.9727626458913121,0.23300229182582124
+19,"Among all IT_years_low records, minority are BN_medium",1.0,0.3284950343773873
+20,"Among all IT_years_low records, minority are BN_high",0.29912451360910863,0.34759358288770054
+21,"Among all IT_years_medium records, minority are inf0_low",0.42515650596286675,0.21161191749427044
+22,"Among all IT_years_medium records, minority are inf0_medium",1.0,0.14514896867838045
+23,"Among all IT_years_medium records, minority are inf0_high",0.11939910113782592,0.21543162719633308
+24,"Among all IT_years_medium records, minority are BN_low",1.0,0.21695951107715813
+25,"Among all IT_years_medium records, minority are BN_medium",0.8359193172431494,0.2643239113827349
+26,"Among all IT_years_medium records, minority are BN_high",0.1920093095137207,0.27883880825057294
+27,"Among all IT_years_high records, minority are inf0_low",0.51250341039599,0.21772345301757068
+28,"Among all IT_years_high records, minority are inf0_medium",1.0,0.1650114591291062
+29,"Among all IT_years_high records, minority are inf0_high",0.3355687898541204,0.2238349885408709
+30,"Among all IT_years_high records, minority are BN_low",0.3727952966019371,0.2849503437738732
+31,"Among all IT_years_high records, minority are BN_medium",0.8832175307344233,0.29488158899923606
+32,"Among all IT_years_high records, minority are BN_high",1.0,0.2482811306340718
+33,"Among all inf0_low records, minority are IT_years_low",0.3717832703402507,0.2559205500381971
+34,"Among all inf0_low records, minority are IT_years_medium",1.0,0.21161191749427044
+35,"Among all inf0_low records, minority are IT_years_high",0.7508704815387703,0.21772345301757068
+36,"Among all inf0_low records, minority are BN_low",0.11746939244911297,0.30710466004583653
+37,"Among all inf0_low records, minority are BN_medium",1.0,0.32085561497326204
+38,"Among all inf0_low records, minority are BN_high",1.0,0.2727272727272727
+39,"Among all inf0_medium records, minority are IT_years_low",0.15534945226489516,0.19633307868601987
+40,"Among all inf0_medium records, minority are IT_years_medium",1.0,0.14514896867838045
+41,"Among all inf0_medium records, minority are IT_years_high",0.5827353029329576,0.1650114591291062
+42,"Among all inf0_medium records, minority are BN_low",0.9006597384703349,0.19480519480519481
+43,"Among all inf0_medium records, minority are BN_medium",0.7908556687290846,0.25439266615737205
+44,"Among all inf0_medium records, minority are BN_high",0.3114781484239429,0.2620320855614973
+45,"Among all inf0_high records, minority are IT_years_low",0.6405975760307769,0.23911382734912145
+46,"Among all inf0_high records, minority are IT_years_medium",1.0,0.21543162719633308
+47,"Among all inf0_high records, minority are IT_years_high",0.6029643601190895,0.2238349885408709
+48,"Among all inf0_high records, minority are BN_low",1.0,0.23376623376623376
+49,"Among all inf0_high records, minority are BN_medium",0.8539547155261733,0.34912146676852557
+50,"Among all inf0_high records, minority are BN_high",0.22297120180171826,0.3804430863254393
+51,"Among all BN_low records, minority are IT_years_low",0.7747252747099694,0.23300229182582124
+52,"Among all BN_low records, minority are IT_years_medium",1.0,0.21695951107715813
+53,"Among all BN_low records, minority are IT_years_high",0.31318681316872293,0.2849503437738732
+54,"Among all BN_low records, minority are inf0_low",0.0,0.30710466004583653
+55,"Among all BN_low records, minority are inf0_medium",1.0,0.19480519480519481
+56,"Among all BN_low records, minority are inf0_high",1.0,0.23376623376623376
+57,"Among all BN_medium records, minority are IT_years_low",0.5138339920522905,0.3284950343773873
+58,"Among all BN_medium records, minority are IT_years_medium",1.0,0.2643239113827349
+59,"Among all BN_medium records, minority are IT_years_high",0.5072463767925739,0.29488158899923606
+60,"Among all BN_medium records, minority are inf0_low",0.5903844048570434,0.32085561497326204
+61,"Among all BN_medium records, minority are inf0_medium",1.0,0.25439266615737205
+62,"Among all BN_medium records, minority are inf0_high",0.1852073622169309,0.34912146676852557
+63,"Among all BN_high records, minority are IT_years_low",0.10582010581626583,0.34759358288770054
+64,"Among all BN_high records, minority are IT_years_medium",0.9259259259107663,0.27883880825057294
+65,"Among all BN_high records, minority are IT_years_high",1.0,0.2482811306340718
+66,"Among all BN_high records, minority are inf0_low",0.9517455924619278,0.2727272727272727
+67,"Among all BN_high records, minority are inf0_medium",1.0,0.2620320855614973
+68,"Among all BN_high records, minority are inf0_high",0.0,0.3804430863254393
+69,"Among all IT_years_low records, minority are inf0_low and BN_low",1.0,0.2559205500381971
+70,"Among all IT_years_low records, minority are inf0_low and BN_medium",1.0,0.2559205500381971
+71,"Among all IT_years_low records, minority are inf0_low and BN_high",1.0,0.2559205500381971
+72,"Among all IT_years_medium records, minority are inf0_low and BN_low",1.0,0.21161191749427044
+73,"Among all IT_years_medium records, minority are inf0_low and BN_medium",1.0,0.21161191749427044
+74,"Among all IT_years_medium records, minority are inf0_low and BN_high",1.0,0.21161191749427044
+75,"Among all IT_years_high records, minority are inf0_low and BN_low",1.0,0.21772345301757068
+76,"Among all IT_years_high records, minority are inf0_low and BN_medium",1.0,0.21772345301757068
+77,"Among all IT_years_high records, minority are inf0_low and BN_high",1.0,0.21772345301757068
+78,"Among all IT_years_low records, minority are inf0_medium and BN_low",1.0,0.19633307868601987
+79,"Among all IT_years_low records, minority are inf0_medium and BN_medium",1.0,0.19633307868601987
+80,"Among all IT_years_low records, minority are inf0_medium and BN_high",1.0,0.19633307868601987
+81,"Among all IT_years_medium records, minority are inf0_medium and BN_low",1.0,0.14514896867838045
+82,"Among all IT_years_medium records, minority are inf0_medium and BN_medium",1.0,0.14514896867838045
+83,"Among all IT_years_medium records, minority are inf0_medium and BN_high",1.0,0.14514896867838045
+84,"Among all IT_years_high records, minority are inf0_medium and BN_low",1.0,0.1650114591291062
+85,"Among all IT_years_high records, minority are inf0_medium and BN_medium",1.0,0.1650114591291062
+86,"Among all IT_years_high records, minority are inf0_medium and BN_high",1.0,0.1650114591291062
+87,"Among all IT_years_low records, minority are inf0_high and BN_low",1.0,0.23911382734912145
+88,"Among all IT_years_low records, minority are inf0_high and BN_medium",1.0,0.23911382734912145
+89,"Among all IT_years_low records, minority are inf0_high and BN_high",1.0,0.23911382734912145
+90,"Among all IT_years_medium records, minority are inf0_high and BN_low",1.0,0.21543162719633308
+91,"Among all IT_years_medium records, minority are inf0_high and BN_medium",1.0,0.21543162719633308
+92,"Among all IT_years_medium records, minority are inf0_high and BN_high",1.0,0.21543162719633308
+93,"Among all IT_years_high records, minority are inf0_high and BN_low",1.0,0.2238349885408709
+94,"Among all IT_years_high records, minority are inf0_high and BN_medium",1.0,0.2238349885408709
+95,"Among all IT_years_high records, minority are inf0_high and BN_high",1.0,0.2238349885408709
+96,,0.0,0.0
+97,,0.0,0.0
+98,,0.0,0.0
+99,,0.0,0.0
+0,"Among all records, most are inf1_low",0.0,0.5194805194805194
+1,"Among all records, most are IT_years_low",0.23166539343009943,0.494270435446906
+2,"Among all records, most are BN_low",0.11898395722467732,0.5393430099312452
+3,"Among all records, most are BN_low and inf1_low",0.0,0.5393430099312452
+4,"Among all records, most are IT_years_low and inf1_low",0.0,0.494270435446906
+5,"Among all records, most are inf1_medium",0.5209727091021725,0.8388082505729565
+6,"Among all records, most are IT_years_medium",0.0,0.426279602750191
+7,"Among all records, most are BN_medium",0.0,0.666157372039725
+8,"Among all records, most are BN_medium and inf1_medium",0.0,0.666157372039725
+9,"Among all records, most are IT_years_medium and inf1_medium",0.0,0.426279602750191
+10,"Among all records, most are inf1_high",0.0,0.4988540870893812
+11,"Among all records, most are IT_years_high",0.14333460656990066,0.4377387318563789
+12,"Among all records, most are BN_high",0.15240641711477543,0.6508785332314744
+13,"Among all records, most are BN_high and inf1_high",0.0,0.6508785332314744
+14,"Among all records, most are IT_years_high and inf1_high",0.0,0.4377387318563789
+15,"Among all IT_years_low records, most are inf1_low",0.0,0.25439266615737205
+16,"Among all IT_years_low records, most are inf1_medium",0.6612750069669253,0.4155844155844156
+17,"Among all IT_years_low records, most are inf1_high",0.0,0.2475171886936593
+18,"Among all IT_years_low records, most are BN_low",0.013618677054343943,0.23300229182582124
+19,"Among all IT_years_low records, most are BN_medium",0.0,0.3284950343773873
+20,"Among all IT_years_low records, most are BN_high",0.35043774319544574,0.34759358288770054
+21,"Among all IT_years_medium records, most are inf1_low",0.05238945436210466,0.22536287242169595
+22,"Among all IT_years_medium records, most are inf1_medium",0.8664719165958897,0.359816653934301
+23,"Among all IT_years_medium records, most are inf1_high",0.0,0.2055003819709702
+24,"Among all IT_years_medium records, most are BN_low",0.0,0.21695951107715813
+25,"Among all IT_years_medium records, most are BN_medium",0.08204034137842528,0.2643239113827349
+26,"Among all IT_years_medium records, most are BN_high",0.40399534524313974,0.27883880825057294
+27,"Among all IT_years_high records, most are inf1_low",0.0,0.23834988540870894
+28,"Among all IT_years_high records, most are inf1_medium",0.5859575413969652,0.3674560733384263
+29,"Among all IT_years_high records, most are inf1_high",0.0,0.2077922077922078
+30,"Among all IT_years_high records, most are BN_low",0.3136023516990315,0.2849503437738732
+31,"Among all IT_years_high records, most are BN_medium",0.05839123463278834,0.29488158899923606
+32,"Among all IT_years_high records, most are BN_high",0.0,0.2482811306340718
+33,"Among all inf1_low records, most are IT_years_low",0.3270371884397182,0.25439266615737205
+34,"Among all inf1_low records, most are IT_years_medium",0.03293669807492697,0.22536287242169595
+35,"Among all inf1_low records, most are IT_years_high",0.23737692720092632,0.23834988540870894
+36,"Among all inf1_low records, most are BN_low",0.35804185801326704,0.306340718105424
+37,"Among all inf1_low records, most are BN_medium",0.0,0.3384262796027502
+38,"Among all inf1_low records, most are BN_high",0.15711078249561014,0.3017570664629488
+39,"Among all inf1_medium records, most are IT_years_low",0.34003114310055726,0.4155844155844156
+40,"Among all inf1_medium records, most are IT_years_medium",0.03275387590177009,0.359816653934301
+41,"Among all inf1_medium records, most are IT_years_high",0.18901080337202492,0.3674560733384263
+42,"Among all inf1_medium records, most are BN_low",0.08609219994585167,0.44537815126050423
+43,"Among all inf1_medium records, most are BN_medium",0.11966676677690179,0.5691367456073338
+44,"Among all inf1_medium records, most are BN_high",0.24863425412706144,0.5576776165011459
+45,"Among all inf1_high records, most are IT_years_low",0.28770722574200913,0.2475171886936593
+46,"Among all inf1_high records, most are IT_years_medium",0.017356274270314553,0.2055003819709702
+47,"Among all inf1_high records, most are IT_years_high",0.244252140102563,0.2077922077922078
+48,"Among all inf1_high records, most are BN_low",0.0,0.24598930481283424
+49,"Among all inf1_high records, most are BN_medium",0.13497909916540318,0.33766233766233766
+50,"Among all inf1_high records, most are BN_high",0.3862275425265551,0.35905271199388844
+51,"Among all BN_low records, most are IT_years_low",0.1126373626450153,0.23300229182582124
+52,"Among all BN_low records, most are IT_years_medium",0.0,0.21695951107715813
+53,"Among all BN_low records, most are IT_years_high",0.3434065934156386,0.2849503437738732
+54,"Among all BN_low records, most are inf1_low",0.05425960916934009,0.306340718105424
+55,"Among all BN_low records, most are inf1_medium",0.47286534704072114,0.44537815126050423
+56,"Among all BN_low records, most are inf1_high",0.0,0.24598930481283424
+57,"Among all BN_medium records, most are IT_years_low",0.2430830039738548,0.3284950343773873
+58,"Among all BN_medium records, most are IT_years_medium",0.0,0.2643239113827349
+59,"Among all BN_medium records, most are IT_years_high",0.2463768116037131,0.29488158899923606
+60,"Among all BN_medium records, most are inf1_low",0.0,0.3384262796027502
+61,"Among all BN_medium records, most are inf1_medium",0.7750249793070765,0.5691367456073338
+62,"Among all BN_medium records, most are inf1_high",0.0,0.33766233766233766
+63,"Among all BN_high records, most are IT_years_low",0.44708994709186717,0.34759358288770054
+64,"Among all BN_high records, most are IT_years_medium",0.03703703704461686,0.27883880825057294
+65,"Among all BN_high records, most are IT_years_high",0.0,0.2482811306340718
+66,"Among all BN_high records, most are inf1_low",0.0,0.3017570664629488
+67,"Among all BN_high records, most are inf1_medium",0.6565025018640427,0.5576776165011459
+68,"Among all BN_high records, most are inf1_high",0.003305881511730252,0.35905271199388844
+69,"Among all IT_years_low records, most are inf1_low and BN_low",0.0,0.25439266615737205
+70,"Among all IT_years_low records, most are inf1_low and BN_medium",0.0,0.25439266615737205
+71,"Among all IT_years_low records, most are inf1_low and BN_high",0.0,0.25439266615737205
+72,"Among all IT_years_medium records, most are inf1_low and BN_low",0.0,0.22536287242169595
+73,"Among all IT_years_medium records, most are inf1_low and BN_medium",0.0,0.22536287242169595
+74,"Among all IT_years_medium records, most are inf1_low and BN_high",0.0,0.22536287242169595
+75,"Among all IT_years_high records, most are inf1_low and BN_low",0.0,0.23834988540870894
+76,"Among all IT_years_high records, most are inf1_low and BN_medium",0.0,0.23834988540870894
+77,"Among all IT_years_high records, most are inf1_low and BN_high",0.0,0.23834988540870894
+78,"Among all IT_years_low records, most are inf1_medium and BN_low",0.0,0.4155844155844156
+79,"Among all IT_years_low records, most are inf1_medium and BN_medium",0.0,0.4155844155844156
+80,"Among all IT_years_low records, most are inf1_medium and BN_high",0.0,0.4155844155844156
+81,"Among all IT_years_medium records, most are inf1_medium and BN_low",0.0,0.359816653934301
+82,"Among all IT_years_medium records, most are inf1_medium and BN_medium",0.0,0.359816653934301
+83,"Among all IT_years_medium records, most are inf1_medium and BN_high",0.0,0.359816653934301
+84,"Among all IT_years_high records, most are inf1_medium and BN_low",0.0,0.3674560733384263
+85,"Among all IT_years_high records, most are inf1_medium and BN_medium",0.0,0.3674560733384263
+86,"Among all IT_years_high records, most are inf1_medium and BN_high",0.0,0.3674560733384263
+87,"Among all IT_years_low records, most are inf1_high and BN_low",0.0,0.2475171886936593
+88,"Among all IT_years_low records, most are inf1_high and BN_medium",0.0,0.2475171886936593
+89,"Among all IT_years_low records, most are inf1_high and BN_high",0.0,0.2475171886936593
+90,"Among all IT_years_medium records, most are inf1_high and BN_low",0.0,0.2055003819709702
+91,"Among all IT_years_medium records, most are inf1_high and BN_medium",0.0,0.2055003819709702
+92,"Among all IT_years_medium records, most are inf1_high and BN_high",0.0,0.2055003819709702
+93,"Among all IT_years_high records, most are inf1_high and BN_low",0.0,0.2077922077922078
+94,"Among all IT_years_high records, most are inf1_high and BN_medium",0.0,0.2077922077922078
+95,"Among all IT_years_high records, most are inf1_high and BN_high",0.0,0.2077922077922078
+96,,0.0,0.0
+97,,0.0,0.0
+98,,0.0,0.0
+99,,0.0,0.0
+0,"Among all records, minority are inf1_low",1.0,0.5194805194805194
+1,"Among all records, minority are IT_years_low",0.5366692131398012,0.494270435446906
+2,"Among all records, minority are BN_low",0.7620320855506454,0.5393430099312452
+3,"Among all records, minority are BN_low and inf1_low",1.0,0.5393430099312452
+4,"Among all records, minority are IT_years_low and inf1_low",1.0,0.494270435446906
+5,"Among all records, minority are inf1_medium",0.0,0.8388082505729565
+6,"Among all records, minority are IT_years_medium",1.0,0.426279602750191
+7,"Among all records, minority are BN_medium",1.0,0.666157372039725
+8,"Among all records, minority are BN_medium and inf1_medium",1.0,0.666157372039725
+9,"Among all records, minority are IT_years_medium and inf1_medium",1.0,0.426279602750191
+10,"Among all records, minority are inf1_high",1.0,0.4988540870893812
+11,"Among all records, minority are IT_years_high",0.7133307868601988,0.4377387318563789
+12,"Among all records, minority are BN_high",0.6951871657704491,0.6508785332314744
+13,"Among all records, minority are BN_high and inf1_high",1.0,0.6508785332314744
+14,"Among all records, minority are IT_years_high and inf1_high",1.0,0.4377387318563789
+15,"Among all IT_years_low records, minority are inf1_low",1.0,0.25439266615737205
+16,"Among all IT_years_low records, minority are inf1_medium",0.0,0.4155844155844156
+17,"Among all IT_years_low records, minority are inf1_high",1.0,0.2475171886936593
+18,"Among all IT_years_low records, minority are BN_low",0.9727626458913121,0.23300229182582124
+19,"Among all IT_years_low records, minority are BN_medium",1.0,0.3284950343773873
+20,"Among all IT_years_low records, minority are BN_high",0.29912451360910863,0.34759358288770054
+21,"Among all IT_years_medium records, minority are inf1_low",0.8952210912757907,0.22536287242169595
+22,"Among all IT_years_medium records, minority are inf1_medium",0.0,0.359816653934301
+23,"Among all IT_years_medium records, minority are inf1_high",1.0,0.2055003819709702
+24,"Among all IT_years_medium records, minority are BN_low",1.0,0.21695951107715813
+25,"Among all IT_years_medium records, minority are BN_medium",0.8359193172431494,0.2643239113827349
+26,"Among all IT_years_medium records, minority are BN_high",0.1920093095137207,0.27883880825057294
+27,"Among all IT_years_high records, minority are inf1_low",1.0,0.23834988540870894
+28,"Among all IT_years_high records, minority are inf1_medium",0.0,0.3674560733384263
+29,"Among all IT_years_high records, minority are inf1_high",1.0,0.2077922077922078
+30,"Among all IT_years_high records, minority are BN_low",0.3727952966019371,0.2849503437738732
+31,"Among all IT_years_high records, minority are BN_medium",0.8832175307344233,0.29488158899923606
+32,"Among all IT_years_high records, minority are BN_high",1.0,0.2482811306340718
+33,"Among all inf1_low records, minority are IT_years_low",0.34592562312056374,0.25439266615737205
+34,"Among all inf1_low records, minority are IT_years_medium",0.9341266038501461,0.22536287242169595
+35,"Among all inf1_low records, minority are IT_years_high",0.5252461455981474,0.23834988540870894
+36,"Among all inf1_low records, minority are BN_low",0.283916283973466,0.306340718105424
+37,"Among all inf1_low records, minority are BN_medium",1.0,0.3384262796027502
+38,"Among all inf1_low records, minority are BN_high",0.6857784350087798,0.3017570664629488
+39,"Among all inf1_medium records, minority are IT_years_low",0.3199377137988857,0.4155844155844156
+40,"Among all inf1_medium records, minority are IT_years_medium",0.9344922481964598,0.359816653934301
+41,"Among all inf1_medium records, minority are IT_years_high",0.6219783932559503,0.3674560733384263
+42,"Among all inf1_medium records, minority are BN_low",0.8278156001082967,0.44537815126050423
+43,"Among all inf1_medium records, minority are BN_medium",0.7606664664461964,0.5691367456073338
+44,"Among all inf1_medium records, minority are BN_high",0.5027314917458772,0.5576776165011459
+45,"Among all inf1_high records, minority are IT_years_low",0.4245855485159819,0.2475171886936593
+46,"Among all inf1_high records, minority are IT_years_medium",0.9652874514593709,0.2055003819709702
+47,"Among all inf1_high records, minority are IT_years_high",0.5114957197948742,0.2077922077922078
+48,"Among all inf1_high records, minority are BN_low",1.0,0.24598930481283424
+49,"Among all inf1_high records, minority are BN_medium",0.7300418016691936,0.33766233766233766
+50,"Among all inf1_high records, minority are BN_high",0.22754491494689,0.35905271199388844
+51,"Among all BN_low records, minority are IT_years_low",0.7747252747099694,0.23300229182582124
+52,"Among all BN_low records, minority are IT_years_medium",1.0,0.21695951107715813
+53,"Among all BN_low records, minority are IT_years_high",0.31318681316872293,0.2849503437738732
+54,"Among all BN_low records, minority are inf1_low",0.8914807816613198,0.306340718105424
+55,"Among all BN_low records, minority are inf1_medium",0.05426930591855783,0.44537815126050423
+56,"Among all BN_low records, minority are inf1_high",1.0,0.24598930481283424
+57,"Among all BN_medium records, minority are IT_years_low",0.5138339920522905,0.3284950343773873
+58,"Among all BN_medium records, minority are IT_years_medium",1.0,0.2643239113827349
+59,"Among all BN_medium records, minority are IT_years_high",0.5072463767925739,0.29488158899923606
+60,"Among all BN_medium records, minority are inf1_low",1.0,0.3384262796027502
+61,"Among all BN_medium records, minority are inf1_medium",0.0,0.5691367456073338
+62,"Among all BN_medium records, minority are inf1_high",1.0,0.33766233766233766
+63,"Among all BN_high records, minority are IT_years_low",0.10582010581626583,0.34759358288770054
+64,"Among all BN_high records, minority are IT_years_medium",0.9259259259107663,0.27883880825057294
+65,"Among all BN_high records, minority are IT_years_high",1.0,0.2482811306340718
+66,"Among all BN_high records, minority are inf1_low",1.0,0.3017570664629488
+67,"Among all BN_high records, minority are inf1_medium",0.0,0.5576776165011459
+68,"Among all BN_high records, minority are inf1_high",0.9933882369765394,0.35905271199388844
+69,"Among all IT_years_low records, minority are inf1_low and BN_low",1.0,0.25439266615737205
+70,"Among all IT_years_low records, minority are inf1_low and BN_medium",1.0,0.25439266615737205
+71,"Among all IT_years_low records, minority are inf1_low and BN_high",1.0,0.25439266615737205
+72,"Among all IT_years_medium records, minority are inf1_low and BN_low",1.0,0.22536287242169595
+73,"Among all IT_years_medium records, minority are inf1_low and BN_medium",1.0,0.22536287242169595
+74,"Among all IT_years_medium records, minority are inf1_low and BN_high",1.0,0.22536287242169595
+75,"Among all IT_years_high records, minority are inf1_low and BN_low",1.0,0.23834988540870894
+76,"Among all IT_years_high records, minority are inf1_low and BN_medium",1.0,0.23834988540870894
+77,"Among all IT_years_high records, minority are inf1_low and BN_high",1.0,0.23834988540870894
+78,"Among all IT_years_low records, minority are inf1_medium and BN_low",1.0,0.4155844155844156
+79,"Among all IT_years_low records, minority are inf1_medium and BN_medium",1.0,0.4155844155844156
+80,"Among all IT_years_low records, minority are inf1_medium and BN_high",1.0,0.4155844155844156
+81,"Among all IT_years_medium records, minority are inf1_medium and BN_low",1.0,0.359816653934301
+82,"Among all IT_years_medium records, minority are inf1_medium and BN_medium",1.0,0.359816653934301
+83,"Among all IT_years_medium records, minority are inf1_medium and BN_high",1.0,0.359816653934301
+84,"Among all IT_years_high records, minority are inf1_medium and BN_low",1.0,0.3674560733384263
+85,"Among all IT_years_high records, minority are inf1_medium and BN_medium",1.0,0.3674560733384263
+86,"Among all IT_years_high records, minority are inf1_medium and BN_high",1.0,0.3674560733384263
+87,"Among all IT_years_low records, minority are inf1_high and BN_low",1.0,0.2475171886936593
+88,"Among all IT_years_low records, minority are inf1_high and BN_medium",1.0,0.2475171886936593
+89,"Among all IT_years_low records, minority are inf1_high and BN_high",1.0,0.2475171886936593
+90,"Among all IT_years_medium records, minority are inf1_high and BN_low",1.0,0.2055003819709702
+91,"Among all IT_years_medium records, minority are inf1_high and BN_medium",1.0,0.2055003819709702
+92,"Among all IT_years_medium records, minority are inf1_high and BN_high",1.0,0.2055003819709702
+93,"Among all IT_years_high records, minority are inf1_high and BN_low",1.0,0.2077922077922078
+94,"Among all IT_years_high records, minority are inf1_high and BN_medium",1.0,0.2077922077922078
+95,"Among all IT_years_high records, minority are inf1_high and BN_high",1.0,0.2077922077922078
+96,,0.0,0.0
+97,,0.0,0.0
+98,,0.0,0.0
+99,,0.0,0.0
+0,"Among all records, most are inf2_low",0.0,0.5508021390374331
+1,"Among all records, most are IT_years_low",0.23166539343009943,0.494270435446906
+2,"Among all records, most are BN_low",0.11898395722467732,0.5393430099312452
+3,"Among all records, most are BN_low and inf2_low",0.0,0.5393430099312452
+4,"Among all records, most are IT_years_low and inf2_low",0.0,0.494270435446906
+5,"Among all records, most are inf2_medium",0.6816885393150672,0.8074866310160428
+6,"Among all records, most are IT_years_medium",0.0,0.426279602750191
+7,"Among all records, most are BN_medium",0.0,0.666157372039725
+8,"Among all records, most are BN_medium and inf2_medium",0.0,0.666157372039725
+9,"Among all records, most are IT_years_medium and inf2_medium",0.0,0.426279602750191
+10,"Among all records, most are inf2_high",0.0,0.47058823529411764
+11,"Among all records, most are IT_years_high",0.14333460656990066,0.4377387318563789
+12,"Among all records, most are BN_high",0.15240641711477543,0.6508785332314744
+13,"Among all records, most are BN_high and inf2_high",0.0,0.6508785332314744
+14,"Among all records, most are IT_years_high and inf2_high",0.0,0.4377387318563789
+15,"Among all IT_years_low records, most are inf2_low",0.0,0.28189457601222306
+16,"Among all IT_years_low records, most are inf2_medium",0.7186582051584011,0.3834988540870894
+17,"Among all IT_years_low records, most are inf2_high",0.0,0.2192513368983957
+18,"Among all IT_years_low records, most are BN_low",0.013618677054343943,0.23300229182582124
+19,"Among all IT_years_low records, most are BN_medium",0.0,0.3284950343773873
+20,"Among all IT_years_low records, most are BN_high",0.35043774319544574,0.34759358288770054
+21,"Among all IT_years_medium records, most are inf2_low",0.0,0.2215431627196333
+22,"Among all IT_years_medium records, most are inf2_medium",0.8327832958191743,0.33689839572192515
+23,"Among all IT_years_medium records, most are inf2_high",0.040718551002887904,0.2131398013750955
+24,"Among all IT_years_medium records, most are BN_low",0.0,0.21695951107715813
+25,"Among all IT_years_medium records, most are BN_medium",0.08204034137842528,0.2643239113827349
+26,"Among all IT_years_medium records, most are BN_high",0.40399534524313974,0.27883880825057294
+27,"Among all IT_years_high records, most are inf2_low",0.0,0.22994652406417113
+28,"Among all IT_years_high records, most are inf2_medium",0.9055713844153331,0.37433155080213903
+29,"Among all IT_years_high records, most are inf2_high",0.0,0.22077922077922077
+30,"Among all IT_years_high records, most are BN_low",0.3136023516990315,0.2849503437738732
+31,"Among all IT_years_high records, most are BN_medium",0.05839123463278834,0.29488158899923606
+32,"Among all IT_years_high records, most are BN_high",0.0,0.2482811306340718
+33,"Among all inf2_low records, most are IT_years_low",0.45500158426607834,0.28189457601222306
+34,"Among all inf2_low records, most are IT_years_medium",0.0,0.2215431627196333
+35,"Among all inf2_low records, most are IT_years_high",0.11617395207376259,0.22994652406417113
+36,"Among all inf2_low records, most are BN_low",0.1523627398064309,0.29258976317799845
+37,"Among all inf2_low records, most are BN_medium",0.0786874755989593,0.36669213139801377
+38,"Among all inf2_low records, most are BN_high",0.23270251052314425,0.36210847975553856
+39,"Among all inf2_medium records, most are IT_years_low",0.257014371625062,0.3834988540870894
+40,"Among all inf2_medium records, most are IT_years_medium",0.0,0.33689839572192515
+41,"Among all inf2_medium records, most are IT_years_high",0.2830313966560175,0.37433155080213903
+42,"Among all inf2_medium records, most are BN_low",0.021249993197286904,0.42016806722689076
+43,"Among all inf2_medium records, most are BN_medium",0.10721106029840417,0.5553857906799083
+44,"Among all inf2_medium records, most are BN_high",0.28819541013112293,0.5492742551566081
+45,"Among all inf2_high records, most are IT_years_low",0.27848898290548196,0.2192513368983957
+46,"Among all inf2_high records, most are IT_years_medium",0.21552844563627704,0.2131398013750955
+47,"Among all inf2_high records, most are IT_years_high",0.07705641444923056,0.22077922077922077
+48,"Among all inf2_high records, most are BN_low",0.3592297105954462,0.2559205500381971
+49,"Among all inf2_high records, most are BN_medium",0.0,0.3147440794499618
+50,"Among all inf2_high records, most are BN_high",0.15018910675393612,0.3048128342245989
+51,"Among all BN_low records, most are IT_years_low",0.1126373626450153,0.23300229182582124
+52,"Among all BN_low records, most are IT_years_medium",0.0,0.21695951107715813
+53,"Among all BN_low records, most are IT_years_high",0.3434065934156386,0.2849503437738732
+54,"Among all BN_low records, most are inf2_low",0.0,0.29258976317799845
+55,"Among all BN_low records, most are inf2_medium",0.5206676193814807,0.42016806722689076
+56,"Among all BN_low records, most are inf2_high",0.0,0.2559205500381971
+57,"Among all BN_medium records, most are IT_years_low",0.2430830039738548,0.3284950343773873
+58,"Among all BN_medium records, most are IT_years_medium",0.0,0.2643239113827349
+59,"Among all BN_medium records, most are IT_years_high",0.2463768116037131,0.29488158899923606
+60,"Among all BN_medium records, most are inf2_low",0.0,0.36669213139801377
+61,"Among all BN_medium records, most are inf2_medium",0.9432620388079992,0.5553857906799083
+62,"Among all BN_medium records, most are inf2_high",0.0,0.3147440794499618
+63,"Among all BN_high records, most are IT_years_low",0.44708994709186717,0.34759358288770054
+64,"Among all BN_high records, most are IT_years_medium",0.03703703704461686,0.27883880825057294
+65,"Among all BN_high records, most are IT_years_high",0.0,0.2482811306340718
+66,"Among all BN_high records, most are inf2_low",0.0,0.36210847975553856
+67,"Among all BN_high records, most are inf2_medium",0.8971209003660995,0.5492742551566081
+68,"Among all BN_high records, most are inf2_high",0.0,0.3048128342245989
+69,"Among all IT_years_low records, most are inf2_low and BN_low",0.0,0.28189457601222306
+70,"Among all IT_years_low records, most are inf2_low and BN_medium",0.0,0.28189457601222306
+71,"Among all IT_years_low records, most are inf2_low and BN_high",0.0,0.28189457601222306
+72,"Among all IT_years_medium records, most are inf2_low and BN_low",0.0,0.2215431627196333
+73,"Among all IT_years_medium records, most are inf2_low and BN_medium",0.0,0.2215431627196333
+74,"Among all IT_years_medium records, most are inf2_low and BN_high",0.0,0.2215431627196333
+75,"Among all IT_years_high records, most are inf2_low and BN_low",0.0,0.22994652406417113
+76,"Among all IT_years_high records, most are inf2_low and BN_medium",0.0,0.22994652406417113
+77,"Among all IT_years_high records, most are inf2_low and BN_high",0.0,0.22994652406417113
+78,"Among all IT_years_low records, most are inf2_medium and BN_low",0.0,0.3834988540870894
+79,"Among all IT_years_low records, most are inf2_medium and BN_medium",0.0,0.3834988540870894
+80,"Among all IT_years_low records, most are inf2_medium and BN_high",0.0,0.3834988540870894
+81,"Among all IT_years_medium records, most are inf2_medium and BN_low",0.0,0.33689839572192515
+82,"Among all IT_years_medium records, most are inf2_medium and BN_medium",0.0,0.33689839572192515
+83,"Among all IT_years_medium records, most are inf2_medium and BN_high",0.0,0.33689839572192515
+84,"Among all IT_years_high records, most are inf2_medium and BN_low",0.0,0.37433155080213903
+85,"Among all IT_years_high records, most are inf2_medium and BN_medium",0.0,0.37433155080213903
+86,"Among all IT_years_high records, most are inf2_medium and BN_high",0.0,0.37433155080213903
+87,"Among all IT_years_low records, most are inf2_high and BN_low",0.0,0.2192513368983957
+88,"Among all IT_years_low records, most are inf2_high and BN_medium",0.0,0.2192513368983957
+89,"Among all IT_years_low records, most are inf2_high and BN_high",0.0,0.2192513368983957
+90,"Among all IT_years_medium records, most are inf2_high and BN_low",0.0,0.2131398013750955
+91,"Among all IT_years_medium records, most are inf2_high and BN_medium",0.0,0.2131398013750955
+92,"Among all IT_years_medium records, most are inf2_high and BN_high",0.0,0.2131398013750955
+93,"Among all IT_years_high records, most are inf2_high and BN_low",0.0,0.22077922077922077
+94,"Among all IT_years_high records, most are inf2_high and BN_medium",0.0,0.22077922077922077
+95,"Among all IT_years_high records, most are inf2_high and BN_high",0.0,0.22077922077922077
+96,,0.0,0.0
+97,,0.0,0.0
+98,,0.0,0.0
+99,,0.0,0.0
+0,"Among all records, minority are inf2_low",1.0,0.5508021390374331
+1,"Among all records, minority are IT_years_low",0.5366692131398012,0.494270435446906
+2,"Among all records, minority are BN_low",0.7620320855506454,0.5393430099312452
+3,"Among all records, minority are BN_low and inf2_low",1.0,0.5393430099312452
+4,"Among all records, minority are IT_years_low and inf2_low",1.0,0.494270435446906
+5,"Among all records, minority are inf2_medium",0.0,0.8074866310160428
+6,"Among all records, minority are IT_years_medium",1.0,0.426279602750191
+7,"Among all records, minority are BN_medium",1.0,0.666157372039725
+8,"Among all records, minority are BN_medium and inf2_medium",1.0,0.666157372039725
+9,"Among all records, minority are IT_years_medium and inf2_medium",1.0,0.426279602750191
+10,"Among all records, minority are inf2_high",1.0,0.47058823529411764
+11,"Among all records, minority are IT_years_high",0.7133307868601988,0.4377387318563789
+12,"Among all records, minority are BN_high",0.6951871657704491,0.6508785332314744
+13,"Among all records, minority are BN_high and inf2_high",1.0,0.6508785332314744
+14,"Among all records, minority are IT_years_high and inf2_high",1.0,0.4377387318563789
+15,"Among all IT_years_low records, minority are inf2_low",1.0,0.28189457601222306
+16,"Among all IT_years_low records, minority are inf2_medium",0.0,0.3834988540870894
+17,"Among all IT_years_low records, minority are inf2_high",1.0,0.2192513368983957
+18,"Among all IT_years_low records, minority are BN_low",0.9727626458913121,0.23300229182582124
+19,"Among all IT_years_low records, minority are BN_medium",1.0,0.3284950343773873
+20,"Among all IT_years_low records, minority are BN_high",0.29912451360910863,0.34759358288770054
+21,"Among all IT_years_medium records, minority are inf2_low",1.0,0.2215431627196333
+22,"Among all IT_years_medium records, minority are inf2_medium",0.0,0.33689839572192515
+23,"Among all IT_years_medium records, minority are inf2_high",0.9185628979942242,0.2131398013750955
+24,"Among all IT_years_medium records, minority are BN_low",1.0,0.21695951107715813
+25,"Among all IT_years_medium records, minority are BN_medium",0.8359193172431494,0.2643239113827349
+26,"Among all IT_years_medium records, minority are BN_high",0.1920093095137207,0.27883880825057294
+27,"Among all IT_years_high records, minority are inf2_low",1.0,0.22994652406417113
+28,"Among all IT_years_high records, minority are inf2_medium",0.0,0.37433155080213903
+29,"Among all IT_years_high records, minority are inf2_high",1.0,0.22077922077922077
+30,"Among all IT_years_high records, minority are BN_low",0.3727952966019371,0.2849503437738732
+31,"Among all IT_years_high records, minority are BN_medium",0.8832175307344233,0.29488158899923606
+32,"Among all IT_years_high records, minority are BN_high",1.0,0.2482811306340718
+33,"Among all inf2_low records, minority are IT_years_low",0.08999683146784343,0.28189457601222306
+34,"Among all inf2_low records, minority are IT_years_medium",1.0,0.2215431627196333
+35,"Among all inf2_low records, minority are IT_years_high",0.7676520958524748,0.22994652406417113
+36,"Among all inf2_low records, minority are BN_low",0.6952745203871382,0.29258976317799845
+37,"Among all inf2_low records, minority are BN_medium",0.8426250488020814,0.36669213139801377
+38,"Among all inf2_low records, minority are BN_high",0.5345949789537117,0.36210847975553856
+39,"Among all inf2_medium records, minority are IT_years_low",0.4859712567498761,0.3834988540870894
+40,"Among all inf2_medium records, minority are IT_years_medium",1.0,0.33689839572192515
+41,"Among all inf2_medium records, minority are IT_years_high",0.43393720668796515,0.37433155080213903
+42,"Among all inf2_medium records, minority are BN_low",0.9575000136054261,0.42016806722689076
+43,"Among all inf2_medium records, minority are BN_medium",0.7855778794031917,0.5553857906799083
+44,"Among all inf2_medium records, minority are BN_high",0.4236091797377542,0.5492742551566081
+45,"Among all inf2_high records, minority are IT_years_low",0.4430220341890362,0.2192513368983957
+46,"Among all inf2_high records, minority are IT_years_medium",0.568943108727446,0.2131398013750955
+47,"Among all inf2_high records, minority are IT_years_high",0.8458871711015389,0.22077922077922077
+48,"Among all inf2_high records, minority are BN_low",0.2815405788091077,0.2559205500381971
+49,"Among all inf2_high records, minority are BN_medium",1.0,0.3147440794499618
+50,"Among all inf2_high records, minority are BN_high",0.6996217864921278,0.3048128342245989
+51,"Among all BN_low records, minority are IT_years_low",0.7747252747099694,0.23300229182582124
+52,"Among all BN_low records, minority are IT_years_medium",1.0,0.21695951107715813
+53,"Among all BN_low records, minority are IT_years_high",0.31318681316872293,0.2849503437738732
+54,"Among all BN_low records, minority are inf2_low",1.0,0.29258976317799845
+55,"Among all BN_low records, minority are inf2_medium",0.0,0.42016806722689076
+56,"Among all BN_low records, minority are inf2_high",1.0,0.2559205500381971
+57,"Among all BN_medium records, minority are IT_years_low",0.5138339920522905,0.3284950343773873
+58,"Among all BN_medium records, minority are IT_years_medium",1.0,0.2643239113827349
+59,"Among all BN_medium records, minority are IT_years_high",0.5072463767925739,0.29488158899923606
+60,"Among all BN_medium records, minority are inf2_low",1.0,0.36669213139801377
+61,"Among all BN_medium records, minority are inf2_medium",0.0,0.5553857906799083
+62,"Among all BN_medium records, minority are inf2_high",1.0,0.3147440794499618
+63,"Among all BN_high records, minority are IT_years_low",0.10582010581626583,0.34759358288770054
+64,"Among all BN_high records, minority are IT_years_medium",0.9259259259107663,0.27883880825057294
+65,"Among all BN_high records, minority are IT_years_high",1.0,0.2482811306340718
+66,"Among all BN_high records, minority are inf2_low",1.0,0.36210847975553856
+67,"Among all BN_high records, minority are inf2_medium",0.0,0.5492742551566081
+68,"Among all BN_high records, minority are inf2_high",1.0,0.3048128342245989
+69,"Among all IT_years_low records, minority are inf2_low and BN_low",1.0,0.28189457601222306
+70,"Among all IT_years_low records, minority are inf2_low and BN_medium",1.0,0.28189457601222306
+71,"Among all IT_years_low records, minority are inf2_low and BN_high",1.0,0.28189457601222306
+72,"Among all IT_years_medium records, minority are inf2_low and BN_low",1.0,0.2215431627196333
+73,"Among all IT_years_medium records, minority are inf2_low and BN_medium",1.0,0.2215431627196333
+74,"Among all IT_years_medium records, minority are inf2_low and BN_high",1.0,0.2215431627196333
+75,"Among all IT_years_high records, minority are inf2_low and BN_low",1.0,0.22994652406417113
+76,"Among all IT_years_high records, minority are inf2_low and BN_medium",1.0,0.22994652406417113
+77,"Among all IT_years_high records, minority are inf2_low and BN_high",1.0,0.22994652406417113
+78,"Among all IT_years_low records, minority are inf2_medium and BN_low",1.0,0.3834988540870894
+79,"Among all IT_years_low records, minority are inf2_medium and BN_medium",1.0,0.3834988540870894
+80,"Among all IT_years_low records, minority are inf2_medium and BN_high",1.0,0.3834988540870894
+81,"Among all IT_years_medium records, minority are inf2_medium and BN_low",1.0,0.33689839572192515
+82,"Among all IT_years_medium records, minority are inf2_medium and BN_medium",1.0,0.33689839572192515
+83,"Among all IT_years_medium records, minority are inf2_medium and BN_high",1.0,0.33689839572192515
+84,"Among all IT_years_high records, minority are inf2_medium and BN_low",1.0,0.37433155080213903
+85,"Among all IT_years_high records, minority are inf2_medium and BN_medium",1.0,0.37433155080213903
+86,"Among all IT_years_high records, minority are inf2_medium and BN_high",1.0,0.37433155080213903
+87,"Among all IT_years_low records, minority are inf2_high and BN_low",1.0,0.2192513368983957
+88,"Among all IT_years_low records, minority are inf2_high and BN_medium",1.0,0.2192513368983957
+89,"Among all IT_years_low records, minority are inf2_high and BN_high",1.0,0.2192513368983957
+90,"Among all IT_years_medium records, minority are inf2_high and BN_low",1.0,0.2131398013750955
+91,"Among all IT_years_medium records, minority are inf2_high and BN_medium",1.0,0.2131398013750955
+92,"Among all IT_years_medium records, minority are inf2_high and BN_high",1.0,0.2131398013750955
+93,"Among all IT_years_high records, minority are inf2_high and BN_low",1.0,0.22077922077922077
+94,"Among all IT_years_high records, minority are inf2_high and BN_medium",1.0,0.22077922077922077
+95,"Among all IT_years_high records, minority are inf2_high and BN_high",1.0,0.22077922077922077
+96,,0.0,0.0
+97,,0.0,0.0
+98,,0.0,0.0
+99,,0.0,0.0
+0,"Among all records, most are survey_low",0.0,1.0
+1,"Among all records, most are IT_years_low",0.23166539343009943,0.494270435446906
+2,"Among all records, most are BN_low",0.11898395722467732,0.5393430099312452
+3,"Among all records, most are BN_low and survey_low",0.11667303285514825,0.5393430099312452
+4,"Among all records, most are IT_years_low and survey_low",0.21625286478227662,0.494270435446906
+5,"Among all records, most are survey_medium",0.0,1.0
+6,"Among all records, most are IT_years_medium",0.0,0.426279602750191
+7,"Among all records, most are BN_medium",0.0,0.666157372039725
+8,"Among all records, most are BN_medium and survey_medium",0.0,0.666157372039725
+9,"Among all records, most are IT_years_medium and survey_medium",0.0,0.426279602750191
+10,"Among all records, most are survey_high",0.0,1.0
+11,"Among all records, most are IT_years_high",0.14333460656990066,0.4377387318563789
+12,"Among all records, most are BN_high",0.15240641711477543,0.6508785332314744
+13,"Among all records, most are BN_high and survey_high",0.15240641711477543,0.6508785332314744
+14,"Among all records, most are IT_years_high and survey_high",0.14333460656990066,0.4377387318563789
+15,"Among all IT_years_low records, most are survey_low",1.0,0.494270435446906
+16,"Among all IT_years_low records, most are survey_medium",1.0,0.494270435446906
+17,"Among all IT_years_low records, most are survey_high",1.0,0.494270435446906
+18,"Among all IT_years_low records, most are BN_low",0.013618677054343943,0.23300229182582124
+19,"Among all IT_years_low records, most are BN_medium",0.0,0.3284950343773873
+20,"Among all IT_years_low records, most are BN_high",0.35043774319544574,0.34759358288770054
+21,"Among all IT_years_medium records, most are survey_low",1.0,0.426279602750191
+22,"Among all IT_years_medium records, most are survey_medium",1.0,0.426279602750191
+23,"Among all IT_years_medium records, most are survey_high",1.0,0.426279602750191
+24,"Among all IT_years_medium records, most are BN_low",0.0,0.21695951107715813
+25,"Among all IT_years_medium records, most are BN_medium",0.08204034137842528,0.2643239113827349
+26,"Among all IT_years_medium records, most are BN_high",0.40399534524313974,0.27883880825057294
+27,"Among all IT_years_high records, most are survey_low",1.0,0.4377387318563789
+28,"Among all IT_years_high records, most are survey_medium",1.0,0.4377387318563789
+29,"Among all IT_years_high records, most are survey_high",1.0,0.4377387318563789
+30,"Among all IT_years_high records, most are BN_low",0.3136023516990315,0.2849503437738732
+31,"Among all IT_years_high records, most are BN_medium",0.05839123463278834,0.29488158899923606
+32,"Among all IT_years_high records, most are BN_high",0.0,0.2482811306340718
+33,"Among all survey_low records, most are IT_years_low",0.0,0.494270435446906
+34,"Among all survey_low records, most are IT_years_medium",0.0,0.426279602750191
+35,"Among all survey_low records, most are IT_years_high",0.0,0.4377387318563789
+36,"Among all survey_low records, most are BN_low",0.0,0.5393430099312452
+37,"Among all survey_low records, most are BN_medium",0.0,0.666157372039725
+38,"Among all survey_low records, most are BN_high",0.0,0.6508785332314744
+39,"Among all survey_medium records, most are IT_years_low",0.0,0.494270435446906
+40,"Among all survey_medium records, most are IT_years_medium",0.0,0.426279602750191
+41,"Among all survey_medium records, most are IT_years_high",0.0,0.4377387318563789
+42,"Among all survey_medium records, most are BN_low",0.0,0.5393430099312452
+43,"Among all survey_medium records, most are BN_medium",0.0,0.666157372039725
+44,"Among all survey_medium records, most are BN_high",0.0,0.6508785332314744
+45,"Among all survey_high records, most are IT_years_low",0.0,0.494270435446906
+46,"Among all survey_high records, most are IT_years_medium",0.0,0.426279602750191
+47,"Among all survey_high records, most are IT_years_high",0.0,0.4377387318563789
+48,"Among all survey_high records, most are BN_low",0.0,0.5393430099312452
+49,"Among all survey_high records, most are BN_medium",0.0,0.666157372039725
+50,"Among all survey_high records, most are BN_high",0.0,0.6508785332314744
+51,"Among all BN_low records, most are IT_years_low",0.1126373626450153,0.23300229182582124
+52,"Among all BN_low records, most are IT_years_medium",0.0,0.21695951107715813
+53,"Among all BN_low records, most are IT_years_high",0.3434065934156386,0.2849503437738732
+54,"Among all BN_low records, most are survey_low",1.0,0.5393430099312452
+55,"Among all BN_low records, most are survey_medium",1.0,0.5393430099312452
+56,"Among all BN_low records, most are survey_high",1.0,0.5393430099312452
+57,"Among all BN_medium records, most are IT_years_low",0.2430830039738548,0.3284950343773873
+58,"Among all BN_medium records, most are IT_years_medium",0.0,0.2643239113827349
+59,"Among all BN_medium records, most are IT_years_high",0.2463768116037131,0.29488158899923606
+60,"Among all BN_medium records, most are survey_low",1.0,0.666157372039725
+61,"Among all BN_medium records, most are survey_medium",1.0,0.666157372039725
+62,"Among all BN_medium records, most are survey_high",1.0,0.666157372039725
+63,"Among all BN_high records, most are IT_years_low",0.44708994709186717,0.34759358288770054
+64,"Among all BN_high records, most are IT_years_medium",0.03703703704461686,0.27883880825057294
+65,"Among all BN_high records, most are IT_years_high",0.0,0.2482811306340718
+66,"Among all BN_high records, most are survey_low",1.0,0.6508785332314744
+67,"Among all BN_high records, most are survey_medium",1.0,0.6508785332314744
+68,"Among all BN_high records, most are survey_high",1.0,0.6508785332314744
+69,"Among all IT_years_low records, most are survey_low and BN_low",0.0,0.494270435446906
+70,"Among all IT_years_low records, most are survey_low and BN_medium",0.0,0.494270435446906
+71,"Among all IT_years_low records, most are survey_low and BN_high",0.0,0.494270435446906
+72,"Among all IT_years_medium records, most are survey_low and BN_low",0.0,0.426279602750191
+73,"Among all IT_years_medium records, most are survey_low and BN_medium",0.0,0.426279602750191
+74,"Among all IT_years_medium records, most are survey_low and BN_high",0.0,0.426279602750191
+75,"Among all IT_years_high records, most are survey_low and BN_low",0.0,0.4377387318563789
+76,"Among all IT_years_high records, most are survey_low and BN_medium",0.0,0.4377387318563789
+77,"Among all IT_years_high records, most are survey_low and BN_high",0.0,0.4377387318563789
+78,"Among all IT_years_low records, most are survey_medium and BN_low",0.0,0.494270435446906
+79,"Among all IT_years_low records, most are survey_medium and BN_medium",0.0,0.494270435446906
+80,"Among all IT_years_low records, most are survey_medium and BN_high",0.0,0.494270435446906
+81,"Among all IT_years_medium records, most are survey_medium and BN_low",0.0,0.426279602750191
+82,"Among all IT_years_medium records, most are survey_medium and BN_medium",0.0,0.426279602750191
+83,"Among all IT_years_medium records, most are survey_medium and BN_high",0.0,0.426279602750191
+84,"Among all IT_years_high records, most are survey_medium and BN_low",0.0,0.4377387318563789
+85,"Among all IT_years_high records, most are survey_medium and BN_medium",0.0,0.4377387318563789
+86,"Among all IT_years_high records, most are survey_medium and BN_high",0.0,0.4377387318563789
+87,"Among all IT_years_low records, most are survey_high and BN_low",0.0,0.494270435446906
+88,"Among all IT_years_low records, most are survey_high and BN_medium",0.0,0.494270435446906
+89,"Among all IT_years_low records, most are survey_high and BN_high",0.0,0.494270435446906
+90,"Among all IT_years_medium records, most are survey_high and BN_low",0.0,0.426279602750191
+91,"Among all IT_years_medium records, most are survey_high and BN_medium",0.0,0.426279602750191
+92,"Among all IT_years_medium records, most are survey_high and BN_high",0.0,0.426279602750191
+93,"Among all IT_years_high records, most are survey_high and BN_low",0.0,0.4377387318563789
+94,"Among all IT_years_high records, most are survey_high and BN_medium",0.0,0.4377387318563789
+95,"Among all IT_years_high records, most are survey_high and BN_high",0.0,0.4377387318563789
+96,,0.0,0.0
+97,,0.0,0.0
+98,,0.0,0.0
+99,,0.0,0.0
+0,"Among all records, minority are survey_low",0.0,1.0
+1,"Among all records, minority are IT_years_low",0.5366692131398012,0.494270435446906
+2,"Among all records, minority are BN_low",0.7620320855506454,0.5393430099312452
+3,"Among all records, minority are BN_low and survey_low",0.7666539342897035,0.5393430099312452
+4,"Among all records, minority are IT_years_low and survey_low",0.5674942704354469,0.494270435446906
+5,"Among all records, minority are survey_medium",0.0,1.0
+6,"Among all records, minority are IT_years_medium",1.0,0.426279602750191
+7,"Among all records, minority are BN_medium",1.0,0.666157372039725
+8,"Among all records, minority are BN_medium and survey_medium",1.0,0.666157372039725
+9,"Among all records, minority are IT_years_medium and survey_medium",1.0,0.426279602750191
+10,"Among all records, minority are survey_high",0.0,1.0
+11,"Among all records, minority are IT_years_high",0.7133307868601988,0.4377387318563789
+12,"Among all records, minority are BN_high",0.6951871657704491,0.6508785332314744
+13,"Among all records, minority are BN_high and survey_high",0.6951871657704491,0.6508785332314744
+14,"Among all records, minority are IT_years_high and survey_high",0.7133307868601988,0.4377387318563789
+15,"Among all IT_years_low records, minority are survey_low",0.0,0.494270435446906
+16,"Among all IT_years_low records, minority are survey_medium",0.0,0.494270435446906
+17,"Among all IT_years_low records, minority are survey_high",0.0,0.494270435446906
+18,"Among all IT_years_low records, minority are BN_low",0.9727626458913121,0.23300229182582124
+19,"Among all IT_years_low records, minority are BN_medium",1.0,0.3284950343773873
+20,"Among all IT_years_low records, minority are BN_high",0.29912451360910863,0.34759358288770054
+21,"Among all IT_years_medium records, minority are survey_low",0.0,0.426279602750191
+22,"Among all IT_years_medium records, minority are survey_medium",0.0,0.426279602750191
+23,"Among all IT_years_medium records, minority are survey_high",0.0,0.426279602750191
+24,"Among all IT_years_medium records, minority are BN_low",1.0,0.21695951107715813
+25,"Among all IT_years_medium records, minority are BN_medium",0.8359193172431494,0.2643239113827349
+26,"Among all IT_years_medium records, minority are BN_high",0.1920093095137207,0.27883880825057294
+27,"Among all IT_years_high records, minority are survey_low",0.0,0.4377387318563789
+28,"Among all IT_years_high records, minority are survey_medium",0.0,0.4377387318563789
+29,"Among all IT_years_high records, minority are survey_high",0.0,0.4377387318563789
+30,"Among all IT_years_high records, minority are BN_low",0.3727952966019371,0.2849503437738732
+31,"Among all IT_years_high records, minority are BN_medium",0.8832175307344233,0.29488158899923606
+32,"Among all IT_years_high records, minority are BN_high",1.0,0.2482811306340718
+33,"Among all survey_low records, minority are IT_years_low",1.0,0.494270435446906
+34,"Among all survey_low records, minority are IT_years_medium",1.0,0.426279602750191
+35,"Among all survey_low records, minority are IT_years_high",1.0,0.4377387318563789
+36,"Among all survey_low records, minority are BN_low",1.0,0.5393430099312452
+37,"Among all survey_low records, minority are BN_medium",1.0,0.666157372039725
+38,"Among all survey_low records, minority are BN_high",1.0,0.6508785332314744
+39,"Among all survey_medium records, minority are IT_years_low",1.0,0.494270435446906
+40,"Among all survey_medium records, minority are IT_years_medium",1.0,0.426279602750191
+41,"Among all survey_medium records, minority are IT_years_high",1.0,0.4377387318563789
+42,"Among all survey_medium records, minority are BN_low",1.0,0.5393430099312452
+43,"Among all survey_medium records, minority are BN_medium",1.0,0.666157372039725
+44,"Among all survey_medium records, minority are BN_high",1.0,0.6508785332314744
+45,"Among all survey_high records, minority are IT_years_low",1.0,0.494270435446906
+46,"Among all survey_high records, minority are IT_years_medium",1.0,0.426279602750191
+47,"Among all survey_high records, minority are IT_years_high",1.0,0.4377387318563789
+48,"Among all survey_high records, minority are BN_low",1.0,0.5393430099312452
+49,"Among all survey_high records, minority are BN_medium",1.0,0.666157372039725
+50,"Among all survey_high records, minority are BN_high",1.0,0.6508785332314744
+51,"Among all BN_low records, minority are IT_years_low",0.7747252747099694,0.23300229182582124
+52,"Among all BN_low records, minority are IT_years_medium",1.0,0.21695951107715813
+53,"Among all BN_low records, minority are IT_years_high",0.31318681316872293,0.2849503437738732
+54,"Among all BN_low records, minority are survey_low",0.0,0.5393430099312452
+55,"Among all BN_low records, minority are survey_medium",0.0,0.5393430099312452
+56,"Among all BN_low records, minority are survey_high",0.0,0.5393430099312452
+57,"Among all BN_medium records, minority are IT_years_low",0.5138339920522905,0.3284950343773873
+58,"Among all BN_medium records, minority are IT_years_medium",1.0,0.2643239113827349
+59,"Among all BN_medium records, minority are IT_years_high",0.5072463767925739,0.29488158899923606
+60,"Among all BN_medium records, minority are survey_low",0.0,0.666157372039725
+61,"Among all BN_medium records, minority are survey_medium",0.0,0.666157372039725
+62,"Among all BN_medium records, minority are survey_high",0.0,0.666157372039725
+63,"Among all BN_high records, minority are IT_years_low",0.10582010581626583,0.34759358288770054
+64,"Among all BN_high records, minority are IT_years_medium",0.9259259259107663,0.27883880825057294
+65,"Among all BN_high records, minority are IT_years_high",1.0,0.2482811306340718
+66,"Among all BN_high records, minority are survey_low",0.0,0.6508785332314744
+67,"Among all BN_high records, minority are survey_medium",0.0,0.6508785332314744
+68,"Among all BN_high records, minority are survey_high",0.0,0.6508785332314744
+69,"Among all IT_years_low records, minority are survey_low and BN_low",1.0,0.494270435446906
+70,"Among all IT_years_low records, minority are survey_low and BN_medium",1.0,0.494270435446906
+71,"Among all IT_years_low records, minority are survey_low and BN_high",1.0,0.494270435446906
+72,"Among all IT_years_medium records, minority are survey_low and BN_low",1.0,0.426279602750191
+73,"Among all IT_years_medium records, minority are survey_low and BN_medium",1.0,0.426279602750191
+74,"Among all IT_years_medium records, minority are survey_low and BN_high",1.0,0.426279602750191
+75,"Among all IT_years_high records, minority are survey_low and BN_low",1.0,0.4377387318563789
+76,"Among all IT_years_high records, minority are survey_low and BN_medium",1.0,0.4377387318563789
+77,"Among all IT_years_high records, minority are survey_low and BN_high",1.0,0.4377387318563789
+78,"Among all IT_years_low records, minority are survey_medium and BN_low",1.0,0.494270435446906
+79,"Among all IT_years_low records, minority are survey_medium and BN_medium",1.0,0.494270435446906
+80,"Among all IT_years_low records, minority are survey_medium and BN_high",1.0,0.494270435446906
+81,"Among all IT_years_medium records, minority are survey_medium and BN_low",1.0,0.426279602750191
+82,"Among all IT_years_medium records, minority are survey_medium and BN_medium",1.0,0.426279602750191
+83,"Among all IT_years_medium records, minority are survey_medium and BN_high",1.0,0.426279602750191
+84,"Among all IT_years_high records, minority are survey_medium and BN_low",1.0,0.4377387318563789
+85,"Among all IT_years_high records, minority are survey_medium and BN_medium",1.0,0.4377387318563789
+86,"Among all IT_years_high records, minority are survey_medium and BN_high",1.0,0.4377387318563789
+87,"Among all IT_years_low records, minority are survey_high and BN_low",1.0,0.494270435446906
+88,"Among all IT_years_low records, minority are survey_high and BN_medium",1.0,0.494270435446906
+89,"Among all IT_years_low records, minority are survey_high and BN_high",1.0,0.494270435446906
+90,"Among all IT_years_medium records, minority are survey_high and BN_low",1.0,0.426279602750191
+91,"Among all IT_years_medium records, minority are survey_high and BN_medium",1.0,0.426279602750191
+92,"Among all IT_years_medium records, minority are survey_high and BN_high",1.0,0.426279602750191
+93,"Among all IT_years_high records, minority are survey_high and BN_low",1.0,0.4377387318563789
+94,"Among all IT_years_high records, minority are survey_high and BN_medium",1.0,0.4377387318563789
+95,"Among all IT_years_high records, minority are survey_high and BN_high",1.0,0.4377387318563789
+96,,0.0,0.0
+97,,0.0,0.0
+98,,0.0,0.0
+99,,0.0,0.0
